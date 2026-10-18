@@ -1,0 +1,60 @@
+ibm-helm-charts-master:
+  stage: build
+  tags: ["osdu-small"]
+  image:
+    name: alpine/helm:3.6.3
+    entrypoint: [""]
+  before_script:
+    - helm plugin install https://github.com/chartmuseum/helm-push.git
+  script:
+    - helm cm-push ${IBM_HELM_DAG_PATH} ${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/helm/stable --username gitlab-ci-token --password $CI_JOB_TOKEN  
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "master"'
+
+
+ibm_deploy:
+  image: openshift/origin-cli
+  tags: ['osdu-medium']
+  stage: deploy
+  variables:
+    IBM_DEPLOY_DIR: ibm_deploy_dir
+    IBM_OPENSHIFT_PROJECT: osdu-airflow
+    IBM_OPENSHIFT_PRESHIP_PROJECT: osdu-airflow
+    IBM_OPENSHIFT_DEVPRI_PROJECT: osdu-airflow
+  before_script:
+    - mkdir -p "$IBM_DEPLOY_DIR"
+    - oc login --token=$IBM_OPENSHIFT_AIRFLOW_TOKEN --server=$IBM_OPENSHIFT_URL
+  script:
+    - oc project $IBM_OPENSHIFT_PROJECT
+    - airflowWebPod=`oc get pods -n osdu-airflow | grep airflow-web* | awk '{ print $1 }'`
+    - echo $airflowWebPod
+    - oc cp devops/ibm/segy_to_zgy_ingestion_dag_ibm.py $airflowWebPod:/opt/airflow/dags/repo -c airflow-web
+
+ibm_bootstrap:
+  image: openshift/origin-cli
+  tags: ['osdu-medium']
+  stage: bootstrap_dag
+  variables:
+    IBM_DEPLOY_DIR: ibm_deploy_dir
+    IBM_OPENSHIFT_PROJECT: osdu-airflow
+    IBM_OPENSHIFT_PRESHIP_PROJECT: osdu-airflow
+    IBM_OPENSHIFT_DEVPRI_PROJECT: osdu-airflow
+  before_script:
+    - mkdir -p "$IBM_DEPLOY_DIR"
+    - oc login --token=$IBM_OPENSHIFT_AIRFLOW_TOKEN --server=$IBM_OPENSHIFT_URL
+  script:
+    - oc project $IBM_OPENSHIFT_PROJECT
+    - airflowWebPod=`oc get pods -n osdu-airflow | grep airflow-web* | awk '{ print $1 }'`
+    - echo $airflowWebPod
+    - oc cp devops/ibm/segy_to_zgy_config.json $airflowWebPod:/opt/airflow/dags/repo -c airflow-web
+    - oc exec $airflowWebPod -c airflow-web -- sh -c "airflow variables import /opt/airflow/dags/repo/segy_to_zgy_config.json"
+
+ibm_integration_tests:
+  image:
+    name: postman/newman:alpine
+    entrypoint: [""]
+  stage: integration
+  needs: [ibm_deploy]
+  script:
+    - newman --version
+    - newman run segysdk/testdata/e2e/IBM_ODI_R3_v2.0.1_SEGY-to-ZGY_Conversion_Collection.postman_collection.json -e segysdk/testdata/e2e/OSDU_R3_IBM_ODI_v2.0.0_ENV.postman_environment.json

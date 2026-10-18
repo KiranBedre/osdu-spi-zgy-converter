@@ -1,0 +1,57 @@
+//! [json_structure]
+struct textualHeader {
+
+   std::string[] ExtendedTextualHeaders;
+
+   struct metadata {
+
+     std::string[] Filenames;
+     int SegyRevision;
+
+   }
+}
+//! [json_structure]
+//! [json_result]
+{
+    "ExtendedTextualHeaders": [
+        "((JJ ESeis: Microseismic Geometry Definition ver 1.0)) \nDefiner name = J and J Example Seismic Ltd. \nLine Name Convention = CDA\nLine Name = Sample MicroSeismic 1 \nFirst Trace In Data Set = 101 \nLast Trace In Data Set = 1021 \nFirst SP In Data Set = 2001 \nLast SP In Data Set = 6032 \n",
+        "((SEG: Measurement Units ver 1.0)) \nData Sample Measurement Unit =Millivolts\nVolt conversion =0.001",
+        "((SEG: EndText))"
+    ],
+    "metadata": {
+        "Filenames": [
+            "E:\\Seismic\\SEGY 3D\\Cloudspin\\mig.sgy"
+        ],
+        "SegyRevision": 0
+    }
+}
+//! [json_structure]
+//! [json_result_split]
+{
+    "ExtendedTextualHeaders": [
+        [
+            "((JJ ESeis: Microseismic Geometry Definition ver 1.0)) ",
+            "Definer name = J and J Example Seismic Ltd. ",
+            "Line Name Convention = CDA",
+            "Line Name = Sample MicroSeismic 1 ",
+            "First Trace In Data Set = 101 ",
+            "Last Trace In Data Set = 1021 ",
+            "First SP In Data Set = 2001 \nLast SP In Data Set = 6032 \n",  
+        ],
+        [
+            "((SEG: Measurement Units ver 1.0)) ",
+            "Data Sample Measurement Unit =Millivolts",
+            "Volt conversion =0.001"
+        ],
+        [
+            "((SEG: EndText))"
+        ]
+    ],
+    "metadata": {
+        "Filenames": [
+            "E:\\Seismic\\SEGY 3D\\Cloudspin\\mig.sgy"
+        ],
+        "SegyRevision": 0
+    }
+}
+//! [json_result]

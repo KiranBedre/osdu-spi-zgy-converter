@@ -1,0 +1,191 @@
+{
+   "FileLayoutSpecification" : {
+      "CrosslinelineExtent" : {
+         "First" : 2325,
+         "Last" : 2350,
+         "Step" : 1
+      },
+      "InlineExtent" : {
+         "First" : 10150,
+         "Last" : 10170,
+         "Step" : 1
+      },
+      "IsInlineOrdered" : true,
+      "IsRegular" : true,
+      "SampleExtent" : {
+         "Domain" : "Time",
+         "First" : 2.25,
+         "Last" : 3.3839999999999999,
+         "Step" : 0.0089999999999999993,
+         "zUoM" : "seconds"
+      }
+   },
+   "Geometry3D" : {
+      "CrosslinelineExtent" : {
+         "First" : 2325,
+         "Last" : 2350,
+         "Step" : 1
+      },
+      "DataGrid" : {
+         "Corner11" : {
+            "Crossline" : 2325,
+            "Inline" : 10150,
+            "X" : 434460.04000000004,
+            "Y" : 6478703.0300000003
+         },
+         "Corner1N" : {
+            "Crossline" : 2350,
+            "Inline" : 10150,
+            "X" : 434156.83000000002,
+            "Y" : 6478778.6299999999
+         },
+         "CornerN1" : {
+            "Crossline" : 2325,
+            "Inline" : 10170,
+            "X" : 434520.52000000002,
+            "Y" : 6478945.6100000003
+         },
+         "CornerNN" : {
+            "Crossline" : 2350,
+            "Inline" : 10170,
+            "X" : 434217.29999999999,
+            "Y" : 6479021.21
+         },
+         "IVectorRotationAngle" : 284.00022349386626,
+         "IVectorUnitDistance" : 12.499706498951493,
+         "JVectorRotationAngle" : 13.999558165908994,
+         "JVectorUnitDistance" : 12.500288676670021
+      },
+      "InlineExtent" : {
+         "First" : 10150,
+         "Last" : 10170,
+         "Step" : 1
+      },
+      "IsInlineOrdered" : true,
+      "IsRegular" : true,
+      "SampleExtent" : {
+         "Domain" : "Time",
+         "First" : 2.25,
+         "Last" : 3.3839999999999999,
+         "Step" : 0.0089999999999999993,
+         "zUoM" : "seconds"
+      }
+   },
+   "IndexCount" : 546,
+   "Metadata" : {
+      "GeneratedDate" : "${DATE_TIME}",
+      "Version" : {
+         "Major" : 2024,
+         "Minor" : 11
+      }
+   },
+   "SEGYInfo" : {
+	  "AmplitudeMax" : 6.341834545135498,
+      "AmplitudeMin" : -9.1604280471801758,
+      "ConstantCoordinateScalar" : true,
+      "ConstantCoordinateScalarValue" : -100,
+      "ConstantTraceLength" : true,
+      "ConstantTraceLengthValue" : 126,
+      "ConstantTraceWeighting" : true,
+      "ConstantTraceWeightingValue" : 0,
+      "OffsetFirtstSEGYTrace" : 3600,
+      "SEGYDim" : "3D",
+      "SampleSize" : 4,
+      "SegyFileList" : [
+         {
+            "FileNo" : 0,
+            "FileOffset" : 3600,
+            "PrimaryMax" : 10170,
+            "PrimaryMin" : 10150,
+            "SegyFile" : "${PARENTDIR}volve_32bit_gaps_Depth_2250_3375_9m.sgy"
+         }
+      ],
+      "SegyFileMap" : [
+         {
+            "FileNo" : 0,
+            "Primary" : 10150
+         },
+         {
+            "FileNo" : 0,
+            "Primary" : 10151
+         },
+         {
+            "FileNo" : 0,
+            "Primary" : 10152
+         },
+         {
+            "FileNo" : 0,
+            "Primary" : 10153
+         },
+         {
+            "FileNo" : 0,
+            "Primary" : 10154
+         },
+         {
+            "FileNo" : 0,
+            "Primary" : 10155
+         },
+         {
+            "FileNo" : 0,
+            "Primary" : 10156
+         },
+         {
+            "FileNo" : 0,
+            "Primary" : 10157
+         },
+         {
+            "FileNo" : 0,
+            "Primary" : 10158
+         },
+         {
+            "FileNo" : 0,
+            "Primary" : 10159
+         },
+         {
+            "FileNo" : 0,
+            "Primary" : 10160
+         },
+         {
+            "FileNo" : 0,
+            "Primary" : 10161
+         },
+         {
+            "FileNo" : 0,
+            "Primary" : 10162
+         },
+         {
+            "FileNo" : 0,
+            "Primary" : 10163
+         },
+         {
+            "FileNo" : 0,
+            "Primary" : 10164
+         },
+         {
+            "FileNo" : 0,
+            "Primary" : 10165
+         },
+         {
+            "FileNo" : 0,
+            "Primary" : 10166
+         },
+         {
+            "FileNo" : 0,
+            "Primary" : 10167
+         },
+         {
+            "FileNo" : 0,
+            "Primary" : 10168
+         },
+         {
+            "FileNo" : 0,
+            "Primary" : 10169
+         },
+         {
+            "FileNo" : 0,
+            "Primary" : 10170
+         }
+      ],
+      "TraceHeaderSize" : 240
+   }
+}

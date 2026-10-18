@@ -1,0 +1,40 @@
+{
+  "kind": "osdu:wks:Manifest:1.0.0",
+  "ReferenceData": [
+    {
+      "id": "partition-id:reference-data--SchemaFormatType:SEG-Y",
+      "kind": "osdu:wks:reference-data--SchemaFormatType:1.0.0",
+      "acl": {
+        "owners": [
+          "someone@company.com"
+        ],
+        "viewers": [
+          "someone@company.com"
+        ]
+      },
+      "legal": {
+        "legaltags": [
+          "Example legaltags"
+        ],
+        "otherRelevantDataCountries": [
+          "US"
+        ],
+        "status": "compliant"
+      },
+      "data": {
+        "Name": "SEGY",
+        "NameAlias": [
+          {
+            "AliasName": "SEG-Y"
+          }
+        ],
+        "Description": "SEG-Y Data Exchange Format (revision 0 (1975), revision 1 (2002), revision 2 (2017).",
+        "Code": "SEG-Y",
+        "AttributionAuthority": "SEG Technical Standards Committee",
+        "AttributionPublication": "https://library.seg.org/seg-technical-standards",
+        "ID": "SEG-Y",
+        "Source": "Example provided by SNTC Geophysics."
+      }
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "id": "dev-weu-des-prod-testing-eu:dataset--FileCollection.SEGY:60e1cb1a-adef-4113-85fb-143d48eea925",
+  "kind": "osdu:wks:dataset--FileCollection.SEGY:1.0.0",
+  "version": 1562066009929332,
+  "acl": {
+    "owners": [
+      "data.default.owners@opendes.enterprisedata.cloud.slb-ds.com"
+    ],
+    "viewers": [
+      "data.default.viewers@opendes.enterprisedata.cloud.slb-ds.com"
+    ]
+  },
+  "legal": {
+    "legalTags": [
+      "opendes-default-legal"
+    ],
+    "relevantDataCountries": [
+      "NO"
+    ],
+    "status": "compliant"
+  },
+  "createTime": "08/12/2021 15:00:24",
+  "createUser": "EDahl2",
+  "modifyTime": "08/12/2021 15:00:24",
+  "modifyUser": "EDahl2",
+  "ancestry": {
+    "parents": []
+  },
+  "tags": {
+    "NameOfKey": "String value"
+  },
+  "meta": [],
+  "data": {
+    "Name": "VOLVE_TIME",
+    "Description": "Dataset released by Equinor and Partners",
+    "TotalSize": 1050849760,
+    "SchemaFormatTypeID": "dev-weu-des-prod-testing-eu:reference-data--SchemaFormatType:SEGY:",
+    "Endian": "BIG",
+    "DatasetProperties": {
+      "FileSourceInfos": [
+        {
+          "FileSource": "sd://opendes/sntc/volve/ST10010ZC11_PZ_PSDM_KIRCH_FULL_T.MIG_FIN.POST_STACK.3D.JS-017536.segy",
+          "PreloadFilePath": "MyDocuments\\seismic-to-osdu\\VOLVE_TIME\\ST10010ZC11_PZ_PSDM_KIRCH_FULL_T.MIG_FIN.POST_STACK.3D.JS-017536.segy",
+          "Name": "VOLVE_TIME",
+          "FileSize": "1050849760"
+        }
+      ],
+      "Checksum": "92D719208302E627516D98FD59BC271"
+    },
+    "VectorHeaderMapping": [
+      {
+        "KeyName": "dev-weu-des-prod-testing-eu:reference-data--HeaderKeyName:Inline",
+        "WordFormat": "dev-weu-des-prod-testing-eu:reference-data--WordFormatType:Integer",
+        "WordWidth": 4,
+        "Position": 189,
+        "UoM": "partition-id:reference-data--UnitOfMeasure:Euc:",
+        "ScalarIndicator": "NOSCALE",
+        "ScalarOverride": 0
+      },
+      {
+        "KeyName": "dev-weu-des-prod-testing-eu:reference-data--HeaderKeyName:Crossline",
+        "WordFormat": "dev-weu-des-prod-testing-eu:reference-data--WordFormatType:Integer",
+        "WordWidth": 4,
+        "Position": 193,
+        "UoM": "partition-id:reference-data--UnitOfMeasure:Euc:",
+        "ScalarIndicator": "NOSCALE",
+        "ScalarOverride": 0
+      },
+      {
+        "KeyName": "dev-weu-des-prod-testing-eu:reference-data--HeaderKeyName:CMPX",
+        "WordFormat": "dev-weu-des-prod-testing-eu:reference-data--WordFormatType:Integer",
+        "WordWidth": 4,
+        "Position": 181,
+        "UoM": "partition-id:reference-data--UnitOfMeasure:m:",
+        "ScalarIndicator": "STANDARD",
+        "ScalarOverride": 0
+      },
+      {
+        "KeyName": "dev-weu-des-prod-testing-eu:reference-data--HeaderKeyName:CMPY",
+        "WordFormat": "dev-weu-des-prod-testing-eu:reference-data--WordFormatType:Integer",
+        "WordWidth": 4,
+        "Position": 185,
+        "UoM": "partition-id:reference-data--UnitOfMeasure:m:",
+        "ScalarIndicator": "STANDARD",
+        "ScalarOverride": 0
+      },
+      {
+        "KeyName": "dev-weu-des-prod-testing-eu:reference-data--HeaderKeyName:STARTTIME",
+        "WordFormat": "dev-weu-des-prod-testing-eu:reference-data--WordFormatType:Integer",
+        "WordWidth": 2,
+        "Position": 109,
+        "UoM": "partition-id:reference-data--UnitOfMeasure:ms:",
+        "ScalarIndicator": "STANDARD",
+        "ScalarOverride": 0
+      },
+      {
+        "KeyName": "dev-weu-des-prod-testing-eu:reference-data--HeaderKeyName:ZSCALAR",
+        "WordFormat": "dev-weu-des-prod-testing-eu:reference-data--WordFormatType:Integer",
+        "WordWidth": 2,
+        "Position": 69,
+        "UoM": "partition-id:reference-data--UnitOfMeasure:Euc:",
+        "ScalarIndicator": "NOSCALE",
+        "ScalarOverride": 0
+      },
+      {
+        "KeyName": "dev-weu-des-prod-testing-eu:reference-data--HeaderKeyName:XYSCALAR",
+        "WordFormat": "dev-weu-des-prod-testing-eu:reference-data--WordFormatType:Integer",
+        "WordWidth": 2,
+        "Position": 71,
+        "UoM": "partition-id:reference-data--UnitOfMeasure:Euc:",
+        "ScalarIndicator": "NOSCALE",
+        "ScalarOverride": 0
+      }
+    ],
+    "BinaryHeaderOverrides": {
+      "description": "Binary header overrides for SEG-Y rev 1 Post stack 3D",
+      "Items": []
+    },
+    "TraceHeaderOverrides": {
+      "description": "Trace header overrides for SEG-Y rev 1 Post stack 3D",
+      "Items": []
+    },
+    "SEGYRevision": "rev 1"
+  }
+}

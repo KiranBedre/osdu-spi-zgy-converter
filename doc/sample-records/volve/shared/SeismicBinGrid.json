@@ -1,0 +1,209 @@
+{
+  "kind": "osdu:wks:work-product-component--SeismicBinGrid:1.0.0",
+  "id": "partition-id:work-product-component--SeismicBinGrid:bf459377-d92e-4a91-bf59-6584a4536ed6",
+  "acl": {
+    "owners": [
+      "someone@company.com"
+    ],
+    "viewers": [
+      "someone@company.com"
+    ]
+  },
+  "legal": {
+    "legaltags": [
+      "Example legaltags"
+    ],
+    "otherRelevantDataCountries": [
+      "US"
+    ],
+    "status": "compliant"
+  },
+  "data": {
+    "P6TransformationMethod": 9666,
+    "P6BinGridOriginI": 9961.0,
+    "P6BinGridOriginJ": 1961.0,
+    "P6BinGridOriginEasting": 438302.76,
+    "P6BinGridOriginNorthing": 6475310.75,
+    "P6ScaleFactorOfBinGrid": 1.0,
+    "P6BinWidthOnIaxis": 12.5,
+    "P6BinWidthOnJaxis": 12.5,
+    "P6MapGridBearingOfBinGridJaxis": -76.0,
+    "P6BinNodeIncrementOnIaxis": 1.0,
+    "P6BinNodeIncrementOnJaxis": 1.0,
+    "SpatialArea": {
+      "SpatialLocationCoordinatesDate": "2021-05:07T11:08:39.39Z",
+      "QuantitativeAccuracyBandID": "partition-id:reference-data--QuantitativeAccuracyBand:Length.LessThan1m:",
+      "QualitativeSpatialAccuracyTypeID": "partition-id:reference-data--QualitativeSpatialAccuracyType:Confirmed:",
+      "CoordinateQualityCheckPerformedBy": "EDahl2",
+      "CoordinateQualityCheckDateTime": "2021-05:07T11:08:39.39Z",
+      "CoordinateQualityCheckRemarks": [],
+      "AsIngestedCoordinates": {
+        "type": "AnyCrsFeatureCollection",
+        "CoordinateReferenceSystemID": "partition-id:reference-data--CoordinateReferenceSystem:BoundCRS::OSDU::23031024:",
+        "persistableReferenceCrs": "{\"authCode\":{\"auth\":\"OSDU\",\"code\":\"23031024\"},\"lateBoundCRS\":{\"authCode\":{\"auth\":\"EPSG\",\"code\":\"23031\"},\"name\":\"ED_1950_UTM_Zone_31N\",\"type\":\"LBC\",\"ver\":\"PE_10_3_1\",\"wkt\":\"PROJCS[\\\"ED_1950_UTM_Zone_31N\\\",GEOGCS[\\\"GCS_European_1950\\\",DATUM[\\\"D_European_1950\\\",SPHEROID[\\\"International_1924\\\",6378388.0,297.0]],PRIMEM[\\\"Greenwich\\\",0.0],UNIT[\\\"Degree\\\",0.0174532925199433]],PROJECTION[\\\"Transverse_Mercator\\\"],PARAMETER[\\\"False_Easting\\\",500000.0],PARAMETER[\\\"False_Northing\\\",0.0],PARAMETER[\\\"Central_Meridian\\\",3.0],PARAMETER[\\\"Scale_Factor\\\",0.9996],PARAMETER[\\\"Latitude_Of_Origin\\\",0.0],UNIT[\\\"Meter\\\",1.0],AUTHORITY[\\\"EPSG\\\",23031]]\"},\"name\":\"ED50 / UTM zone 31N * EPSG-Nor S62 2001 [23031,1613]\",\"singleCT\":{\"authCode\":{\"auth\":\"EPSG\",\"code\":\"1613\"},\"name\":\"ED_1950_To_WGS_1984_24\",\"type\":\"ST\",\"ver\":\"PE_10_3_1\",\"wkt\":\"GEOGTRAN[\\\"ED_1950_To_WGS_1984_24\\\",GEOGCS[\\\"GCS_European_1950\\\",DATUM[\\\"D_European_1950\\\",SPHEROID[\\\"International_1924\\\",6378388.0,297.0]],PRIMEM[\\\"Greenwich\\\",0.0],UNIT[\\\"Degree\\\",0.0174532925199433]],GEOGCS[\\\"GCS_WGS_1984\\\",DATUM[\\\"D_WGS_1984\\\",SPHEROID[\\\"WGS_1984\\\",6378137.0,298.257223563]],PRIMEM[\\\"Greenwich\\\",0.0],UNIT[\\\"Degree\\\",0.0174532925199433]],METHOD[\\\"Position_Vector\\\"],PARAMETER[\\\"X_Axis_Translation\\\",-90.365],PARAMETER[\\\"Y_Axis_Translation\\\",-101.13],PARAMETER[\\\"Z_Axis_Translation\\\",-123.384],PARAMETER[\\\"X_Axis_Rotation\\\",0.333],PARAMETER[\\\"Y_Axis_Rotation\\\",0.077],PARAMETER[\\\"Z_Axis_Rotation\\\",0.894],PARAMETER[\\\"Scale_Difference\\\",1.994],AUTHORITY[\\\"EPSG\\\",1613]]\"},\"type\":\"EBC\",\"ver\":\"PE_10_3_1\"}",
+        "features": [
+          {
+            "type": "AnyCrsFeature",
+            "geometry": {
+              "type": "AnyCrsPolygon",
+              "coordinates": [
+                [
+                  [
+                    438302.76,
+                    6475310.75
+                  ],
+                  [
+                    439512.36947799835,
+                    6480162.22863138
+                  ],
+                  [
+                    430791.8366380928,
+                    6482336.501668082
+                  ],
+                  [
+                    429582.2271600945,
+                    6477485.023036702
+                  ],
+                  [
+                    438302.76,
+                    6475310.75
+                  ]
+                ]
+              ],
+              "bbox": [
+                429582.2271600945,
+                6475310.75,
+                439512.36947799835,
+                6482336.501668082
+              ]
+            },
+            "properties": {
+              "ijNumbers": [
+                [
+                  9961.0,
+                  1961.0
+                ],
+                [
+                  10361.0,
+                  1961.0
+                ],
+                [
+                  10361.0,
+                  2680.0
+                ],
+                [
+                  9961.0,
+                  2680.0
+                ],
+                [
+                  9961.0,
+                  1961.0
+                ]
+              ]
+            },
+            "bbox": [
+              429582.2271600945,
+              6475310.75,
+              439512.36947799835,
+              6482336.501668082
+            ]
+          }
+        ],
+        "bbox": [
+          429582.2271600945,
+          6475310.75,
+          439512.36947799835,
+          6482336.501668082
+        ]
+      },
+      "Wgs84Coordinates": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "type": "Feature",
+            "geometry": {
+              "coordinates": [
+                [
+                  [
+                    1.9424806057788713,
+                    58.41226084918759
+                  ],
+                  [
+                    1.9618974134926812,
+                    58.455995941242875
+                  ],
+                  [
+                    1.8118333645473748,
+                    58.47422297309163
+                  ],
+                  [
+                    1.7925932357154626,
+                    58.430465979740404
+                  ],
+                  [
+                    1.9424806057788713,
+                    58.41226084918759
+                  ]
+                ]
+              ],
+              "type": "Polygon",
+              "bbox": [
+                1.7925932357154626,
+                58.41226084918759,
+                1.9618974134926812,
+                58.47422297309163
+              ]
+            },
+            "properties": {
+              "ijNumbers": [
+                [
+                  9961,
+                  1961
+                ],
+                [
+                  10361,
+                  1961
+                ],
+                [
+                  10361,
+                  2680
+                ],
+                [
+                  9961,
+                  2680
+                ],
+                [
+                  9961,
+                  1961
+                ]
+              ]
+            },
+            "bbox": [
+              1.7925932357154626,
+              58.41226084918759,
+              1.9618974134926812,
+              58.47422297309163
+            ]
+          }
+        ],
+        "properties": {},
+        "bbox": [
+          1.7925932357154626,
+          58.41226084918759,
+          1.9618974134926812,
+          58.47422297309163
+        ]
+      },
+      "AppliedOperations": [
+        "conversion from ED_1950_UTM_Zone_31N to GCS_European_1950; 5 points converted",
+        "transformation GCS_European_1950 to GCS_WGS_1984 using ED_1950_To_WGS_1984_24; 5 points successfully transformed"
+      ],
+      "SpatialParameterTypeID": "partition-id:reference-data--SpatialParameterType:Outline:",
+      "SpatialGeometryTypeID": "partition-id:reference-data--SpatialGeometryType:Polygon:"
+    },
+    "Description": "OSDU type of bin grid for testing",
+    "Name": "OSDU_BinGrid",
+    "BinGridName": "OSDU_BinGrid"
+  },
+  "meta": []
+}

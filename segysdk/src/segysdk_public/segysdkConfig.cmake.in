@@ -1,0 +1,10 @@
+set(segysdk_VERSION x.y.z)
+# include(${CMAKE_CURRENT_LIST_DIR}/segysdkDependencies.cmake)
+
+include(${CMAKE_CURRENT_LIST_DIR}/segysdkTargets.cmake)
+@PACKAGE_INIT@
+
+set_and_check(SEGYSDK_INCLUDE_DIR "@PACKAGE_INCLUDE_INSTALL_DIR@")
+set_and_check(SEGYSDK_LIB_DIR "@PACKAGE_LIB_INSTALL_DIR@")
+
+check_required_components(segysdk)

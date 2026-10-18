@@ -1,0 +1,51 @@
+include(AddLibrary)
+
+set(INCLUDE_DIRECTORIES ${CMAKE_SEGYSDK_SOURCE_PATH}/include ${jsoncpp_INCLUDE_PATH})
+
+AddStaticLibrary(segysdk.bulkaccess
+    SOURCE_FILES
+        BufferedTraceHeaderReader.cpp
+        BulkIndex.cpp
+        BulkReader.cpp
+        BulkReaderBase.cpp
+        IndexedBulkIndex.cpp
+        MultiBulkReader.cpp
+        SectionBulkReader.cpp
+        Segy2DReaderImpl.cpp
+        SegyBulkReader.cpp
+        SegyReaderFactory.cpp
+        SimpleBulkIndex.cpp
+        TraceHeaderResult.cpp
+    HEADER_FILES
+        BufferedTraceHeaderReader.h
+        BulkIndex.h
+        BulkReader.h
+        BulkReaderBase.h
+        IndexedBulkIndex.h
+        MultiBulkReader.h
+        SectionBulkReader.h
+        Segy2DReaderImpl.h
+        SegyBulkReader.h
+        SegyReaderFactory.h
+        SimpleBulkIndex.h
+        TraceHeaderResult.h
+    INCLUDE_DIRECTORIES
+        ${INCLUDE_DIRECTORIES}
+)
+
+AddStaticLibrary(segysdk.bulkaccess.whole
+    SOURCE_FILES
+        AsyncReader.cpp
+        AsyncReaderImpl.cpp
+        ReaderConnector.cpp
+        ReaderConnectorLive.cpp
+        Segy2DReader.cpp
+    HEADER_FILES
+        AsyncReader.h
+        AsyncReaderImpl.h
+        ReaderConnector.h
+        ReaderConnectorLive.h
+        Segy2DReader.h
+    INCLUDE_DIRECTORIES
+        ${INCLUDE_DIRECTORIES}
+)

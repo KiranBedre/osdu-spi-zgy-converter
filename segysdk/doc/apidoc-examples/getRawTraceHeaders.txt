@@ -1,0 +1,63 @@
+//! [result]
+Item #0 { size = 91 }
+  {"TraceSequence", 1, 4, 1.00},
+  {"TraceSequenceFile", 5, 8, 360.00 },
+  {"FieldFileNumber", 9, 12, 0.00 },
+  ...
+}
+Item #1 { size = 91 }
+  {"TraceSequence", 1, 4, 2.00},
+  {"TraceSequenceFile", 5, 8, 361.00 },
+  {"FieldFileNumber", 9, 12, 1.00 },
+  ...
+}
+...
+//! [result]
+//! [json_result]
+{
+    "Metadata": {
+        "ColumnHeaders": [
+            {
+                "End": 4,
+                "Id": "TraceSequenceLine",
+                "Start": 1
+            },
+            {
+                "End": 8,
+                "Id": "TraceSequenceFile",
+                "Start": 5
+            },
+            ...
+        ],
+        "StartTrace": 0,
+        "TraceCount": 2
+    },
+    "TraceData": [
+        {
+            "TraceNo": 0,
+            "Traces": [
+                1.0,
+                360.0,
+                0.0,
+                ...
+            ]
+        },
+        {
+            "TraceNo": 1,
+            "Traces": [
+                2.0,
+                361.0,
+                1.0,
+                ...
+            ]
+        },
+        {}
+    ],
+    "metadata": {
+        "Filenames": [
+            "E:\\Seismic\\SEGY 3D\\Cloudspin\\mig.sgy"
+        ],
+        "SegyRevision": 1
+    }
+}
+//! [json_result]

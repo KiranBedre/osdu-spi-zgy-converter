@@ -1,0 +1,1778 @@
+{
+  "tests": [
+    {
+      "name": "SegyHasIndexFile",
+      "data": [
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_16bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json",
+            "storageFileCheck": true
+          },
+          "result": "value",
+          "value": true
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_16bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json",
+            "storageFileCheck": false
+          },
+          "result": "value",
+          "value": true
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_Depth_2250_3375_9m.sgy",
+            "jsonParameters": "empty_config.json",
+            "storageFileCheck": true
+          },
+          "result": "value",
+          "value": true
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_Depth_2250_3375_9m.sgy",
+            "jsonParameters": "empty_config.json",
+            "storageFileCheck": false
+          },
+          "result": "value",
+          "value": true
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json",
+            "storageFileCheck": true
+          },
+          "result": "value",
+          "value": true
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json",
+            "storageFileCheck": false
+          },
+          "result": "value",
+          "value": true
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot-166.sgy",
+            "jsonParameters": "empty_config.json",
+            "storageFileCheck": true
+          },
+          "result": "value",
+          "value": true
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot-166.sgy",
+            "jsonParameters": "empty_config.json",
+            "storageFileCheck": false
+          },
+          "result": "value",
+          "value": true
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot104.sgy",
+            "jsonParameters": "empty_config.json",
+            "storageFileCheck": true
+          },
+          "result": "value",
+          "value": true
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot104.sgy",
+            "jsonParameters": "empty_config.json",
+            "storageFileCheck": false
+          },
+          "result": "value",
+          "value": true
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot121.sgy",
+            "jsonParameters": "empty_config.json",
+            "storageFileCheck": true
+          },
+          "result": "value",
+          "value": true
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot121.sgy",
+            "jsonParameters": "empty_config.json",
+            "storageFileCheck": false
+          },
+          "result": "value",
+          "value": true
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot59.sgy",
+            "jsonParameters": "empty_config.json",
+            "storageFileCheck": true
+          },
+          "result": "value",
+          "value": true
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot59.sgy",
+            "jsonParameters": "empty_config.json",
+            "storageFileCheck": false
+          },
+          "result": "value",
+          "value": true
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_8bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json",
+            "storageFileCheck": true
+          },
+          "result": "value",
+          "value": true
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_8bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json",
+            "storageFileCheck": false
+          },
+          "result": "value",
+          "value": true
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_RMS_32bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json",
+            "storageFileCheck": true
+          },
+          "result": "value",
+          "value": true
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_RMS_32bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json",
+            "storageFileCheck": false
+          },
+          "result": "value",
+          "value": true
+        }
+      ]
+    },
+    {
+      "name": "SegyIndexDelete",
+      "data": [
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_16bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": false
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_Depth_2250_3375_9m.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": false
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": false
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot-166.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": false
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot104.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": false
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot121.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": false
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot59.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": false
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_8bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": false
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_RMS_32bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": false
+        }
+      ]
+    },
+    {
+      "name": "SegyGenerateIndex",
+      "data": [
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_16bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json",
+            "forceGenerate": true
+          },
+          "result": "value",
+          "value": true
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_16bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json",
+            "forceGenerate": false
+          },
+          "result": "value",
+          "value": true
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_Depth_2250_3375_9m.sgy",
+            "jsonParameters": "empty_config.json",
+            "forceGenerate": true
+          },
+          "result": "value",
+          "value": true
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_Depth_2250_3375_9m.sgy",
+            "jsonParameters": "empty_config.json",
+            "forceGenerate": false
+          },
+          "result": "value",
+          "value": true
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json",
+            "forceGenerate": true
+          },
+          "result": "value",
+          "value": true
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json",
+            "forceGenerate": false
+          },
+          "result": "value",
+          "value": true
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot-166.sgy",
+            "jsonParameters": "empty_config.json",
+            "forceGenerate": true
+          },
+          "result": "value",
+          "value": true
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot-166.sgy",
+            "jsonParameters": "empty_config.json",
+            "forceGenerate": false
+          },
+          "result": "value",
+          "value": true
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot104.sgy",
+            "jsonParameters": "empty_config.json",
+            "forceGenerate": true
+          },
+          "result": "value",
+          "value": true
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot104.sgy",
+            "jsonParameters": "empty_config.json",
+            "forceGenerate": false
+          },
+          "result": "value",
+          "value": true
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot121.sgy",
+            "jsonParameters": "empty_config.json",
+            "forceGenerate": true
+          },
+          "result": "value",
+          "value": true
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot121.sgy",
+            "jsonParameters": "empty_config.json",
+            "forceGenerate": false
+          },
+          "result": "value",
+          "value": true
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot59.sgy",
+            "jsonParameters": "empty_config.json",
+            "forceGenerate": true
+          },
+          "result": "value",
+          "value": true
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot59.sgy",
+            "jsonParameters": "empty_config.json",
+            "forceGenerate": false
+          },
+          "result": "value",
+          "value": true
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_8bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json",
+            "forceGenerate": true
+          },
+          "result": "value",
+          "value": true
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_8bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json",
+            "forceGenerate": false
+          },
+          "result": "value",
+          "value": true
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_RMS_32bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json",
+            "forceGenerate": true
+          },
+          "result": "value",
+          "value": true
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_RMS_32bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json",
+            "forceGenerate": false
+          },
+          "result": "value",
+          "value": true
+        }
+      ]
+    },
+    {
+      "name": "SegyIndexSaveAsJson",
+      "data": [
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_16bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "json_file",
+          "file": "volve_16bit_gaps_time_1000_1500_4ms.sgy.index.json",
+          "jsonfile": "ApiTests/baselines/SegyIndex/volve_16bit_gaps_time_1000_1500_4ms.sgy.index.json"
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_Depth_2250_3375_9m.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "json_file",
+          "file": "volve_32bit_gaps_Depth_2250_3375_9m.sgy.index.json",
+          "jsonfile": "ApiTests/baselines/SegyIndex/volve_32bit_gaps_Depth_2250_3375_9m.sgy.index.json"
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "json_file",
+          "file": "volve_32bit_gaps_time_1000_1500_4ms.sgy.index.json",
+          "jsonfile": "ApiTests/baselines/SegyIndex/volve_32bit_gaps_time_1000_1500_4ms.sgy.index.json"
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot-166.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "json_file",
+          "file": "volve_32bit_gaps_time_1000_1500_4ms_Rot-166.sgy.index.json",
+          "jsonfile": "ApiTests/baselines/SegyIndex/volve_32bit_gaps_time_1000_1500_4ms_Rot-166.sgy.index.json"
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot104.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "json_file",
+          "file": "volve_32bit_gaps_time_1000_1500_4ms_Rot104.sgy.index.json",
+          "jsonfile": "ApiTests/baselines/SegyIndex/volve_32bit_gaps_time_1000_1500_4ms_Rot104.sgy.index.json"
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot121.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "json_file",
+          "file": "volve_32bit_gaps_time_1000_1500_4ms_Rot121.sgy.index.json",
+          "jsonfile": "ApiTests/baselines/SegyIndex/volve_32bit_gaps_time_1000_1500_4ms_Rot121.sgy.index.json"
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot59.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "json_file",
+          "file": "volve_32bit_gaps_time_1000_1500_4ms_Rot59.sgy.index.json",
+          "jsonfile": "ApiTests/baselines/SegyIndex/volve_32bit_gaps_time_1000_1500_4ms_Rot59.sgy.index.json"
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_8bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "json_file",
+          "file": "volve_8bit_gaps_time_1000_1500_4ms.sgy.index.json",
+          "jsonfile": "ApiTests/baselines/SegyIndex/volve_8bit_gaps_time_1000_1500_4ms.sgy.index.json"
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_RMS_32bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "json_file",
+          "file": "volve_RMS_32bit_gaps_time_1000_1500_4ms.sgy.index.json",
+          "jsonfile": "ApiTests/baselines/SegyIndex/volve_RMS_32bit_gaps_time_1000_1500_4ms.sgy.index.json"
+        }
+      ]
+    },
+    {
+      "name": "SegyIndexGetGeometry3D",
+      "data": [
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_16bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "json",
+          "jsonfile": "ApiTests/baselines/SegyIndex/volve_16bit_gaps_time_1000_1500_4ms.sgy.Geometry3D.json"
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_Depth_2250_3375_9m.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "json",
+          "jsonfile": "ApiTests/baselines/SegyIndex/volve_32bit_gaps_Depth_2250_3375_9m.sgy.Geometry3D.json"
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "json",
+          "jsonfile": "ApiTests/baselines/SegyIndex/volve_32bit_gaps_time_1000_1500_4ms.sgy.Geometry3D.json"
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot-166.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "json",
+          "jsonfile": "ApiTests/baselines/SegyIndex/volve_32bit_gaps_time_1000_1500_4ms_Rot-166.sgy.Geometry3D.json"
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot104.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "json",
+          "jsonfile": "ApiTests/baselines/SegyIndex/volve_32bit_gaps_time_1000_1500_4ms_Rot104.sgy.Geometry3D.json"
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot121.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "json",
+          "jsonfile": "ApiTests/baselines/SegyIndex/volve_32bit_gaps_time_1000_1500_4ms_Rot121.sgy.Geometry3D.json"
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot59.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "json",
+          "jsonfile": "ApiTests/baselines/SegyIndex/volve_32bit_gaps_time_1000_1500_4ms_Rot59.sgy.Geometry3D.json"
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_8bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "json",
+          "jsonfile": "ApiTests/baselines/SegyIndex/volve_8bit_gaps_time_1000_1500_4ms.sgy.Geometry3D.json"
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_RMS_32bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "json",
+          "jsonfile": "ApiTests/baselines/SegyIndex/volve_RMS_32bit_gaps_time_1000_1500_4ms.sgy.Geometry3D.json"
+        }
+
+      ]
+    },
+    {
+      "name": "SegyIndexGetFileLayout",
+      "data": [
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_16bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "json",
+          "jsonfile": "ApiTests/baselines/SegyIndex/volve_16bit_gaps_time_1000_1500_4ms.sgy.FileLayout.json"
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_Depth_2250_3375_9m.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "json",
+          "jsonfile": "ApiTests/baselines/SegyIndex/volve_32bit_gaps_Depth_2250_3375_9m.sgy.FileLayout.json"
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "json",
+          "jsonfile": "ApiTests/baselines/SegyIndex/volve_32bit_gaps_time_1000_1500_4ms.sgy.FileLayout.json"
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot-166.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "json",
+          "jsonfile": "ApiTests/baselines/SegyIndex/volve_32bit_gaps_time_1000_1500_4ms_Rot-166.sgy.FileLayout.json"
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot104.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "json",
+          "jsonfile": "ApiTests/baselines/SegyIndex/volve_32bit_gaps_time_1000_1500_4ms_Rot104.sgy.FileLayout.json"
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot121.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "json",
+          "jsonfile": "ApiTests/baselines/SegyIndex/volve_32bit_gaps_time_1000_1500_4ms_Rot121.sgy.FileLayout.json"
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot59.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "json",
+          "jsonfile": "ApiTests/baselines/SegyIndex/volve_32bit_gaps_time_1000_1500_4ms_Rot59.sgy.FileLayout.json"
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_8bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "json",
+          "jsonfile": "ApiTests/baselines/SegyIndex/volve_8bit_gaps_time_1000_1500_4ms.sgy.FileLayout.json"
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_RMS_32bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "json",
+          "jsonfile": "ApiTests/baselines/SegyIndex/volve_RMS_32bit_gaps_time_1000_1500_4ms.sgy.FileLayout.json"
+        }
+      ]
+    },
+    {
+      "name": "SegyIndexIsRegular",
+      "data": [
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_16bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": true
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_Depth_2250_3375_9m.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": true
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": true
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot-166.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": true
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot104.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": true
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot121.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": true
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot59.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": true
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_8bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": true
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_RMS_32bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": true
+        }
+      ]
+    },
+    {
+      "name": "SegyIndexIsValid",
+      "data": [
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_16bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": true
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_Depth_2250_3375_9m.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": true
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": true
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot-166.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": true
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot104.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": true
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot121.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": true
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot59.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": true
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_8bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": true
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_RMS_32bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": true
+        }
+      ]
+    },
+    {
+      "name": "SegyIndexGetTraceSize",
+      "data": [
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_16bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": 492
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_Depth_2250_3375_9m.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": 744
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": 744
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot-166.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": 744
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot104.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": 744
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot121.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": 744
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot59.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": 744
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_8bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": 366
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_RMS_32bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": 744
+        }
+      ]
+    },
+    {
+      "name": "SegyIndexGetFirstTraceOffset",
+      "data": [
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_16bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": 3600
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_Depth_2250_3375_9m.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": 3600
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": 3600
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot-166.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": 3600
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot104.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": 3600
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot121.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": 3600
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot59.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": 3600
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_8bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": 3600
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_RMS_32bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": 3600
+        }
+      ]
+    },
+    {
+      "name": "SegyIndexGetIndexAt",
+      "data": [
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_16bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json",
+            "inline": 0,
+            "crossline": 0
+          },
+          "result": "json",
+          "jsonfile": "ApiTests/baselines/SegyIndex/volve_16bit_gaps_time_1000_1500_4ms.sgy.IndexAt.0.json"
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_16bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json",
+            "inline": 10160,
+            "crossline": 2337
+          },
+          "result": "json",
+          "jsonfile": "ApiTests/baselines/SegyIndex/volve_16bit_gaps_time_1000_1500_4ms.sgy.IndexAt.1.json"
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_16bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json",
+            "inline": 10171,
+            "crossline": 2324
+          },
+          "result": "json",
+          "jsonfile": "ApiTests/baselines/SegyIndex/volve_16bit_gaps_time_1000_1500_4ms.sgy.IndexAt.2.json"
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_Depth_2250_3375_9m.sgy",
+            "jsonParameters": "empty_config.json",
+            "inline": 0,
+            "crossline": 0
+          },
+          "result": "json",
+          "jsonfile": "ApiTests/baselines/SegyIndex/volve_32bit_gaps_Depth_2250_3375_9m.sgy.IndexAt.0.json"
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_Depth_2250_3375_9m.sgy",
+            "jsonParameters": "empty_config.json",
+            "inline": 10160,
+            "crossline": 2337
+          },
+          "result": "json",
+          "jsonfile": "ApiTests/baselines/SegyIndex/volve_32bit_gaps_Depth_2250_3375_9m.sgy.IndexAt.1.json"
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_Depth_2250_3375_9m.sgy",
+            "jsonParameters": "empty_config.json",
+            "inline": 10171,
+            "crossline": 2324
+          },
+          "result": "json",
+          "jsonfile": "ApiTests/baselines/SegyIndex/volve_32bit_gaps_Depth_2250_3375_9m.sgy.IndexAt.2.json"
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json",
+            "inline": 0,
+            "crossline": 0
+          },
+          "result": "json",
+          "jsonfile": "ApiTests/baselines/SegyIndex/volve_32bit_gaps_time_1000_1500_4ms.sgy.IndexAt.0.json"
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json",
+            "inline": 10160,
+            "crossline": 2337
+          },
+          "result": "json",
+          "jsonfile": "ApiTests/baselines/SegyIndex/volve_32bit_gaps_time_1000_1500_4ms.sgy.IndexAt.1.json"
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json",
+            "inline": 10171,
+            "crossline": 2324
+          },
+          "result": "json",
+          "jsonfile": "ApiTests/baselines/SegyIndex/volve_32bit_gaps_time_1000_1500_4ms.sgy.IndexAt.2.json"
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot-166.sgy",
+            "jsonParameters": "empty_config.json",
+            "inline": 0,
+            "crossline": 0
+          },
+          "result": "json",
+          "jsonfile": "ApiTests/baselines/SegyIndex/volve_32bit_gaps_time_1000_1500_4ms_Rot-166.sgy.IndexAt.0.json"
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot-166.sgy",
+            "jsonParameters": "empty_config.json",
+            "inline": 10160,
+            "crossline": 2337
+          },
+          "result": "json",
+          "jsonfile": "ApiTests/baselines/SegyIndex/volve_32bit_gaps_time_1000_1500_4ms_Rot-166.sgy.IndexAt.1.json"
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot-166.sgy",
+            "jsonParameters": "empty_config.json",
+            "inline": 10171,
+            "crossline": 2324
+          },
+          "result": "json",
+          "jsonfile": "ApiTests/baselines/SegyIndex/volve_32bit_gaps_time_1000_1500_4ms_Rot-166.sgy.IndexAt.2.json"
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot104.sgy",
+            "jsonParameters": "empty_config.json",
+            "inline": 0,
+            "crossline": 0
+          },
+          "result": "json",
+          "jsonfile": "ApiTests/baselines/SegyIndex/volve_32bit_gaps_time_1000_1500_4ms_Rot104.sgy.IndexAt.0.json"
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot104.sgy",
+            "jsonParameters": "empty_config.json",
+            "inline": 10160,
+            "crossline": 2337
+          },
+          "result": "json",
+          "jsonfile": "ApiTests/baselines/SegyIndex/volve_32bit_gaps_time_1000_1500_4ms_Rot104.sgy.IndexAt.1.json"
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot104.sgy",
+            "jsonParameters": "empty_config.json",
+            "inline": 10171,
+            "crossline": 2324
+          },
+          "result": "json",
+          "jsonfile": "ApiTests/baselines/SegyIndex/volve_32bit_gaps_time_1000_1500_4ms_Rot104.sgy.IndexAt.2.json"
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot121.sgy",
+            "jsonParameters": "empty_config.json",
+            "inline": 0,
+            "crossline": 0
+          },
+          "result": "json",
+          "jsonfile": "ApiTests/baselines/SegyIndex/volve_32bit_gaps_time_1000_1500_4ms_Rot121.sgy.IndexAt.0.json"
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot121.sgy",
+            "jsonParameters": "empty_config.json",
+            "inline": 10160,
+            "crossline": 2337
+          },
+          "result": "json",
+          "jsonfile": "ApiTests/baselines/SegyIndex/volve_32bit_gaps_time_1000_1500_4ms_Rot121.sgy.IndexAt.1.json"
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot121.sgy",
+            "jsonParameters": "empty_config.json",
+            "inline": 10171,
+            "crossline": 2324
+          },
+          "result": "json",
+          "jsonfile": "ApiTests/baselines/SegyIndex/volve_32bit_gaps_time_1000_1500_4ms_Rot121.sgy.IndexAt.2.json"
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot59.sgy",
+            "jsonParameters": "empty_config.json",
+            "inline": 0,
+            "crossline": 0
+          },
+          "result": "json",
+          "jsonfile": "ApiTests/baselines/SegyIndex/volve_32bit_gaps_time_1000_1500_4ms_Rot59.sgy.IndexAt.0.json"
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot59.sgy",
+            "jsonParameters": "empty_config.json",
+            "inline": 10160,
+            "crossline": 2337
+          },
+          "result": "json",
+          "jsonfile": "ApiTests/baselines/SegyIndex/volve_32bit_gaps_time_1000_1500_4ms_Rot59.sgy.IndexAt.1.json"
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot59.sgy",
+            "jsonParameters": "empty_config.json",
+            "inline": 10171,
+            "crossline": 2324
+          },
+          "result": "json",
+          "jsonfile": "ApiTests/baselines/SegyIndex/volve_32bit_gaps_time_1000_1500_4ms_Rot59.sgy.IndexAt.2.json"
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_8bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json",
+            "inline": 0,
+            "crossline": 0
+          },
+          "result": "json",
+          "jsonfile": "ApiTests/baselines/SegyIndex/volve_8bit_gaps_time_1000_1500_4ms.sgy.IndexAt.0.json"
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_8bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json",
+            "inline": 10160,
+            "crossline": 2337
+          },
+          "result": "json",
+          "jsonfile": "ApiTests/baselines/SegyIndex/volve_8bit_gaps_time_1000_1500_4ms.sgy.IndexAt.1.json"
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_8bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json",
+            "inline": 10171,
+            "crossline": 2324
+          },
+          "result": "json",
+          "jsonfile": "ApiTests/baselines/SegyIndex/volve_8bit_gaps_time_1000_1500_4ms.sgy.IndexAt.2.json"
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_RMS_32bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json",
+            "inline": 0,
+            "crossline": 0
+          },
+          "result": "json",
+          "jsonfile": "ApiTests/baselines/SegyIndex/volve_RMS_32bit_gaps_time_1000_1500_4ms.sgy.IndexAt.0.json"
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_RMS_32bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json",
+            "inline": 10160,
+            "crossline": 2337
+          },
+          "result": "json",
+          "jsonfile": "ApiTests/baselines/SegyIndex/volve_RMS_32bit_gaps_time_1000_1500_4ms.sgy.IndexAt.1.json"
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_RMS_32bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json",
+            "inline": 10171,
+            "crossline": 2324
+          },
+          "result": "json",
+          "jsonfile": "ApiTests/baselines/SegyIndex/volve_RMS_32bit_gaps_time_1000_1500_4ms.sgy.IndexAt.2.json"
+        }
+      ]
+    },
+    {
+      "name": "SegyIndexIsInlineOrdered",
+      "data": [
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_16bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": true
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_Depth_2250_3375_9m.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": true
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": true
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot-166.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": true
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot104.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": true
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot121.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": true
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot59.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": true
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_8bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": true
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_RMS_32bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": true
+        }
+      ]
+    },
+    {
+      "name": "SegyIndexHasConstantCoordinateScalar",
+      "data": [
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_16bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": true
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_Depth_2250_3375_9m.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": true
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": true
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot-166.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": true
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot104.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": true
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot121.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": true
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot59.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": true
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_8bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": true
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_RMS_32bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": true
+        }
+      ]
+    },
+    {
+      "name": "SegyIndexHasConstantTraceLength",
+      "data": [
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_16bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": true
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_Depth_2250_3375_9m.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": true
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": true
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot-166.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": true
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot104.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": true
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot121.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": true
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot59.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": true
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_8bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": true
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_RMS_32bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": true
+        }
+      ]
+    },
+    {
+      "name": "SegyIndexGetConstantCoordinateScalar",
+      "data": [
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_16bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": -100
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_Depth_2250_3375_9m.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": -100
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": -100
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot-166.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": -100
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot104.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": -100
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot121.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": -100
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot59.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": -100
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_8bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": -100
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_RMS_32bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "SegyIndexGetConstantTraceLength",
+      "data": [
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_16bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": 126
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_Depth_2250_3375_9m.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": 126
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": 126
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot-166.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": 126
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot104.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": 126
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot121.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": 126
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot59.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": 126
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_8bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": 126
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_RMS_32bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": 126
+        }
+      ]
+    },
+    {
+      "name": "SegyIndexGetConstantTraceWeightingFactor",
+      "data": [
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_16bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": 10
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_Depth_2250_3375_9m.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": 0
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": 0
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot-166.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": 0
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot104.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": 0
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot121.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": 0
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot59.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": 0
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_8bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": 2
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_RMS_32bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "name": "SegyIndexGetIndexedTraceCount",
+      "data": [
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_16bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": 0
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_Depth_2250_3375_9m.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": 0
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": 0
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot-166.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": 0
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot104.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": 0
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot121.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": 0
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_32bit_gaps_time_1000_1500_4ms_Rot59.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": 0
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_8bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": 0
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_RMS_32bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": 0
+        }
+      ]
+    }
+  ]
+}

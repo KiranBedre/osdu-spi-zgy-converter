@@ -1,0 +1,110 @@
+{
+  "kind": "osdu:wks:dataset--FileCollection.SEGY:1.0.0",
+  "id": "partition-id:dataset--FileCollection.SEGY:6153ef5f-e3d5-41d8-83e6-3f22bd6a62f8",
+  "acl": {
+    "owners": [
+      "someone@company.com"
+    ],
+    "viewers": [
+      "someone@company.com"
+    ]
+  },
+  "legal": {
+    "legaltags": [
+      "Example legaltags"
+    ],
+    "otherRelevantDataCountries": [
+      "US"
+    ],
+    "status": "compliant"
+  },
+  "ancestry": {
+    "parents": []
+  },
+  "meta": [],
+  "data": {
+    "Name": "Volve_SEGY_Depth",
+    "Description": "Dataset released by Equinor and Partners",
+    "TotalSize": "1368413160",
+    "SchemaFormatTypeID": "partition-id:reference-data--SchemaFormatType:SEG-Y:",
+    "Endian": "BIG",
+    "DatasetProperties": {
+      "FileCollectionPath": "sd://opendes/sntc/volve/",
+      "FileSourceInfos": [
+        {
+          "FileSource": "sd://suzafardftest26-opendes/suzafar/ST10010ZC11_PZ_PSDM_KIRCH_FULL_T.MIG_FIN.POST_STACK.3D.JS-017536.segy",
+          "PreloadFilePath": "MyDocuments\\seismic-to-osdu\\Volve_SEGY_Depth\\ST10010ZC11_PZ_PSDM_KIRCH_FULL_D.MIG_FIN.POST_STACK.3D.JS-017536.segy",
+          "Name": "Volve_SEGY_Depth",
+          "FileSize": "1368413160"
+        }
+      ],
+      "Checksum": "FFC6ECC93E1DF02D44F2A19BD518BD1A"
+    },
+    "VectorHeaderMapping": [
+      {
+        "KeyName": "partition-id:reference-data--HeaderKeyName:Inline:",
+        "WordFormat": "partition-id:reference-data--WordFormatType:INT:",
+        "WordWidth": 4,
+        "Position": 189,
+        "UoM": "partition-id:reference-data--UnitOfMeasure:Euc:",
+        "ScalarIndicator": "NOSCALE",
+        "ScalarOverride": 0
+      },
+      {
+        "KeyName": "partition-id:reference-data--HeaderKeyName:Crossline:",
+        "WordFormat": "partition-id:reference-data--WordFormatType:INT:",
+        "WordWidth": 4,
+        "Position": 193,
+        "UoM": "partition-id:reference-data--UnitOfMeasure:Euc:",
+        "ScalarIndicator": "NOSCALE",
+        "ScalarOverride": 0
+      },
+      {
+        "KeyName": "partition-id:reference-data--HeaderKeyName:CMPX:",
+        "WordFormat": "partition-id:reference-data--WordFormatType:INT:",
+        "WordWidth": 4,
+        "Position": 181,
+        "UoM": "partition-id:reference-data--UnitOfMeasure:m:",
+        "ScalarIndicator": "STANDARD",
+        "ScalarOverride": 0
+      },
+      {
+        "KeyName": "partition-id:reference-data--HeaderKeyName:CMPY:",
+        "WordFormat": "partition-id:reference-data--WordFormatType:INT:",
+        "WordWidth": 4,
+        "Position": 185,
+        "UoM": "partition-id:reference-data--UnitOfMeasure:m:",
+        "ScalarIndicator": "STANDARD",
+        "ScalarOverride": 0
+      },
+      {
+        "KeyName": "partition-id:reference-data--HeaderKeyName:STARTTIME:",
+        "WordFormat": "partition-id:reference-data--WordFormatType:INT:",
+        "WordWidth": 2,
+        "Position": 109,
+        "UoM": "partition-id:reference-data--UnitOfMeasure:ms:",
+        "ScalarIndicator": "STANDARD",
+        "ScalarOverride": 0
+      },
+      {
+        "KeyName": "partition-id:reference-data--HeaderKeyName:ZSCALAR:",
+        "WordFormat": "partition-id:reference-data--WordFormatType:INT:",
+        "WordWidth": 2,
+        "Position": 69,
+        "UoM": "partition-id:reference-data--UnitOfMeasure:Euc:",
+        "ScalarIndicator": "NOSCALE",
+        "ScalarOverride": 0
+      },
+      {
+        "KeyName": "partition-id:reference-data--HeaderKeyName:XYSCALAR:",
+        "WordFormat": "partition-id:reference-data--WordFormatType:INT:",
+        "WordWidth": 2,
+        "Position": 71,
+        "UoM": "partition-id:reference-data--UnitOfMeasure:Euc:",
+        "ScalarIndicator": "NOSCALE",
+        "ScalarOverride": 0
+      }
+    ],
+    "SEGYRevision": "rev 1"
+  }
+}

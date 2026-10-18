@@ -1,0 +1,62 @@
+include(GoogleTest)
+include(AddTest)
+
+# SegySessionFactory
+AddTest(ApiTests.SegySessionFactory
+NOT_BASE_GTEST
+TEST_SOURCE_FILES
+    SegySessionFactoryTests.cpp
+EXTRA_INCLUDE_DIRECTORIES
+    ${jsoncpp_INCLUDE_PATH}
+EXTRA_LINK_LIBRARIES
+    ApiTestFramework
+    ${JSON_LINK_LIBS}
+GTEST_OPTIONS
+    NO_PRETTY_VALUES
+    PROPERTIES LABELS API_TESTS
+)
+
+# SegySession
+AddTest(ApiTests.SegySession
+NOT_BASE_GTEST
+TEST_SOURCE_FILES
+    SegySessionTests.cpp
+EXTRA_INCLUDE_DIRECTORIES
+    ${jsoncpp_INCLUDE_PATH}
+EXTRA_LINK_LIBRARIES
+    ApiTestFramework
+    ${JSON_LINK_LIBS}
+GTEST_OPTIONS
+    NO_PRETTY_VALUES
+    PROPERTIES LABELS API_TESTS
+)
+
+# SegyIndex
+AddTest(ApiTests.SegyIndex
+NOT_BASE_GTEST
+TEST_SOURCE_FILES
+    SegyIndexTests.cpp
+EXTRA_INCLUDE_DIRECTORIES
+    ${jsoncpp_INCLUDE_PATH}
+EXTRA_LINK_LIBRARIES
+    ApiTestFramework
+    ${JSON_LINK_LIBS}
+GTEST_OPTIONS
+    NO_PRETTY_VALUES
+    PROPERTIES LABELS API_TESTS
+)
+
+# BulkReader
+AddTest(ApiTests.SegyBulkReader
+NOT_BASE_GTEST
+TEST_SOURCE_FILES
+    SegyBulkReader.cpp
+EXTRA_INCLUDE_DIRECTORIES
+    ${jsoncpp_INCLUDE_PATH}
+EXTRA_LINK_LIBRARIES
+    ApiTestFramework
+    ${JSON_LINK_LIBS}
+GTEST_OPTIONS
+    NO_PRETTY_VALUES
+    PROPERTIES LABELS API_TESTS
+)

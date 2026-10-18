@@ -1,0 +1,9 @@
+#pragma once
+
+#define SegySdkProject_VERSION_MAJOR @SegySdkProject_VERSION_MAJOR@
+#define SegySdkProject_VERSION_MINOR @SegySdkProject_VERSION_MINOR@
+#define SegySdkProject_VERSION_BUILD @SegySdkProject_VERSION_PATCH@
+#define SegySdkProject_VERSION "@SegySdkProject_VERSION_MAJOR@.@SegySdkProject_VERSION_MINOR@.@SegySdkProject_VERSION_PATCH@"
+
+#cmakedefine HAVE_MSVC_GMTIME_S 1
+#cmakedefine HAVE_GMTIME_R 1

@@ -1,0 +1,587 @@
+{
+   "Metadata" : {
+      "ColumnHeaders" : [
+         {
+            "End" : 4,
+            "Id" : "TraceSequenceLine",
+            "Start" : 1
+         },
+         {
+            "End" : 8,
+            "Id" : "TraceSequenceFile",
+            "Start" : 5
+         },
+         {
+            "End" : 12,
+            "Id" : "FieldRecordNumber",
+            "Start" : 9
+         },
+         {
+            "End" : 16,
+            "Id" : "TraceNumberField",
+            "Start" : 13
+         },
+         {
+            "End" : 20,
+            "Id" : "EnergySourcePointNumber",
+            "Start" : 17
+         },
+         {
+            "End" : 24,
+            "Id" : "EnsembleNumber",
+            "Start" : 21
+         },
+         {
+            "End" : 28,
+            "Id" : "TraceNumberEnsemble",
+            "Start" : 25
+         },
+         {
+            "End" : 30,
+            "Id" : "TraceIdentificationCode",
+            "Start" : 29
+         },
+         {
+            "End" : 32,
+            "Id" : "NumberVerticallySummedTraces",
+            "Start" : 31
+         },
+         {
+            "End" : 34,
+            "Id" : "NumberHorizontallyStackedTraces",
+            "Start" : 33
+         },
+         {
+            "End" : 36,
+            "Id" : "DataUse",
+            "Start" : 35
+         },
+         {
+            "End" : 40,
+            "Id" : "Offset",
+            "Start" : 37
+         },
+         {
+            "End" : 44,
+            "Id" : "ReceiverGroupElevation",
+            "Start" : 41
+         },
+         {
+            "End" : 48,
+            "Id" : "SurfaceElevationAtSource",
+            "Start" : 45
+         },
+         {
+            "End" : 52,
+            "Id" : "SourceDepthBelowSurface",
+            "Start" : 49
+         },
+         {
+            "End" : 56,
+            "Id" : "DatumElevationAtReceiverGroup",
+            "Start" : 53
+         },
+         {
+            "End" : 60,
+            "Id" : "DatumElevationAtSource",
+            "Start" : 57
+         },
+         {
+            "End" : 64,
+            "Id" : "WaterDepthAtSource",
+            "Start" : 61
+         },
+         {
+            "End" : 68,
+            "Id" : "WaterDepthArtReceiverGroup",
+            "Start" : 65
+         },
+         {
+            "End" : 70,
+            "Id" : "ScalarForElevations",
+            "Start" : 69
+         },
+         {
+            "End" : 72,
+            "Id" : "ScalarForCoordinates",
+            "Start" : 71
+         },
+         {
+            "End" : 76,
+            "Id" : "SourceCoordinateX",
+            "Start" : 73
+         },
+         {
+            "End" : 80,
+            "Id" : "SourceCoordinateY",
+            "Start" : 77
+         },
+         {
+            "End" : 84,
+            "Id" : "ReceiverCoordinateX",
+            "Start" : 81
+         },
+         {
+            "End" : 88,
+            "Id" : "ReceiverCoordinateY",
+            "Start" : 85
+         },
+         {
+            "End" : 90,
+            "Id" : "CoordinateUnits",
+            "Start" : 89
+         },
+         {
+            "End" : 92,
+            "Id" : "WeatheringVelocity",
+            "Start" : 91
+         },
+         {
+            "End" : 94,
+            "Id" : "SubweatheringVelocity",
+            "Start" : 93
+         },
+         {
+            "End" : 96,
+            "Id" : "UpholeTimeSource",
+            "Start" : 95
+         },
+         {
+            "End" : 98,
+            "Id" : "UpholeTimeReceiverGroup",
+            "Start" : 97
+         },
+         {
+            "End" : 100,
+            "Id" : "StaticCorrectionSource",
+            "Start" : 99
+         },
+         {
+            "End" : 102,
+            "Id" : "StaticCorrectionReceiverGroup",
+            "Start" : 101
+         },
+         {
+            "End" : 104,
+            "Id" : "TotalStaticApplied",
+            "Start" : 103
+         },
+         {
+            "End" : 106,
+            "Id" : "HeaderToTimeBreakLagTime",
+            "Start" : 105
+         },
+         {
+            "End" : 108,
+            "Id" : "TimeBreakToShotLagTime",
+            "Start" : 107
+         },
+         {
+            "End" : 110,
+            "Id" : "ShotToRecordingLagTime",
+            "Start" : 109
+         },
+         {
+            "End" : 112,
+            "Id" : "MuteTimeStart",
+            "Start" : 111
+         },
+         {
+            "End" : 114,
+            "Id" : "MuteTimeEnd",
+            "Start" : 113
+         },
+         {
+            "End" : 116,
+            "Id" : "SamplesPerTrace",
+            "Start" : 115
+         },
+         {
+            "End" : 118,
+            "Id" : "SampleInterval",
+            "Start" : 117
+         },
+         {
+            "End" : 120,
+            "Id" : "GainTypeInstrument",
+            "Start" : 119
+         },
+         {
+            "End" : 122,
+            "Id" : "GainConstantInstrument",
+            "Start" : 121
+         },
+         {
+            "End" : 124,
+            "Id" : "GainInstrumentInitial",
+            "Start" : 123
+         },
+         {
+            "End" : 126,
+            "Id" : "Correlated",
+            "Start" : 125
+         },
+         {
+            "End" : 128,
+            "Id" : "SweepFrequencyStart",
+            "Start" : 127
+         },
+         {
+            "End" : 130,
+            "Id" : "SweepFrequencyEnd",
+            "Start" : 129
+         },
+         {
+            "End" : 132,
+            "Id" : "SweepLength",
+            "Start" : 131
+         },
+         {
+            "End" : 134,
+            "Id" : "SweepType",
+            "Start" : 133
+         },
+         {
+            "End" : 136,
+            "Id" : "SweepTraceTaperLengthStart",
+            "Start" : 135
+         },
+         {
+            "End" : 138,
+            "Id" : "SweepTraceTaperLengthEnd",
+            "Start" : 137
+         },
+         {
+            "End" : 140,
+            "Id" : "TaperType",
+            "Start" : 139
+         },
+         {
+            "End" : 142,
+            "Id" : "AliasFilterFrequency",
+            "Start" : 141
+         },
+         {
+            "End" : 144,
+            "Id" : "AliasFilterSlope",
+            "Start" : 143
+         },
+         {
+            "End" : 146,
+            "Id" : "NotchFilterFrequency",
+            "Start" : 145
+         },
+         {
+            "End" : 148,
+            "Id" : "NotchFilterSlope",
+            "Start" : 147
+         },
+         {
+            "End" : 150,
+            "Id" : "LowCutFrequency",
+            "Start" : 149
+         },
+         {
+            "End" : 152,
+            "Id" : "HighCutFrequency",
+            "Start" : 151
+         },
+         {
+            "End" : 154,
+            "Id" : "LowCutSlope",
+            "Start" : 153
+         },
+         {
+            "End" : 156,
+            "Id" : "HighCutSlope",
+            "Start" : 155
+         },
+         {
+            "End" : 158,
+            "Id" : "Year",
+            "Start" : 157
+         },
+         {
+            "End" : 160,
+            "Id" : "DayOfYear",
+            "Start" : 159
+         },
+         {
+            "End" : 162,
+            "Id" : "Hour",
+            "Start" : 161
+         },
+         {
+            "End" : 164,
+            "Id" : "Minute",
+            "Start" : 163
+         },
+         {
+            "End" : 166,
+            "Id" : "Second",
+            "Start" : 165
+         },
+         {
+            "End" : 168,
+            "Id" : "TimeBasisCode",
+            "Start" : 167
+         },
+         {
+            "End" : 170,
+            "Id" : "TraceWeightingFactor",
+            "Start" : 169
+         },
+         {
+            "End" : 172,
+            "Id" : "GeophoneGroupNumberOfRollSwitchP1",
+            "Start" : 171
+         },
+         {
+            "End" : 174,
+            "Id" : "GeophoneGroupNumberOfFirstTrace",
+            "Start" : 173
+         },
+         {
+            "End" : 176,
+            "Id" : "GeophoneGroupNumberOfLastTrace",
+            "Start" : 175
+         },
+         {
+            "End" : 178,
+            "Id" : "GapSize",
+            "Start" : 177
+         },
+         {
+            "End" : 180,
+            "Id" : "Overtravel",
+            "Start" : 179
+         },
+         {
+            "End" : 192,
+            "Id" : "InlineNumber",
+            "Start" : 189
+         },
+         {
+            "End" : 196,
+            "Id" : "CrosslineNumber",
+            "Start" : 193
+         }
+      ],
+      "StartTrace" : 0,
+      "TraceCount" : 1
+   },
+   "TraceData" : [
+      {
+         "Header" : [
+            1.0,
+            10150.0,
+            10150.0,
+            1.0,
+            0.0,
+            2325.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            -100.0,
+            43446004.0,
+            647870303.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1000.0,
+            0.0,
+            1000.0,
+            0.0,
+            0.0,
+            126.0,
+            4000.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            10150.0,
+            2325.0
+         ],
+         "Samples" : [
+            1.0702316761016846,
+            1.2357971668243408,
+            1.1954152584075928,
+            1.0803762674331665,
+            1.0803762674331665,
+            1.0803762674331665,
+            1.0803762674331665,
+            0.94577991962432861,
+            0.79542124271392822,
+            0.79542124271392822,
+            0.50089544057846069,
+            0.27633264660835266,
+            0.27633264660835266,
+            0.25583431124687195,
+            0.25583431124687195,
+            0.39079335331916809,
+            0.50089544057846069,
+            0.64383554458618164,
+            0.76036316156387329,
+            0.76036316156387329,
+            1.2090257406234741,
+            1.4659402370452881,
+            1.4990521669387817,
+            1.6214056015014648,
+            1.5908423662185669,
+            1.6808657646179199,
+            1.7445573806762695,
+            1.8060042858123779,
+            1.9087822437286377,
+            1.7130076885223389,
+            1.4990521669387817,
+            1.4659402370452881,
+            1.3895359039306641,
+            1.4844269752502441,
+            1.3816630840301514,
+            1.2706149816513062,
+            1.1816480159759521,
+            1.0496484041213989,
+            0.96292537450790405,
+            0.95724433660507202,
+            0.96292537450790405,
+            0.8738405704498291,
+            0.70837318897247314,
+            0.64383554458618164,
+            0.70063108205795288,
+            0.70063108205795288,
+            0.70063108205795288,
+            0.70837312936782837,
+            0.70837312936782837,
+            0.81573307514190674,
+            0.96292537450790405,
+            0.95724433660507202,
+            1.0017908811569214,
+            0.91052097082138062,
+            0.96292537450790405,
+            1.0496484041213989,
+            1.0496484041213989,
+            1.054831862449646,
+            0.97418802976608276,
+            0.8289979100227356,
+            0.92831790447235107,
+            0.88006013631820679,
+            0.97418802976608276,
+            0.8289979100227356,
+            0.76750290393829346,
+            0.92242372035980225,
+            0.96857297420501709,
+            0.96292537450790405,
+            0.96292537450790405,
+            0.86757636070251465,
+            0.86757636070251465,
+            0.76036322116851807,
+            0.8612666130065918,
+            0.81573307514190674,
+            0.63530755043029785,
+            0.56244766712188721,
+            0.57206284999847412,
+            0.84205377101898193,
+            1.0496484041213989,
+            1.0904264450073242,
+            1.824034571647644,
+            2.3001384735107422,
+            2.3166780471801758,
+            2.3517282009124756,
+            2.4067466259002686,
+            2.4605355262756348,
+            2.5583429336547852,
+            2.8277115821838379,
+            2.8277115821838379,
+            2.883105993270874,
+            3.2461731433868408,
+            3.2461733818054199,
+            3.4938011169433594,
+            3.6748826503753662,
+            3.639087438583374,
+            3.5403251647949219,
+            3.3291242122650146,
+            3.543405294418335,
+            3.2862513065338135,
+            2.5901248455047607,
+            2.8944344520568848,
+            2.6319036483764648,
+            2.3166780471801758,
+            2.3166780471801758,
+            2.2810895442962646,
+            2.2155900001525879,
+            1.8741791248321533,
+            1.6808658838272095,
+            1.7161887884140015,
+            1.0954170227050781,
+            0.90451085567474365,
+            0.90451085567474365,
+            0.95152938365936279,
+            1.1345514059066772,
+            1.2090257406234741,
+            1.1345514059066772,
+            1.1723800897598267,
+            1.0392038822174072,
+            0.99633151292800903,
+            1.0392038822174072,
+            1.0803762674331665,
+            1.2090257406234741,
+            1.0803762674331665,
+            0.99633145332336426,
+            1.0017908811569214,
+            1.0017908811569214
+         ],
+         "TraceNo" : 0
+      }
+   ],
+   "metadata" : {
+      "Filenames" : [
+         "${PARENTDIR}volve_RMS_32bit_gaps_time_1000_1500_4ms.sgy"
+      ],
+      "SegyRevision" : 0
+   }
+}

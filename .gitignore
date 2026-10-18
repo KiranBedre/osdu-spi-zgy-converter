@@ -1,0 +1,65 @@
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+### Eclipse ###
+**/.settings/
+**/.classpath
+**/.project
+**/.factorypath
+
+### Java ###
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# plugins
+.checkstyle
+
+### Maven ###
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+.flattened-pom.xml
+
+### VisualStudioCode ###
+.vscode/
+
+### macOS ###
+# General
+.DS_Store
+
+.env
+.env_*
+/build
+/ed
+/ed2
+/segysdk/src/AuthPlugin/build
+/segysdk/src/tests/OsduMetadataTests/OsduMetadataTests/edSave
+/segysdk/src/tests/OsduMetadataTests/edSave
+/segysdk/src/OsduMetaDataUtilities/edSave
+/segysdk/src/tests/OsduMetadataTests/OsduMetadataTests
+segysdk/src/lib/libopenzgy-zfp.so*
+segysdk/src/lib/libopenzgy.so*
+segysdk/src/lib/libsdapi.so*

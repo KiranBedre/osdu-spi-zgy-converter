@@ -1,0 +1,11 @@
+*
+!segy-to-zgy-conversion
+segy-to-zgy-conversion/src/out
+segy-to-zgy-conversion/Dependencies
+!openzgy
+openzgy/build
+!seismic-service-bin/Lin64_gcc940
+**/.git
+**/.vs
+**/Dockerfile
+!sdapi_linux64.tar.gz

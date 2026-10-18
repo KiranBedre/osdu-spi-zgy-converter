@@ -1,0 +1,85 @@
+//! [json_result]
+{
+    "Metadata": {
+        "ColumnHeaders": [
+            {
+                "End": 24,
+                "Id": "CROSSLINE",
+                "Start": 21
+            },
+            {
+                "End": 72,
+                "Id": "XYSCALAR",
+                "Start": 71
+            },
+            {
+                "End": 76,
+                "Id": "SourceCoordinateX",
+                "Start": 73
+            },
+            {
+                "End": 80,
+                "Id": "SourceCoordinateY",
+                "Start": 77
+            },
+            {
+                "End": 110,
+                "Id": "ShotToRecordingLagTime",
+                "Start": 109
+            },
+            {
+                "End": 116,
+                "Id": "SamplesPerTrace",
+                "Start": 115
+            },
+            {
+                "End": 118,
+                "Id": "SampleInterval",
+                "Start": 117
+            },
+            {
+                "End": 224,
+                "Id": "INLINE",
+                "Start": 221
+            }
+        ],
+        "StartTrace": 0,
+        "TraceCount": 10
+    },
+    "TraceData": [
+        {
+            "TraceNo": 0,
+            "Traces": [
+                360.0,
+                1.0,
+                1598582.0,
+                -170134.0,
+                15.0,
+                876.0,
+                4000.0,
+                500.0
+            ]
+        },
+        {
+            "TraceNo": 1,
+            "Traces": [
+                361.0,
+                1.0,
+                1598637.0,
+                -170134.0,
+                15.0,
+                876.0,
+                4000.0,
+                500.0
+            ]
+        },
+        ...
+    ],
+    "metadata": {
+        "Filenames": [
+            "E:\\Seismic\\SEGY 3D\\Cloudspin\\mig.sgy"
+        ],
+        "SegyRevision": 1
+    }
+}
+//! [json_result]

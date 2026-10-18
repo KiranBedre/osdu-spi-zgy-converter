@@ -1,0 +1,21 @@
+{
+   "CrosslinelineExtent" : {
+      "First" : 2325,
+      "Last" : 2350,
+      "Step" : 1
+   },
+   "InlineExtent" : {
+      "First" : 10150,
+      "Last" : 10170,
+      "Step" : 1
+   },
+   "IsInlineOrdered" : true,
+   "IsRegular" : true,
+   "SampleExtent" : {
+      "Domain" : "Time",
+      "First" : 2.25,
+      "Last" : 3.3839999999999999,
+      "Step" : 0.0089999999999999993,
+      "zUoM" : "seconds"
+   }
+}

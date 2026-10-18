@@ -1,0 +1,482 @@
+{
+	"FileLayoutSpecification" : 
+	{
+		"CrosslinelineExtent" : 
+		{
+			"First" : 0,
+			"Last" : 105,
+			"Step" : 1
+		},
+		"InlineExtent" : 
+		{
+			"First" : 0,
+			"Last" : 90,
+			"Step" : 1
+		},
+		"IsInlineOrdered" : true,
+		"IsRegular" : true,
+		"SampleExtent" : 
+		{
+			"Domain" : "Time",
+			"First" : 0.0,
+			"Last" : 2.004,
+			"Step" : 0.0040000000000000001,
+			"zUoM" : "seconds"
+		}
+	},
+	"Geometry3D" : 
+	{
+		"CrosslinelineExtent" : 
+		{
+			"First" : 0,
+			"Last" : 105,
+			"Step" : 1
+		},
+		"DataGrid" : 
+		{
+			"Corner11" : 
+			{
+				"Crossline" : 0,
+				"Inline" : 0,
+				"X" : 665678.51000000001,
+				"Y" : 5948869.3899999997
+			},
+			"Corner1N" : 
+			{
+				"Crossline" : 105,
+				"Inline" : 0,
+				"X" : 672892.0,
+				"Y" : 5957886.2400000002
+			},
+			"CornerN1" : 
+			{
+				"Crossline" : 0,
+				"Inline" : 90,
+				"X" : 673415.60999999999,
+				"Y" : 5942679.7000000002
+			},
+			"CornerNN" : 
+			{
+				"Crossline" : 105,
+				"Inline" : 90,
+				"X" : 680629.08999999997,
+				"Y" : 5951696.5600000005
+			},
+			"IVectorRotationAngle" : 38.659846999805531,
+			"IVectorUnitDistance" : 109.97341336202689,
+			"JVectorRotationAngle" : 128.65985340851117,
+			"JVectorUnitDistance" : 110.09254171601718
+		},
+		"InlineExtent" : 
+		{
+			"First" : 0,
+			"Last" : 90,
+			"Step" : 1
+		},
+		"IsInlineOrdered" : true,
+		"IsRegular" : true,
+		"SampleExtent" : 
+		{
+			"Domain" : "Time",
+			"First" : 0.0,
+			"Last" : 2.004,
+			"Step" : 0.0040000000000000001,
+			"zUoM" : "seconds"
+		}
+	},
+	"IndexCount" : 0,
+	"Metadata" : 
+	{
+		"GeneratedDate" : "17-06-2022 17-53-12",
+		"Version" : 
+		{
+			"Major" : 2022,
+			"Minor" : 6
+		}
+	},
+	"SEGYInfo" : 
+	{
+		"ConstantCoordinateScalar" : true,
+		"ConstantCoordinateScalarValue" : -100,
+		"ConstantTraceLength" : true,
+		"ConstantTraceLengthValue" : 501,
+		"ConstantTraceWeighting" : true,
+		"ConstantTraceWeightingValue" : 0,
+		"OffsetFirtstSEGYTrace" : 3600,
+		"SampleSize" : 2,
+		"SegyFileList" : 
+		[
+			{
+				"FileNo" : 0,
+				"FileOffset" : 3600,
+				"PrimaryMax" : 90,
+				"PrimaryMin" : 0,
+				"SegyFile" : "D:\\Petrel\\BulkData\\SegyTestData\\TestSegyReader\\Testdata16.sgy"
+			}
+		],
+		"SegyFileMap" : 
+		[
+			{
+				"FileNo" : 0,
+				"Primary" : 1
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 2
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 3
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 4
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 5
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 6
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 7
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 8
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 9
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 10
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 11
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 12
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 13
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 14
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 15
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 16
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 17
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 18
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 19
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 20
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 21
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 22
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 23
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 24
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 25
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 26
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 27
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 28
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 29
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 30
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 31
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 32
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 33
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 34
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 35
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 36
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 37
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 38
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 39
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 40
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 41
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 42
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 43
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 44
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 45
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 46
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 47
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 48
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 49
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 50
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 51
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 52
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 53
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 54
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 55
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 56
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 57
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 58
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 59
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 60
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 61
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 62
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 63
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 64
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 65
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 66
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 67
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 68
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 69
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 70
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 71
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 72
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 73
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 74
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 75
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 76
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 77
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 78
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 79
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 80
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 81
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 82
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 83
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 84
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 85
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 86
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 87
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 88
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 89
+			},
+			{
+				"FileNo" : 0,
+				"Primary" : 90
+			}
+		],
+		"TraceHeaderSize" : 240
+	}
+}

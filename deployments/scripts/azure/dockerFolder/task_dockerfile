@@ -1,0 +1,141 @@
+ARG TARGET=segytozgy
+
+# OS image
+FROM mcr.microsoft.com/mirror/docker/library/ubuntu:20.04 AS os
+
+# Runtime dependencies for C++
+FROM os AS segysdk-c-dependencies
+
+RUN export DEBIAN_FRONTEND=noninteractive && apt-get update && apt-get upgrade --yes && apt-get install --yes \
+    ca-certificates \
+    libboost-program-options-dev \
+    libcpprest \
+    libcurl4 \
+    libgomp1 \
+    libjsoncpp-dev \
+    libpng-dev \
+    libstdc++6
+
+# C++ build
+FROM os AS segysdk-c-build
+ARG DEBIAN_FRONTEND=noninteractive
+ARG GCCVERSION=940
+ARG GCCPACKAGE=gcc
+ARG UBUNTU_NAME=focal
+ARG OPENZGY_OUTPUT=focal-gcc94
+
+LABEL description="Build container - segytozgy"
+
+RUN echo "deb mirror://mirrors.ubuntu.com/mirrors.txt ${UBUNTU_NAME} main restricted universe multiverse" > /etc/apt/sources.list && \
+    echo "deb mirror://mirrors.ubuntu.com/mirrors.txt ${UBUNTU_NAME}-updates main restricted universe multiverse" >> /etc/apt/sources.list && \
+    echo "deb mirror://mirrors.ubuntu.com/mirrors.txt ${UBUNTU_NAME}-security main restricted universe multiverse" >> /etc/apt/sources.list
+
+RUN apt-get update && apt-get upgrade --yes && apt-get install --yes --no-install-recommends \
+    ${GCCPACKAGE} \
+    autoconf \
+    binutils \
+    ca-certificates \
+    cmake \
+    curl \
+    dos2unix \
+    doxygen \
+    file \
+    g++ \
+    git \
+    libboost-program-options-dev \
+    libc6-dev \
+    libcpprest-dev \
+    libcurl4-openssl-dev \
+    libjsoncpp-dev \
+    libpng-dev \
+    libssl-dev \
+    libtool \
+    make \
+    ninja-build \
+    tar \
+    unzip \
+    uuid-dev \
+    wget
+
+# OpenZgy Bundle packages available on https://community.opengroup.org/osdu/platform/domain-data-mgmt-services/seismic/open-zgy/-/packages
+# Based on OpenZGY.focal.sdms-bundle-azure-curl.aws.ibm.anthos.0.2.970.tar.gz (Azure, Google Cloud, AWS and IBM backends)
+ARG OPENZGY_BUNDLE_URL="https://community.opengroup.org/osdu/platform/domain-data-mgmt-services/seismic/open-zgy/-/package_files/4075436/download"
+
+#Get openzgy bundle
+RUN mkdir -p /tmp/openzgy-bundle
+WORKDIR /tmp/openzgy-bundle
+RUN curl ${OPENZGY_BUNDLE_URL} -o /tmp/openzgy-bundle/openzgy.bundle.tar.gz
+RUN tar zxvf openzgy.bundle.tar.gz
+WORKDIR /tmp/openzgy-bundle/sdapi/Lin64_${GCCPACKAGE}${GCCVERSION}
+RUN tar zxvf sdapi_linux64.tar.gz
+
+#Set build area
+COPY ./segysdk/src /build
+RUN mkdir -p /build/out
+RUN mkdir -p /build/include/openzgy
+RUN cp -r /tmp/openzgy-bundle/native/include /build
+RUN mkdir -p /build/include/SDAPI
+RUN cp /tmp/openzgy-bundle/sdapi/Lin64_${GCCPACKAGE}${GCCVERSION}/include/*.* /build/include/SDAPI
+RUN mkdir -p /build/lib
+RUN cp -r /tmp/openzgy-bundle/native/${OPENZGY_OUTPUT}/*.* /build/lib
+WORKDIR /build/out
+
+#Build
+RUN cmake -DCMAKE_BUILD_TYPE=Release -GNinja ..
+RUN ninja
+WORKDIR /build/out/bin/Release
+RUN cp -r /build/lib/*.* ./
+
+# C++ test runner
+FROM segysdk-c-build AS segysdk-c-test
+
+COPY ./segysdk/testdata /build/testdata
+
+WORKDIR /build/out
+ENV CTEST_OUTPUT_ON_FAILURE=1
+ENV SEGY_LOCALTESTDATA_PATH=/build/testdata
+ENV SD_SVC_TOKEN='Dummy-token value'
+ENV SD_SVC_URL='https://www.dummy.com/seistore-svc/api/v3'
+
+RUN ninja test
+
+# Runtime dependencies for Python (superset of C++ runtime)
+FROM segysdk-c-dependencies AS segysdk-python-dependencies
+RUN apt-get install --yes --no-install-recommends python3 python3-pytest python3-numpy python3-distro
+
+# Python test runner
+FROM segysdk-python-dependencies AS segysdk-python-test
+
+LABEL description="Run container - python wrapper test"
+
+COPY ./segysdk/testdata /work/testdata
+COPY ./segysdk/python-wrapper /work/python-wrapper-test
+
+COPY --from=segysdk-c-build /build/out/bin/Release /work/python-wrapper-test/src/segysdk/dll/ubuntu/20.04
+
+WORKDIR /usr/local/bin/segy
+ENV SD_SVC_TOKEN='Dummy-token value'
+ENV SD_SVC_URL='https://www.dummy.com/seistore-svc/api/v3'
+RUN python3 /work/python-wrapper-test/tests/test-console.py /work/testdata/tiny.sgy > /dev/null
+
+WORKDIR /work/python-wrapper-test/tests/
+ENV SD_SVC_TOKEN='Dummy-token value'
+ENV SD_SVC_URL='https://www.dummy.com/seistore-svc/api/v3'
+RUN pytest-3
+
+# SEG-Y to ZGY converter image
+FROM segysdk-c-dependencies AS segytozgy
+
+LABEL description="Run container - segytozgy"
+
+RUN mkdir /usr/local/segytozgy
+
+COPY --from=segysdk-c-build /build/out/bin/Release/ /usr/local/bin/segy/
+
+ENV LD_LIBRARY_PATH /usr/local/bin/segy:$LD_LIBRARY_PATH
+ENV ENABLE_AZURE_CURL_BASED=true
+ENV DISABLE_SDAPI_401_RETRY=true
+ENTRYPOINT ["/usr/local/bin/segy/SegyToZgy"]
+
+# Switch to final image (the one to be tagged)
+FROM ${TARGET}

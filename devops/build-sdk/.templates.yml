@@ -1,0 +1,315 @@
+.apt-install-base-dev-libs: &apt-install-base-dev-libs
+  - export DEBIAN_FRONTEND=noninteractive
+  - apt-get update && apt-get upgrade --yes
+  - apt-get install --yes --no-install-recommends libboost-program-options-dev libc6-dev libcpprest-dev libcurl4-openssl-dev libjsoncpp-dev libpng-dev libssl-dev
+
+.apt-install-build-tools: &apt-install-build-tools
+  - apt-get install --yes --no-install-recommends autoconf binutils ca-certificates cmake curl dos2unix doxygen file g++ gcc git libtool make ninja-build tar unzip uuid-dev wget
+
+.build-segy:
+  image: ubuntu:focal
+  tags: ['osdu-large']
+  stage: build
+  timeout: 1h 30m
+  artifacts:
+    name: SegySDK-focal
+    expire_in: 1 hours
+    paths:
+    - UbuntuFocalBinaries
+    - UbuntuFocalWheel
+    exclude:
+    - build/**.timestamp
+  variables:
+    OPENZGY_BUNDLE_URL: "https://community.opengroup.org/osdu/platform/domain-data-mgmt-services/seismic/open-zgy/-/package_files/4075436/download"
+    GCCPACKAGE: "gcc"
+    SDAPI_GCCVERSION: "940"
+    OPENZGY_GCCVERSION: "94"
+    OPENZGY_OUTPUT: "focal-gcc94"
+    UBUNTU_NAME: "Focal"
+    SEGYSDK_REPO: $CI_BUILDS_DIR/osdu/platform/data-flow/ingestion/segy-to-zgy-conversion/segysdk
+    OPENTELEMETRY_CPP_RELEASE: "1.15.0"
+    OPENTELEMETRY_CPP_WORKDIR: /tmp/opentelemetry-cpp
+  script:
+    - *apt-install-base-dev-libs
+    - *apt-install-build-tools
+    - |
+      gcc -dumpfullversion
+      mkdir -p $OPENTELEMETRY_CPP_WORKDIR
+      cd $OPENTELEMETRY_CPP_WORKDIR
+      curl https://github.com/open-telemetry/opentelemetry-cpp/archive/refs/tags/v$OPENTELEMETRY_CPP_RELEASE.tar.gz --location --silent --remote-name
+      tar --extract --file v$OPENTELEMETRY_CPP_RELEASE.tar.gz
+      cmake -S opentelemetry-cpp-$OPENTELEMETRY_CPP_RELEASE/ -B build/ -DBUILD_TESTING=OFF -DWITH_EXAMPLES=OFF -DBUILD_SHARED_LIBS=OFF
+      cmake --build build/ --parallel 4 --target install
+      set -x
+      mkdir -p /tmp/openzgy-bundle
+      cd /tmp/openzgy-bundle
+      curl $OPENZGY_BUNDLE_URL -o /tmp/openzgy-bundle/openzgy.bundle.tar.gz
+      tar zxvf openzgy.bundle.tar.gz
+      cd /tmp/openzgy-bundle/sdapi/Lin64_$GCCPACKAGE$SDAPI_GCCVERSION
+      tar zxvf sdapi_linux64.tar.gz
+      # change current folder to segysdk source
+      cd $SEGYSDK_REPO
+      mkdir -p ./src/out            
+      mkdir -p ./src/include/openzgy && cp -r /tmp/openzgy-bundle/native/include  ./src 
+      mkdir -p ./src/include/SDAPI   && cp /tmp/openzgy-bundle/sdapi/Lin64_gcc$SDAPI_GCCVERSION/include/*.* ./src/include/SDAPI
+      mkdir -p ./src/lib             && cp -r /tmp/openzgy-bundle/native/$OPENZGY_OUTPUT/*.* ./src/lib
+      # build
+      cd ./src/out
+
+      cmake -GNinja .. -DCMAKE_BUILD_TYPE:STRING=Release -DTREAT_WARNINGS_AS_ERRORS=ON && ninja
+      
+      SEGY_LOCALTESTDATA_PATH=$SEGYSDK_REPO/testdata/ ctest --output-on-failure
+      cp -anv /tmp/openzgy-bundle/native/$OPENZGY_OUTPUT/*.so* ./bin/Release
+      # Publish artifacts
+      cd $SEGYSDK_REPO
+      mkdir -p ../Ubuntu${UBUNTU_NAME}Binaries/bin
+      mkdir -p ../Ubuntu${UBUNTU_NAME}Binaries/lib
+      cp -anv $SEGYSDK_REPO/src/out/bin/Release/SegyToZgy ../Ubuntu${UBUNTU_NAME}Binaries/bin
+      cp -anv $SEGYSDK_REPO/src/out/bin/Release/*.so*     ../Ubuntu${UBUNTU_NAME}Binaries/lib
+      #Copy src to the artifacts
+      cp -an $SEGYSDK_REPO/src   ../Ubuntu${UBUNTU_NAME}Binaries
+      rm -r ../Ubuntu${UBUNTU_NAME}Binaries/src/out  ../Ubuntu${UBUNTU_NAME}Binaries/src/lib
+
+.build-segy-jammy:
+  extends: .build-segy
+  image: ubuntu:jammy
+  tags: ['osdu-large']
+  artifacts:
+    name: SegySDK-jammy
+    expire_in: 1 hours
+    paths:
+    - UbuntuJammyBinaries
+    - UbuntuJammyWheel
+  variables:
+    OPENZGY_BUNDLE_URL: "https://community.opengroup.org/osdu/platform/domain-data-mgmt-services/seismic/open-zgy/-/package_files/4897235/download"
+    GCCPACKAGE: "gcc"
+    SDAPI_GCCVERSION: "1140"
+    OPENZGY_GCCVERSION: "114"
+    UBUNTU_NAME: "Jammy"
+    OPENZGY_OUTPUT: "jammy-gcc114"
+    SEGYSDK_REPO: $CI_BUILDS_DIR/osdu/platform/data-flow/ingestion/segy-to-zgy-conversion/segysdk
+
+.build-segy-noble:
+  extends: .build-segy
+  image: ubuntu:noble
+  tags: ['osdu-large']
+  artifacts:
+    name: SegySDK-noble
+    expire_in: 1 hours
+    paths:
+    - UbuntuNobleBinaries
+    - UbuntuNobleWheel
+  variables:
+    OPENZGY_BUNDLE_URL: "https://community.opengroup.org/osdu/platform/domain-data-mgmt-services/seismic/open-zgy/-/package_files/4897233/download"
+    GCCPACKAGE: "gcc"
+    SDAPI_GCCVERSION: "1330"
+    OPENZGY_GCCVERSION: "133"
+    UBUNTU_NAME: "Noble"
+    OPENZGY_OUTPUT: "noble-gcc133"
+    SEGYSDK_REPO: $CI_BUILDS_DIR/osdu/platform/data-flow/ingestion/segy-to-zgy-conversion/segysdk
+
+.build-python:
+  extends: .build-segy
+  variables:
+    UBUNTU_VERSION: "20.04"
+    UBUNTU_NAME: "Focal"
+    PYTHONVERSION: '3.9'
+  script:
+    - *apt-install-base-dev-libs
+    - *apt-install-build-tools
+    - |
+      if [[ "$UBUNTU_NAME" == "Noble" ]]; then
+          apt-get install --yes software-properties-common
+          add-apt-repository --yes ppa:deadsnakes/ppa
+      fi
+    - |
+      # prerequisites for python wrapper build
+      apt-get install --yes python${PYTHONVERSION} python3-pip
+      ln -s /usr/bin/python${PYTHONVERSION} /usr/bin/python
+    - |
+      gcc -dumpfullversion
+      cd $SEGYSDK_REPO
+      # build python wheel
+    - |
+      #Install setuptools
+      if [[ "$UBUNTU_NAME" == "Noble" ]]; then
+          echo "Create virtual env"
+          python -m pip install virtualenv
+          apt-get install --yes python3.10-venv
+          python -m venv ./virtualenv
+          source ./virtualenv/bin/activate
+      fi
+      echo "Install basic pip requirements"
+      python -m pip install --upgrade pip
+      #Install segylibrary requirements
+      echo "Install segylibrary requirements"
+      python -m pip install -r ./python-wrapper/requirements.txt
+    - |
+      mkdir -p ./python-wrapper/src/segysdk/dll/ubuntu/$UBUNTU_VERSION
+      cp -anv ../Ubuntu${UBUNTU_NAME}Binaries/bin/** ./python-wrapper/src/segysdk/dll/ubuntu/$UBUNTU_VERSION
+      cp -anv ../Ubuntu${UBUNTU_NAME}Binaries/lib/** ./python-wrapper/src/segysdk/dll/ubuntu/$UBUNTU_VERSION
+      # Create Python wheel
+      cd ./python-wrapper/src
+      #TODO
+      # build number?
+      export BUILD_BUILDID=$CI_PIPELINE_ID
+      python setup.py bdist_wheel --plat-name linux-x86_64 --build-number $CI_JOB_ID
+      # copy wheel artifact
+      cd $SEGYSDK_REPO
+      mkdir -p ../Ubuntu${UBUNTU_NAME}Wheel
+      cp ./python-wrapper/src/dist/*  ../Ubuntu${UBUNTU_NAME}Wheel
+
+.build-python-jammy:
+  extends: .build-python
+  image: ubuntu:jammy
+  tags: ['osdu-large']
+  artifacts:
+    name: SegySDK-jammy
+    expire_in: 1 hours
+    paths:
+    - UbuntuJammyBinaries
+    - UbuntuJammyWheel
+  variables:
+    OPENZGY_BUNDLE_URL: https://community.opengroup.org/osdu/platform/domain-data-mgmt-services/seismic/open-zgy/-/package_files/4897235/download
+    GCCPACKAGE: gcc
+    SDAPI_GCCVERSION: "1140"
+    OPENZGY_GCCVERSION: "114"
+    OPENZGY_OUTPUT: jammy-gcc114
+    SEGYSDK_REPO: $CI_BUILDS_DIR/osdu/platform/data-flow/ingestion/segy-to-zgy-conversion/segysdk
+    UBUNTU_VERSION: "22.04"
+    UBUNTU_NAME: "Jammy"
+    PYTHONVERSION: '3.10'
+
+.build-python-noble:
+  extends: .build-python
+  image: ubuntu:noble
+  tags: ['osdu-large']
+  artifacts:
+    name: SegySDK-noble
+    expire_in: 1 hours
+    paths:
+    - UbuntuNobleBinaries
+    - UbuntuNobleWheel
+  variables:
+    OPENZGY_BUNDLE_URL: https://community.opengroup.org/osdu/platform/domain-data-mgmt-services/seismic/open-zgy/-/package_files/4897233/download
+    GCCPACKAGE: gcc
+    SDAPI_GCCVERSION: "1330"
+    OPENZGY_GCCVERSION: "133"
+    OPENZGY_OUTPUT: noble-gcc133
+    SEGYSDK_REPO: $CI_BUILDS_DIR/osdu/platform/data-flow/ingestion/segy-to-zgy-conversion/segysdk
+    UBUNTU_VERSION: "24.04"
+    UBUNTU_NAME: "Noble"
+    PYTHONVERSION: '3.10'
+
+.test-python:
+  image: ubuntu:focal
+  tags: ['osdu-medium']
+  stage: test
+  artifacts:
+    name: SegySDK-focal
+    expire_in: 1 hours
+    paths:
+    - UbuntuFocalWheel
+  variables:
+    WORKDIR: python-verfiy-tmp
+    VENV: "$WORKDIR/venv"
+    PYTHONVERSION: ''
+    UBUNTU_NAME: "Focal"
+  before_script:
+    - *apt-install-base-dev-libs
+    - |
+      if [[ "$UBUNTU_NAME" == "Noble" ]]; then
+          apt-get install --yes software-properties-common
+          add-apt-repository --yes ppa:deadsnakes/ppa
+      fi
+    - |
+      set -x
+      apt-get install --yes python$PYTHONVERSION python3-pip
+      ln -s /usr/bin/python$PYTHONVERSION /usr/bin/python
+    - |
+      #Install setuptools
+      if [[ "$UBUNTU_NAME" == "Noble" ]]; then
+          echo "Create virtual env"
+          python -m pip install virtualenv
+          apt-get install --yes python3.10-venv
+          python -m venv $VENV
+          source $VENV/bin/activate
+          python -m pip install --upgrade virtualenv --upgrade pip
+      else
+          python -m pip install --upgrade virtualenv --upgrade pip
+          python -m virtualenv $VENV
+      fi
+    - |
+      
+      export SD_SVC_URL='https://www.dummy.com/seistore-svc/api/v3'
+      export SD_SVC_TOKEN='Dummy-token value'
+      ls -laR Ubuntu${UBUNTU_NAME}Binaries
+  script:
+    - |
+      set -e
+      mkdir -p python-verfiy-tmp
+      cp Ubuntu${UBUNTU_NAME}Wheel/*.whl  $WORKDIR
+      if [[ "$UBUNTU_NAME" != "Noble" ]]; then
+          source $VENV/bin/activate
+      fi
+      ( for q in $WORKDIR/*.whl ; do pip install $q ; done )
+      pip install pytest
+      pytest segysdk/python-wrapper/tests
+
+# Since Python 3.6 and Python 3.7 cannot be installed on Ubuntu focal by default (python 3.8 will always be installed).
+# Have to do tricks. Separate template to install python 3.6, 3.7, where are these installed via pyenv.
+.test-python367:
+  extends: .test-python
+  before_script:
+    - *apt-install-base-dev-libs
+    - *apt-install-build-tools
+    - |
+      set -x
+      apt-get install --yes --no-install-recommends build-essential libbz2-dev libffi-dev liblzma-dev libncursesw5-dev libreadline-dev libsqlite3-dev libxml2-dev libxmlsec1-dev llvm tk-dev xz-utils zlib1g-dev
+      # install pyenv
+      curl -L https://github.com/pyenv/pyenv-installer/raw/master/bin/pyenv-installer | bash
+      export PATH="$HOME/.pyenv/bin:$PATH"
+      pyenv install $PYTHONVERSION
+      pyenv virtualenv $PYTHONVERSION general
+      pyenv global general
+      # short version of python to create a symlink
+      PYTHONVER=$(echo $file | cut -f1-2 -d ".")
+      ln -s /root/.pyenv/versions/$PYTHONVERSION/bin/python$PYTHONVER /usr/bin/python
+      python --version
+      python -m pip install --upgrade virtualenv --upgrade pip
+      python -m virtualenv $VENV
+      export SD_SVC_URL='https://www.dummy.com/seistore-svc/api/v3'
+      export SD_SVC_TOKEN='Dummy-token value'
+
+.publish-python:
+  image: ubuntu:focal
+  tags: ['osdu-small']
+  stage: publish
+  variables:
+    UBUNTU_NAME: "Focal"
+  script:
+    - *apt-install-base-dev-libs
+    - |
+      if [[ "$UBUNTU_NAME" == "Noble" ]]; then
+          apt-get install --yes software-properties-common
+          add-apt-repository --yes ppa:deadsnakes/ppa
+      fi
+    - |
+      apt-get install --yes tar curl python3.9 python3-pip
+      ln -s /usr/bin/python3.9 /usr/bin/python
+      #uploud to generic binaries
+      tar czvf segysdk-ubuntu-${UBUNTU_NAME}-$CI_PIPELINE_ID.tar.gz Ubuntu${UBUNTU_NAME}Binaries Ubuntu${UBUNTU_NAME}Wheel
+      curl -v --header "JOB-TOKEN: $CI_JOB_TOKEN" --upload-file segysdk-ubuntu-${UBUNTU_NAME}-$CI_PIPELINE_ID.tar.gz "${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/generic/segysdk/$CI_PIPELINE_ID/segysdk-ubuntu-${UBUNTU_NAME}-$CI_PIPELINE_ID.tar.gz"
+      #Upload to pypi
+    - |
+      #Install setuptools
+      if [[ "$UBUNTU_NAME" == "Noble" ]]; then
+          echo "Create virtual env"
+          python -m pip install virtualenv
+          apt-get install --yes python3.9-venv
+          python -m venv ./virtualenv
+          source ./virtualenv/bin/activate
+      fi
+      python -m pip install --upgrade virtualenv --upgrade pip
+      pip install twine
+      TWINE_PASSWORD=${CI_JOB_TOKEN} TWINE_USERNAME=gitlab-ci-token python -m twine upload --repository-url ${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/pypi Ubuntu${UBUNTU_NAME}Wheel/*

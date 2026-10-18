@@ -1,0 +1,2 @@
+add_subdirectory(SegyIndexing)
+add_subdirectory(SegyIndexUtilities)
