@@ -23,3 +23,11 @@ def test_companion_is_a_dag_only_layer() -> None:
     assert "FROM scratch" in dockerfile
     assert "COPY --from=render /out/ /dags/" in dockerfile
     assert "apache/airflow" not in dockerfile
+
+
+def test_acceptance_sources_reach_the_script_image() -> None:
+    ignored = (REPO_ROOT / ".dockerignore").read_text(encoding="utf-8").splitlines()
+
+    assert ".spi/acceptance" not in ignored
+    assert (REPO_ROOT / "build" / "script-acceptance.Dockerfile").is_file()
+    assert (REPO_ROOT / "build" / "script-acceptance-entrypoint.js").is_file()

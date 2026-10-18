@@ -1,6 +1,5 @@
 .git
 .github
-.spi/acceptance
 .spi/results
 .spi/tests
 .coverage
