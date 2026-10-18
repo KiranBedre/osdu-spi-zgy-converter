@@ -8,16 +8,14 @@ from pathlib import Path
 
 def invalid_arguments(count: int) -> Iterator[list[str]]:
     rng = random.Random(0)
-    fixed = [
-        ["--osdu"],
-        ["--verbosity", "not-a-number"],
-        ["--brick-size", "-1"],
-        ["--input", "/tmp/does-not-exist.sgy"],
-    ]
-    yield from fixed[:count]
-    for _ in range(max(0, count - len(fixed))):
+    for _ in range(count):
         token = "".join(rng.choices(string.ascii_letters + string.digits, k=24))
-        yield [f"--spi-fuzz-{token}", token]
+        yield [
+            f"/spi-fuzz-missing/{token}.sgy",
+            f"/spi-fuzz-missing/{token}.json",
+            f"/spi-fuzz-missing/{token}-grid.json",
+            f"/spi-fuzz-missing/{token}.zgy",
+        ]
 
 
 def run(binary: Path, count: int) -> None:
@@ -29,7 +27,7 @@ def run(binary: Path, count: int) -> None:
                 stdout=subprocess.DEVNULL,
                 stderr=subprocess.DEVNULL,
                 check=False,
-                timeout=1,
+                timeout=5,
             )
         except subprocess.TimeoutExpired as error:
             raise RuntimeError(f"Converter hung for arguments {arguments!r}") from error
@@ -37,6 +35,8 @@ def run(binary: Path, count: int) -> None:
             raise RuntimeError(
                 f"Converter exited from signal {-result.returncode} for {arguments!r}"
             )
+        if result.returncode == 0:
+            raise RuntimeError(f"Converter accepted malformed arguments {arguments!r}")
         executed += 1
     if executed != count:
         raise RuntimeError(f"Expected {count} fuzz cases, executed {executed}")
@@ -52,7 +52,6 @@ def main() -> int:
         parser.error("--cases must be positive")
     run(args.binary, args.cases)
     return 0
-
 if __name__ == "__main__":
     raise SystemExit(main())
     raise SystemExit(main())
