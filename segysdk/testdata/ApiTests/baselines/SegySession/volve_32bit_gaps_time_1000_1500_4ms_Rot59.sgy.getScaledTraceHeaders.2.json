@@ -1,0 +1,504 @@
+{
+   "scaledTraceHeaders" : [
+      [
+         {
+            "end" : 72,
+            "id" : "ScalarForCoordinates",
+            "offset" : 71,
+            "value" : -100.0
+         },
+         {
+            "end" : 76,
+            "id" : "SourceCoordinateX",
+            "offset" : 73,
+            "value" : 434635.85000000003
+         },
+         {
+            "end" : 80,
+            "id" : "SourceCoordinateY",
+            "offset" : 77,
+            "value" : 6478677.4199999999
+         },
+         {
+            "end" : 110,
+            "id" : "ShotToRecordingLagTime",
+            "offset" : 109,
+            "value" : 1000.0
+         },
+         {
+            "end" : 116,
+            "id" : "SamplesPerTrace",
+            "offset" : 115,
+            "value" : 126.0
+         },
+         {
+            "end" : 118,
+            "id" : "SampleInterval",
+            "offset" : 117,
+            "value" : 4000.0
+         },
+         {
+            "end" : 192,
+            "id" : "InlineNumber",
+            "offset" : 189,
+            "value" : 10159.0
+         },
+         {
+            "end" : 196,
+            "id" : "CrosslineNumber",
+            "offset" : 193,
+            "value" : 2336.0
+         }
+      ],
+      [
+         {
+            "end" : 72,
+            "id" : "ScalarForCoordinates",
+            "offset" : 71,
+            "value" : -100.0
+         },
+         {
+            "end" : 76,
+            "id" : "SourceCoordinateX",
+            "offset" : 73,
+            "value" : 434646.56
+         },
+         {
+            "end" : 80,
+            "id" : "SourceCoordinateY",
+            "offset" : 77,
+            "value" : 6478683.8600000003
+         },
+         {
+            "end" : 110,
+            "id" : "ShotToRecordingLagTime",
+            "offset" : 109,
+            "value" : 1000.0
+         },
+         {
+            "end" : 116,
+            "id" : "SamplesPerTrace",
+            "offset" : 115,
+            "value" : 126.0
+         },
+         {
+            "end" : 118,
+            "id" : "SampleInterval",
+            "offset" : 117,
+            "value" : 4000.0
+         },
+         {
+            "end" : 192,
+            "id" : "InlineNumber",
+            "offset" : 189,
+            "value" : 10159.0
+         },
+         {
+            "end" : 196,
+            "id" : "CrosslineNumber",
+            "offset" : 193,
+            "value" : 2337.0
+         }
+      ],
+      [
+         {
+            "end" : 72,
+            "id" : "ScalarForCoordinates",
+            "offset" : 71,
+            "value" : -100.0
+         },
+         {
+            "end" : 76,
+            "id" : "SourceCoordinateX",
+            "offset" : 73,
+            "value" : 434657.27000000002
+         },
+         {
+            "end" : 80,
+            "id" : "SourceCoordinateY",
+            "offset" : 77,
+            "value" : 6478690.29
+         },
+         {
+            "end" : 110,
+            "id" : "ShotToRecordingLagTime",
+            "offset" : 109,
+            "value" : 1000.0
+         },
+         {
+            "end" : 116,
+            "id" : "SamplesPerTrace",
+            "offset" : 115,
+            "value" : 126.0
+         },
+         {
+            "end" : 118,
+            "id" : "SampleInterval",
+            "offset" : 117,
+            "value" : 4000.0
+         },
+         {
+            "end" : 192,
+            "id" : "InlineNumber",
+            "offset" : 189,
+            "value" : 10159.0
+         },
+         {
+            "end" : 196,
+            "id" : "CrosslineNumber",
+            "offset" : 193,
+            "value" : 2338.0
+         }
+      ],
+      [
+         {
+            "end" : 72,
+            "id" : "ScalarForCoordinates",
+            "offset" : 71,
+            "value" : -100.0
+         },
+         {
+            "end" : 76,
+            "id" : "SourceCoordinateX",
+            "offset" : 73,
+            "value" : 434667.98999999999
+         },
+         {
+            "end" : 80,
+            "id" : "SourceCoordinateY",
+            "offset" : 77,
+            "value" : 6478696.7300000004
+         },
+         {
+            "end" : 110,
+            "id" : "ShotToRecordingLagTime",
+            "offset" : 109,
+            "value" : 1000.0
+         },
+         {
+            "end" : 116,
+            "id" : "SamplesPerTrace",
+            "offset" : 115,
+            "value" : 126.0
+         },
+         {
+            "end" : 118,
+            "id" : "SampleInterval",
+            "offset" : 117,
+            "value" : 4000.0
+         },
+         {
+            "end" : 192,
+            "id" : "InlineNumber",
+            "offset" : 189,
+            "value" : 10159.0
+         },
+         {
+            "end" : 196,
+            "id" : "CrosslineNumber",
+            "offset" : 193,
+            "value" : 2339.0
+         }
+      ],
+      [
+         {
+            "end" : 72,
+            "id" : "ScalarForCoordinates",
+            "offset" : 71,
+            "value" : -100.0
+         },
+         {
+            "end" : 76,
+            "id" : "SourceCoordinateX",
+            "offset" : 73,
+            "value" : 434678.70000000001
+         },
+         {
+            "end" : 80,
+            "id" : "SourceCoordinateY",
+            "offset" : 77,
+            "value" : 6478703.1699999999
+         },
+         {
+            "end" : 110,
+            "id" : "ShotToRecordingLagTime",
+            "offset" : 109,
+            "value" : 1000.0
+         },
+         {
+            "end" : 116,
+            "id" : "SamplesPerTrace",
+            "offset" : 115,
+            "value" : 126.0
+         },
+         {
+            "end" : 118,
+            "id" : "SampleInterval",
+            "offset" : 117,
+            "value" : 4000.0
+         },
+         {
+            "end" : 192,
+            "id" : "InlineNumber",
+            "offset" : 189,
+            "value" : 10159.0
+         },
+         {
+            "end" : 196,
+            "id" : "CrosslineNumber",
+            "offset" : 193,
+            "value" : 2340.0
+         }
+      ],
+      [
+         {
+            "end" : 72,
+            "id" : "ScalarForCoordinates",
+            "offset" : 71,
+            "value" : -100.0
+         },
+         {
+            "end" : 76,
+            "id" : "SourceCoordinateX",
+            "offset" : 73,
+            "value" : 434689.41999999998
+         },
+         {
+            "end" : 80,
+            "id" : "SourceCoordinateY",
+            "offset" : 77,
+            "value" : 6478709.6100000003
+         },
+         {
+            "end" : 110,
+            "id" : "ShotToRecordingLagTime",
+            "offset" : 109,
+            "value" : 1000.0
+         },
+         {
+            "end" : 116,
+            "id" : "SamplesPerTrace",
+            "offset" : 115,
+            "value" : 126.0
+         },
+         {
+            "end" : 118,
+            "id" : "SampleInterval",
+            "offset" : 117,
+            "value" : 4000.0
+         },
+         {
+            "end" : 192,
+            "id" : "InlineNumber",
+            "offset" : 189,
+            "value" : 10159.0
+         },
+         {
+            "end" : 196,
+            "id" : "CrosslineNumber",
+            "offset" : 193,
+            "value" : 2341.0
+         }
+      ],
+      [
+         {
+            "end" : 72,
+            "id" : "ScalarForCoordinates",
+            "offset" : 71,
+            "value" : -100.0
+         },
+         {
+            "end" : 76,
+            "id" : "SourceCoordinateX",
+            "offset" : 73,
+            "value" : 434700.13
+         },
+         {
+            "end" : 80,
+            "id" : "SourceCoordinateY",
+            "offset" : 77,
+            "value" : 6478716.0499999998
+         },
+         {
+            "end" : 110,
+            "id" : "ShotToRecordingLagTime",
+            "offset" : 109,
+            "value" : 1000.0
+         },
+         {
+            "end" : 116,
+            "id" : "SamplesPerTrace",
+            "offset" : 115,
+            "value" : 126.0
+         },
+         {
+            "end" : 118,
+            "id" : "SampleInterval",
+            "offset" : 117,
+            "value" : 4000.0
+         },
+         {
+            "end" : 192,
+            "id" : "InlineNumber",
+            "offset" : 189,
+            "value" : 10159.0
+         },
+         {
+            "end" : 196,
+            "id" : "CrosslineNumber",
+            "offset" : 193,
+            "value" : 2342.0
+         }
+      ],
+      [
+         {
+            "end" : 72,
+            "id" : "ScalarForCoordinates",
+            "offset" : 71,
+            "value" : -100.0
+         },
+         {
+            "end" : 76,
+            "id" : "SourceCoordinateX",
+            "offset" : 73,
+            "value" : 434710.85000000003
+         },
+         {
+            "end" : 80,
+            "id" : "SourceCoordinateY",
+            "offset" : 77,
+            "value" : 6478722.4800000004
+         },
+         {
+            "end" : 110,
+            "id" : "ShotToRecordingLagTime",
+            "offset" : 109,
+            "value" : 1000.0
+         },
+         {
+            "end" : 116,
+            "id" : "SamplesPerTrace",
+            "offset" : 115,
+            "value" : 126.0
+         },
+         {
+            "end" : 118,
+            "id" : "SampleInterval",
+            "offset" : 117,
+            "value" : 4000.0
+         },
+         {
+            "end" : 192,
+            "id" : "InlineNumber",
+            "offset" : 189,
+            "value" : 10159.0
+         },
+         {
+            "end" : 196,
+            "id" : "CrosslineNumber",
+            "offset" : 193,
+            "value" : 2343.0
+         }
+      ],
+      [
+         {
+            "end" : 72,
+            "id" : "ScalarForCoordinates",
+            "offset" : 71,
+            "value" : -100.0
+         },
+         {
+            "end" : 76,
+            "id" : "SourceCoordinateX",
+            "offset" : 73,
+            "value" : 434721.56
+         },
+         {
+            "end" : 80,
+            "id" : "SourceCoordinateY",
+            "offset" : 77,
+            "value" : 6478728.9199999999
+         },
+         {
+            "end" : 110,
+            "id" : "ShotToRecordingLagTime",
+            "offset" : 109,
+            "value" : 1000.0
+         },
+         {
+            "end" : 116,
+            "id" : "SamplesPerTrace",
+            "offset" : 115,
+            "value" : 126.0
+         },
+         {
+            "end" : 118,
+            "id" : "SampleInterval",
+            "offset" : 117,
+            "value" : 4000.0
+         },
+         {
+            "end" : 192,
+            "id" : "InlineNumber",
+            "offset" : 189,
+            "value" : 10159.0
+         },
+         {
+            "end" : 196,
+            "id" : "CrosslineNumber",
+            "offset" : 193,
+            "value" : 2344.0
+         }
+      ],
+      [
+         {
+            "end" : 72,
+            "id" : "ScalarForCoordinates",
+            "offset" : 71,
+            "value" : -100.0
+         },
+         {
+            "end" : 76,
+            "id" : "SourceCoordinateX",
+            "offset" : 73,
+            "value" : 434732.28000000003
+         },
+         {
+            "end" : 80,
+            "id" : "SourceCoordinateY",
+            "offset" : 77,
+            "value" : 6478735.3600000003
+         },
+         {
+            "end" : 110,
+            "id" : "ShotToRecordingLagTime",
+            "offset" : 109,
+            "value" : 1000.0
+         },
+         {
+            "end" : 116,
+            "id" : "SamplesPerTrace",
+            "offset" : 115,
+            "value" : 126.0
+         },
+         {
+            "end" : 118,
+            "id" : "SampleInterval",
+            "offset" : 117,
+            "value" : 4000.0
+         },
+         {
+            "end" : 192,
+            "id" : "InlineNumber",
+            "offset" : 189,
+            "value" : 10159.0
+         },
+         {
+            "end" : 196,
+            "id" : "CrosslineNumber",
+            "offset" : 193,
+            "value" : 2345.0
+         }
+      ]
+   ]
+}

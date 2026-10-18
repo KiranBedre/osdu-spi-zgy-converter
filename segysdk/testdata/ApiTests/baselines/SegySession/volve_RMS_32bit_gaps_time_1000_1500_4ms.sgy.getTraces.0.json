@@ -1,0 +1,574 @@
+{
+   "traces" : [
+      {
+         "headerData" : [
+            {
+               "end" : 4,
+               "id" : "TraceSequenceLine",
+               "offset" : 1,
+               "value" : 1.0
+            },
+            {
+               "end" : 8,
+               "id" : "TraceSequenceFile",
+               "offset" : 5,
+               "value" : 10150.0
+            },
+            {
+               "end" : 12,
+               "id" : "FieldRecordNumber",
+               "offset" : 9,
+               "value" : 10150.0
+            },
+            {
+               "end" : 16,
+               "id" : "TraceNumberField",
+               "offset" : 13,
+               "value" : 1.0
+            },
+            {
+               "end" : 20,
+               "id" : "EnergySourcePointNumber",
+               "offset" : 17,
+               "value" : 0.0
+            },
+            {
+               "end" : 24,
+               "id" : "EnsembleNumber",
+               "offset" : 21,
+               "value" : 2325.0
+            },
+            {
+               "end" : 28,
+               "id" : "TraceNumberEnsemble",
+               "offset" : 25,
+               "value" : 1.0
+            },
+            {
+               "end" : 30,
+               "id" : "TraceIdentificationCode",
+               "offset" : 29,
+               "value" : 1.0
+            },
+            {
+               "end" : 32,
+               "id" : "NumberVerticallySummedTraces",
+               "offset" : 31,
+               "value" : 0.0
+            },
+            {
+               "end" : 34,
+               "id" : "NumberHorizontallyStackedTraces",
+               "offset" : 33,
+               "value" : 0.0
+            },
+            {
+               "end" : 36,
+               "id" : "DataUse",
+               "offset" : 35,
+               "value" : 1.0
+            },
+            {
+               "end" : 40,
+               "id" : "Offset",
+               "offset" : 37,
+               "value" : 0.0
+            },
+            {
+               "end" : 44,
+               "id" : "ReceiverGroupElevation",
+               "offset" : 41,
+               "value" : 0.0
+            },
+            {
+               "end" : 48,
+               "id" : "SurfaceElevationAtSource",
+               "offset" : 45,
+               "value" : 0.0
+            },
+            {
+               "end" : 52,
+               "id" : "SourceDepthBelowSurface",
+               "offset" : 49,
+               "value" : 0.0
+            },
+            {
+               "end" : 56,
+               "id" : "DatumElevationAtReceiverGroup",
+               "offset" : 53,
+               "value" : 0.0
+            },
+            {
+               "end" : 60,
+               "id" : "DatumElevationAtSource",
+               "offset" : 57,
+               "value" : 0.0
+            },
+            {
+               "end" : 64,
+               "id" : "WaterDepthAtSource",
+               "offset" : 61,
+               "value" : 0.0
+            },
+            {
+               "end" : 68,
+               "id" : "WaterDepthArtReceiverGroup",
+               "offset" : 65,
+               "value" : 0.0
+            },
+            {
+               "end" : 70,
+               "id" : "ScalarForElevations",
+               "offset" : 69,
+               "value" : 1.0
+            },
+            {
+               "end" : 72,
+               "id" : "ScalarForCoordinates",
+               "offset" : 71,
+               "value" : -100.0
+            },
+            {
+               "end" : 76,
+               "id" : "SourceCoordinateX",
+               "offset" : 73,
+               "value" : 43446004.0
+            },
+            {
+               "end" : 80,
+               "id" : "SourceCoordinateY",
+               "offset" : 77,
+               "value" : 647870303.0
+            },
+            {
+               "end" : 84,
+               "id" : "ReceiverCoordinateX",
+               "offset" : 81,
+               "value" : 0.0
+            },
+            {
+               "end" : 88,
+               "id" : "ReceiverCoordinateY",
+               "offset" : 85,
+               "value" : 0.0
+            },
+            {
+               "end" : 90,
+               "id" : "CoordinateUnits",
+               "offset" : 89,
+               "value" : 1.0
+            },
+            {
+               "end" : 92,
+               "id" : "WeatheringVelocity",
+               "offset" : 91,
+               "value" : 0.0
+            },
+            {
+               "end" : 94,
+               "id" : "SubweatheringVelocity",
+               "offset" : 93,
+               "value" : 0.0
+            },
+            {
+               "end" : 96,
+               "id" : "UpholeTimeSource",
+               "offset" : 95,
+               "value" : 0.0
+            },
+            {
+               "end" : 98,
+               "id" : "UpholeTimeReceiverGroup",
+               "offset" : 97,
+               "value" : 0.0
+            },
+            {
+               "end" : 100,
+               "id" : "StaticCorrectionSource",
+               "offset" : 99,
+               "value" : 0.0
+            },
+            {
+               "end" : 102,
+               "id" : "StaticCorrectionReceiverGroup",
+               "offset" : 101,
+               "value" : 0.0
+            },
+            {
+               "end" : 104,
+               "id" : "TotalStaticApplied",
+               "offset" : 103,
+               "value" : 0.0
+            },
+            {
+               "end" : 106,
+               "id" : "HeaderToTimeBreakLagTime",
+               "offset" : 105,
+               "value" : 1000.0
+            },
+            {
+               "end" : 108,
+               "id" : "TimeBreakToShotLagTime",
+               "offset" : 107,
+               "value" : 0.0
+            },
+            {
+               "end" : 110,
+               "id" : "ShotToRecordingLagTime",
+               "offset" : 109,
+               "value" : 1000.0
+            },
+            {
+               "end" : 112,
+               "id" : "MuteTimeStart",
+               "offset" : 111,
+               "value" : 0.0
+            },
+            {
+               "end" : 114,
+               "id" : "MuteTimeEnd",
+               "offset" : 113,
+               "value" : 0.0
+            },
+            {
+               "end" : 116,
+               "id" : "SamplesPerTrace",
+               "offset" : 115,
+               "value" : 126.0
+            },
+            {
+               "end" : 118,
+               "id" : "SampleInterval",
+               "offset" : 117,
+               "value" : 4000.0
+            },
+            {
+               "end" : 120,
+               "id" : "GainTypeInstrument",
+               "offset" : 119,
+               "value" : 0.0
+            },
+            {
+               "end" : 122,
+               "id" : "GainConstantInstrument",
+               "offset" : 121,
+               "value" : 0.0
+            },
+            {
+               "end" : 124,
+               "id" : "GainInstrumentInitial",
+               "offset" : 123,
+               "value" : 0.0
+            },
+            {
+               "end" : 126,
+               "id" : "Correlated",
+               "offset" : 125,
+               "value" : 1.0
+            },
+            {
+               "end" : 128,
+               "id" : "SweepFrequencyStart",
+               "offset" : 127,
+               "value" : 0.0
+            },
+            {
+               "end" : 130,
+               "id" : "SweepFrequencyEnd",
+               "offset" : 129,
+               "value" : 0.0
+            },
+            {
+               "end" : 132,
+               "id" : "SweepLength",
+               "offset" : 131,
+               "value" : 0.0
+            },
+            {
+               "end" : 134,
+               "id" : "SweepType",
+               "offset" : 133,
+               "value" : 1.0
+            },
+            {
+               "end" : 136,
+               "id" : "SweepTraceTaperLengthStart",
+               "offset" : 135,
+               "value" : 0.0
+            },
+            {
+               "end" : 138,
+               "id" : "SweepTraceTaperLengthEnd",
+               "offset" : 137,
+               "value" : 0.0
+            },
+            {
+               "end" : 140,
+               "id" : "TaperType",
+               "offset" : 139,
+               "value" : 1.0
+            },
+            {
+               "end" : 142,
+               "id" : "AliasFilterFrequency",
+               "offset" : 141,
+               "value" : 0.0
+            },
+            {
+               "end" : 144,
+               "id" : "AliasFilterSlope",
+               "offset" : 143,
+               "value" : 0.0
+            },
+            {
+               "end" : 146,
+               "id" : "NotchFilterFrequency",
+               "offset" : 145,
+               "value" : 0.0
+            },
+            {
+               "end" : 148,
+               "id" : "NotchFilterSlope",
+               "offset" : 147,
+               "value" : 0.0
+            },
+            {
+               "end" : 150,
+               "id" : "LowCutFrequency",
+               "offset" : 149,
+               "value" : 0.0
+            },
+            {
+               "end" : 152,
+               "id" : "HighCutFrequency",
+               "offset" : 151,
+               "value" : 0.0
+            },
+            {
+               "end" : 154,
+               "id" : "LowCutSlope",
+               "offset" : 153,
+               "value" : 0.0
+            },
+            {
+               "end" : 156,
+               "id" : "HighCutSlope",
+               "offset" : 155,
+               "value" : 0.0
+            },
+            {
+               "end" : 158,
+               "id" : "Year",
+               "offset" : 157,
+               "value" : 0.0
+            },
+            {
+               "end" : 160,
+               "id" : "DayOfYear",
+               "offset" : 159,
+               "value" : 0.0
+            },
+            {
+               "end" : 162,
+               "id" : "Hour",
+               "offset" : 161,
+               "value" : 0.0
+            },
+            {
+               "end" : 164,
+               "id" : "Minute",
+               "offset" : 163,
+               "value" : 0.0
+            },
+            {
+               "end" : 166,
+               "id" : "Second",
+               "offset" : 165,
+               "value" : 0.0
+            },
+            {
+               "end" : 168,
+               "id" : "TimeBasisCode",
+               "offset" : 167,
+               "value" : 1.0
+            },
+            {
+               "end" : 170,
+               "id" : "TraceWeightingFactor",
+               "offset" : 169,
+               "value" : 0.0
+            },
+            {
+               "end" : 172,
+               "id" : "GeophoneGroupNumberOfRollSwitchP1",
+               "offset" : 171,
+               "value" : 0.0
+            },
+            {
+               "end" : 174,
+               "id" : "GeophoneGroupNumberOfFirstTrace",
+               "offset" : 173,
+               "value" : 0.0
+            },
+            {
+               "end" : 176,
+               "id" : "GeophoneGroupNumberOfLastTrace",
+               "offset" : 175,
+               "value" : 0.0
+            },
+            {
+               "end" : 178,
+               "id" : "GapSize",
+               "offset" : 177,
+               "value" : 0.0
+            },
+            {
+               "end" : 180,
+               "id" : "Overtravel",
+               "offset" : 179,
+               "value" : 0.0
+            },
+            {
+               "end" : 192,
+               "id" : "InlineNumber",
+               "offset" : 189,
+               "value" : 10150.0
+            },
+            {
+               "end" : 196,
+               "id" : "CrosslineNumber",
+               "offset" : 193,
+               "value" : 2325.0
+            }
+         ],
+         "values" : [
+            1.0702316761016846,
+            1.2357971668243408,
+            1.1954152584075928,
+            1.0803762674331665,
+            1.0803762674331665,
+            1.0803762674331665,
+            1.0803762674331665,
+            0.94577991962432861,
+            0.79542124271392822,
+            0.79542124271392822,
+            0.50089544057846069,
+            0.27633264660835266,
+            0.27633264660835266,
+            0.25583431124687195,
+            0.25583431124687195,
+            0.39079335331916809,
+            0.50089544057846069,
+            0.64383554458618164,
+            0.76036316156387329,
+            0.76036316156387329,
+            1.2090257406234741,
+            1.4659402370452881,
+            1.4990521669387817,
+            1.6214056015014648,
+            1.5908423662185669,
+            1.6808657646179199,
+            1.7445573806762695,
+            1.8060042858123779,
+            1.9087822437286377,
+            1.7130076885223389,
+            1.4990521669387817,
+            1.4659402370452881,
+            1.3895359039306641,
+            1.4844269752502441,
+            1.3816630840301514,
+            1.2706149816513062,
+            1.1816480159759521,
+            1.0496484041213989,
+            0.96292537450790405,
+            0.95724433660507202,
+            0.96292537450790405,
+            0.8738405704498291,
+            0.70837318897247314,
+            0.64383554458618164,
+            0.70063108205795288,
+            0.70063108205795288,
+            0.70063108205795288,
+            0.70837312936782837,
+            0.70837312936782837,
+            0.81573307514190674,
+            0.96292537450790405,
+            0.95724433660507202,
+            1.0017908811569214,
+            0.91052097082138062,
+            0.96292537450790405,
+            1.0496484041213989,
+            1.0496484041213989,
+            1.054831862449646,
+            0.97418802976608276,
+            0.8289979100227356,
+            0.92831790447235107,
+            0.88006013631820679,
+            0.97418802976608276,
+            0.8289979100227356,
+            0.76750290393829346,
+            0.92242372035980225,
+            0.96857297420501709,
+            0.96292537450790405,
+            0.96292537450790405,
+            0.86757636070251465,
+            0.86757636070251465,
+            0.76036322116851807,
+            0.8612666130065918,
+            0.81573307514190674,
+            0.63530755043029785,
+            0.56244766712188721,
+            0.57206284999847412,
+            0.84205377101898193,
+            1.0496484041213989,
+            1.0904264450073242,
+            1.824034571647644,
+            2.3001384735107422,
+            2.3166780471801758,
+            2.3517282009124756,
+            2.4067466259002686,
+            2.4605355262756348,
+            2.5583429336547852,
+            2.8277115821838379,
+            2.8277115821838379,
+            2.883105993270874,
+            3.2461731433868408,
+            3.2461733818054199,
+            3.4938011169433594,
+            3.6748826503753662,
+            3.639087438583374,
+            3.5403251647949219,
+            3.3291242122650146,
+            3.543405294418335,
+            3.2862513065338135,
+            2.5901248455047607,
+            2.8944344520568848,
+            2.6319036483764648,
+            2.3166780471801758,
+            2.3166780471801758,
+            2.2810895442962646,
+            2.2155900001525879,
+            1.8741791248321533,
+            1.6808658838272095,
+            1.7161887884140015,
+            1.0954170227050781,
+            0.90451085567474365,
+            0.90451085567474365,
+            0.95152938365936279,
+            1.1345514059066772,
+            1.2090257406234741,
+            1.1345514059066772,
+            1.1723800897598267,
+            1.0392038822174072,
+            0.99633151292800903,
+            1.0392038822174072,
+            1.0803762674331665,
+            1.2090257406234741,
+            1.0803762674331665,
+            0.99633145332336426,
+            1.0017908811569214,
+            1.0017908811569214
+         ]
+      }
+   ]
+}

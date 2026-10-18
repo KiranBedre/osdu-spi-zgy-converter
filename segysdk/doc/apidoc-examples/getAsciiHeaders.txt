@@ -1,0 +1,77 @@
+//! [json_structure]
+struct textualHeader {
+
+   std::string Textualheader;
+
+   struct metadata {
+
+     std::string[] Filenames;
+     int SegyRevision;
+
+   }
+}
+//! [json_structure]
+//! [json_result]
+{
+    "Textualheader": "C01 demo1                                                                       C02 LINE        500 AREA                                                        C03                                                                             C04                                                                             C05 DATA TRACES/RECORD 0001                                                     C06 SAMPLE INTERVAL 00004000SAMPLES/TRACE 00876              BYTES/SAMPLE 4     C07                                                                             C08 SAMPLE CODE  FLOATING PT                                                    C09                                                                             C10                                                                             C11                                                                             C12                                                                             C13                                                                             C14                                                                             C15                                                                             C16                                                                             C17                                                                             C18 TRAC              STACKED                                                   C19                                                                             C20                                                                             C21                                                                             C22                                                                             C23 RANGE                                                                       C24                                                                             C25                                                                             C26                                                                             C27                                                                             C28                                                                             C29                                                                             C30                                                                             C31                                                                             C32                                                                             C33                                                                             C34                                                                             C35 PROJECTION NAD27 Louisiana State Planes, Southern                           C36 ELLIPSOID  Clarke - 1866                                                    C37 DATUM      North American Datum 27                                          C38                                                                             C39                                                                             C40 END EBCDIC                                                                  ",
+    "metadata": {
+        "Filenames": [
+            "E:\\Seismic\\SEGY 3D\\Cloudspin\\mig.sgy"
+        ],
+        "SegyRevision": 0
+    }
+}
+//! [json_structure]
+//! [json_result_split]
+{
+    "Textualheader": [
+       "C01 demo1                                                                       ",
+       "C02 LINE        500 AREA                                                        ",
+       "C03                                                                             ",
+       "C04                                                                             ",
+       "C05 DATA TRACES/RECORD 0001                                                     ",
+       "C06 SAMPLE INTERVAL 00004000SAMPLES/TRACE 00876              BYTES/SAMPLE 4     ",
+       "C07                                                                             ",
+       "C08 SAMPLE CODE  FLOATING PT                                                    ",
+       "C09                                                                             ",
+       "C10                                                                             ",
+       "C11                                                                             ",
+       "C12                                                                             ",
+       "C13                                                                             ",
+       "C14                                                                             ",
+       "C15                                                                             ",
+       "C16                                                                             ",
+       "C17                                                                             ",
+       "C18 TRAC              STACKED                                                   ",
+       "C19                                                                             ",
+       "C20                                                                             ",
+       "C21                                                                             ",
+       "C22                                                                             ",
+       "C23 RANGE                                                                       ",
+       "C24                                                                             ",
+       "C25                                                                             ",
+       "C26                                                                             ",
+       "C27                                                                             ",
+       "C28                                                                             ",
+       "C29                                                                             ",
+       "C30                                                                             ",
+       "C31                                                                             ",
+       "C32                                                                             ",
+       "C33                                                                             ",
+       "C34                                                                             ",
+       "C35 PROJECTION NAD27 Louisiana State Planes, Southern                           ",
+       "C36 ELLIPSOID  Clarke - 1866                                                    ",
+       "C37 DATUM      North American Datum 27                                          ",
+       "C38                                                                             ",
+       "C39                                                                             ",
+       "C40 END EBCDIC                                                                  "
+       ],
+    "metadata": {
+        "Filenames": [
+            "E:\\Seismic\\SEGY 3D\\Cloudspin\\mig.sgy"
+        ],
+        "SegyRevision": 0
+    }
+}
+
+//! [json_result]

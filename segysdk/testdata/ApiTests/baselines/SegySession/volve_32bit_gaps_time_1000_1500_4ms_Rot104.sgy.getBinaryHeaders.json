@@ -1,0 +1,172 @@
+{
+   "binaryHeaders" : [
+      {
+         "end" : 3204,
+         "id" : "JobIdentificationNumber",
+         "offset" : 3201,
+         "value" : 1.0
+      },
+      {
+         "end" : 3208,
+         "id" : "LineNumber",
+         "offset" : 3205,
+         "value" : 1.0
+      },
+      {
+         "end" : 3212,
+         "id" : "ReelNumber",
+         "offset" : 3209,
+         "value" : 1.0
+      },
+      {
+         "end" : 3214,
+         "id" : "DataTracesPerEnsemble",
+         "offset" : 3213,
+         "value" : 1.0
+      },
+      {
+         "end" : 3216,
+         "id" : "NumberOfAuxillaryTracesPerEnsemble",
+         "offset" : 3215,
+         "value" : 0.0
+      },
+      {
+         "end" : 3218,
+         "id" : "SampleInterval",
+         "offset" : 3217,
+         "value" : 4000.0
+      },
+      {
+         "end" : 3220,
+         "id" : "SampleIntervalField",
+         "offset" : 3219,
+         "value" : 0.0
+      },
+      {
+         "end" : 3222,
+         "id" : "SamplesPerTrace",
+         "offset" : 3221,
+         "value" : 126.0
+      },
+      {
+         "end" : 3224,
+         "id" : "SampleIntervalField",
+         "offset" : 3223,
+         "value" : 0.0
+      },
+      {
+         "end" : 3226,
+         "id" : "DataSampleFormatCode",
+         "offset" : 3225,
+         "value" : 5.0
+      },
+      {
+         "end" : 3228,
+         "id" : "EnsembleFold",
+         "offset" : 3227,
+         "value" : 1.0
+      },
+      {
+         "end" : 3230,
+         "id" : "TraceSortingCode",
+         "offset" : 3229,
+         "value" : 4.0
+      },
+      {
+         "end" : 3232,
+         "id" : "VerticalSumCode",
+         "offset" : 3231,
+         "value" : 1.0
+      },
+      {
+         "end" : 3234,
+         "id" : "SweepFrequencyStart",
+         "offset" : 3233,
+         "value" : 0.0
+      },
+      {
+         "end" : 3236,
+         "id" : "SweepFrequencyEnd",
+         "offset" : 3235,
+         "value" : 0.0
+      },
+      {
+         "end" : 3238,
+         "id" : "SweepLength",
+         "offset" : 3237,
+         "value" : 0.0
+      },
+      {
+         "end" : 3240,
+         "id" : "SweepTypeCode",
+         "offset" : 3239,
+         "value" : 0.0
+      },
+      {
+         "end" : 3242,
+         "id" : "TraceNumberSweepChannel",
+         "offset" : 3241,
+         "value" : 0.0
+      },
+      {
+         "end" : 3244,
+         "id" : "SweepTraceTaperLengthStart",
+         "offset" : 3243,
+         "value" : 0.0
+      },
+      {
+         "end" : 3246,
+         "id" : "SweepTraceTaperLengthEnd",
+         "offset" : 3245,
+         "value" : 0.0
+      },
+      {
+         "end" : 3248,
+         "id" : "TaperType",
+         "offset" : 3247,
+         "value" : 0.0
+      },
+      {
+         "end" : 3250,
+         "id" : "CorrelatedDataTraces",
+         "offset" : 3249,
+         "value" : 0.0
+      },
+      {
+         "end" : 3252,
+         "id" : "BinaryGainRecovered",
+         "offset" : 3251,
+         "value" : 0.0
+      },
+      {
+         "end" : 3254,
+         "id" : "AmplitudeRecoveryMethod",
+         "offset" : 3253,
+         "value" : 0.0
+      },
+      {
+         "end" : 3256,
+         "id" : "MeasurementSystem",
+         "offset" : 3255,
+         "value" : 1.0
+      },
+      {
+         "end" : 3258,
+         "id" : "ImpulseSignalPolarity",
+         "offset" : 3257,
+         "value" : 1.0
+      },
+      {
+         "end" : 3260,
+         "id" : "VibratorPolarityCode",
+         "offset" : 3259,
+         "value" : 0.0
+      },
+      {
+         "end" : 3502,
+         "id" : "SEGYFormatRevisionNumber",
+         "offset" : 3501,
+         "value" : 0.0
+      }
+   ]
+}

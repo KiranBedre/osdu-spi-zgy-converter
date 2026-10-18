@@ -1,0 +1,369 @@
+{
+    "data": {
+        "BinGridID": "sandbox-weu-des-prod-testing-e:work-product-component--SeismicBinGrid:144e75e1a70944d99f601c2769a9fd15:",
+        "CrosslineIncrement": 1,
+        "CrosslineMax": 2680,
+        "CrosslineMin": 1961,
+        "Datasets": [
+            "sandbox-weu-des-prod-testing-e:dataset--FileCollection.SEGY:abee4f52f95f47bb9d2e8c275fd1f13e:"
+        ],
+        "Description": "ST10010ZC11_PZ_PSDM_KIRCH_FULL_D.MIG_FIN.POST_STACK.3D.JS-017536_-_1",
+        "EndTime": 4504,
+        "InlineIncrement": 1,
+        "InlineMax": 10361,
+        "InlineMin": 9961,
+        "IsDiscoverable": true,
+        "IsExtendedLoad": true,
+        "LiveTraceOutline": {
+            "AsIngestedCoordinates": {
+                "features": [
+                    {
+                        "geometry": {
+                            "coordinates": [
+                                [
+                                    [
+                                        438308.70435,
+                                        6475335.071675
+                                    ],
+                                    [
+                                        438296.575699096,
+                                        6475338.09606999
+                                    ],
+                                    [
+                                        438281.422598192,
+                                        6475328.99173999
+                                    ],
+                                    [
+                                        438278.398148192,
+                                        6475316.86301499
+                                    ],
+                                    [
+                                        429594.284100904,
+                                        6477482.32983001
+                                    ],
+                                    [
+                                        429597.308550904,
+                                        6477494.45855501
+                                    ],
+                                    [
+                                        429588.20435,
+                                        6477509.611675
+                                    ],
+                                    [
+                                        430214.2655,
+                                        6480020.25775
+                                    ],
+                                    [
+                                        430229.418600904,
+                                        6480029.36208001
+                                    ],
+                                    [
+                                        430238.491950904,
+                                        6480065.74825501
+                                    ],
+                                    [
+                                        430229.38775,
+                                        6480080.901375
+                                    ],
+                                    [
+                                        430791.93545,
+                                        6482336.844225
+                                    ],
+                                    [
+                                        439512.43545,
+                                        6480162.304225
+                                    ],
+                                    [
+                                        439497.282349096,
+                                        6480153.19989499
+                                    ],
+                                    [
+                                        439494.257899096,
+                                        6480141.07116999
+                                    ],
+                                    [
+                                        439503.3621,
+                                        6480125.91805
+                                    ],
+                                    [
+                                        439500.33765,
+                                        6480113.789325
+                                    ],
+                                    [
+                                        439485.184549096,
+                                        6480104.68499499
+                                    ],
+                                    [
+                                        439482.160099096,
+                                        6480092.55626999
+                                    ],
+                                    [
+                                        439491.2643,
+                                        6480077.40315
+                                    ],
+                                    [
+                                        439488.23985,
+                                        6480065.274425
+                                    ],
+                                    [
+                                        439473.086749096,
+                                        6480056.17009499
+                                    ],
+                                    [
+                                        439470.062299096,
+                                        6480044.04136999
+                                    ],
+                                    [
+                                        439479.1665,
+                                        6480028.88825
+                                    ],
+                                    [
+                                        439476.14205,
+                                        6480016.759525
+                                    ],
+                                    [
+                                        439460.988949096,
+                                        6480007.65519499
+                                    ],
+                                    [
+                                        439457.964499096,
+                                        6479995.52646999
+                                    ],
+                                    [
+                                        439467.0687,
+                                        6479980.37335
+                                    ],
+                                    [
+                                        439464.04425,
+                                        6479968.244625
+                                    ],
+                                    [
+                                        439448.891149096,
+                                        6479959.14029499
+                                    ],
+                                    [
+                                        439445.866699096,
+                                        6479947.01156999
+                                    ],
+                                    [
+                                        439454.9709,
+                                        6479931.85845
+                                    ],
+                                    [
+                                        439451.94645,
+                                        6479919.729725
+                                    ],
+                                    [
+                                        439436.793349096,
+                                        6479910.62539499
+                                    ],
+                                    [
+                                        439433.768899096,
+                                        6479898.49666999
+                                    ],
+                                    [
+                                        439442.8731,
+                                        6479883.34355
+                                    ],
+                                    [
+                                        439439.84865,
+                                        6479871.214825
+                                    ],
+                                    [
+                                        439424.695549096,
+                                        6479862.11049499
+                                    ],
+                                    [
+                                        439421.671099096,
+                                        6479849.98176999
+                                    ],
+                                    [
+                                        439430.7753,
+                                        6479834.82865
+                                    ],
+                                    [
+                                        439427.75085,
+                                        6479822.699925
+                                    ],
+                                    [
+                                        439412.597749096,
+                                        6479813.59559499
+                                    ],
+                                    [
+                                        439409.573299096,
+                                        6479801.46686999
+                                    ],
+                                    [
+                                        439418.6775,
+                                        6479786.31375
+                                    ],
+                                    [
+                                        438308.70435,
+                                        6475335.071675
+                                    ]
+                                ]
+                            ],
+                            "type": "AnyCrsPolygon"
+                        },
+                        "properties": {
+                        },
+                        "type": "AnyCrsFeature"
+                    }
+                ],
+                "persistableReferenceCrs": "{\"authCode\":{\"auth\":\"OSDU\",\"code\":\"23031024\"},\"lateBoundCRS\":{\"authCode\":{\"auth\":\"EPSG\",\"code\":\"23031\"},\"name\":\"ED_1950_UTM_Zone_31N\",\"type\":\"LBC\",\"ver\":\"PE_10_9_1\",\"wkt\":\"PROJCS[\\\"ED_1950_UTM_Zone_31N\\\",GEOGCS[\\\"GCS_European_1950\\\",DATUM[\\\"D_European_1950\\\",SPHEROID[\\\"International_1924\\\",6378388.0,297.0]],PRIMEM[\\\"Greenwich\\\",0.0],UNIT[\\\"Degree\\\",0.0174532925199433]],PROJECTION[\\\"Transverse_Mercator\\\"],PARAMETER[\\\"False_Easting\\\",500000.0],PARAMETER[\\\"False_Northing\\\",0.0],PARAMETER[\\\"Central_Meridian\\\",3.0],PARAMETER[\\\"Scale_Factor\\\",0.9996],PARAMETER[\\\"Latitude_Of_Origin\\\",0.0],UNIT[\\\"Meter\\\",1.0],AUTHORITY[\\\"EPSG\\\",23031]]\"},\"name\":\"ED50 * EPSG-Nor S62 2001 / UTM zone 31N [23031,1613]\",\"singleCT\":{\"authCode\":{\"auth\":\"EPSG\",\"code\":\"1613\"},\"name\":\"ED_1950_To_WGS_1984_24\",\"type\":\"ST\",\"ver\":\"PE_10_9_1\",\"wkt\":\"GEOGTRAN[\\\"ED_1950_To_WGS_1984_24\\\",GEOGCS[\\\"GCS_European_1950\\\",DATUM[\\\"D_European_1950\\\",SPHEROID[\\\"International_1924\\\",6378388.0,297.0]],PRIMEM[\\\"Greenwich\\\",0.0],UNIT[\\\"Degree\\\",0.0174532925199433]],GEOGCS[\\\"GCS_WGS_1984\\\",DATUM[\\\"D_WGS_1984\\\",SPHEROID[\\\"WGS_1984\\\",6378137.0,298.257223563]],PRIMEM[\\\"Greenwich\\\",0.0],UNIT[\\\"Degree\\\",0.0174532925199433]],METHOD[\\\"Position_Vector\\\"],PARAMETER[\\\"X_Axis_Translation\\\",-90.365],PARAMETER[\\\"Y_Axis_Translation\\\",-101.13],PARAMETER[\\\"Z_Axis_Translation\\\",-123.384],PARAMETER[\\\"X_Axis_Rotation\\\",0.333],PARAMETER[\\\"Y_Axis_Rotation\\\",0.077],PARAMETER[\\\"Z_Axis_Rotation\\\",0.894],PARAMETER[\\\"Scale_Difference\\\",1.994],OPERATIONACCURACY[1.0],AUTHORITY[\\\"EPSG\\\",1613]]\"},\"type\":\"EBC\",\"ver\":\"PE_10_9_1\"}",
+                "type": "AnyCrsFeatureCollection"
+            }
+        },
+        "Name": "ST10010ZC11_PZ_PSDM_KIRCH_FULL_D.MIG_FIN.POST_STACK.3D.JS-017536_-_1",
+        "Precision": {
+            "WordFormat": "sandbox-weu-des-prod-testing-e:reference-data--WordFormatType:IBMFLOAT:",
+            "WordWidth": 4
+        },
+        "Preferred3DInterpretationSetID": "sandbox-weu-des-prod-testing-e:master-data--Seismic3DInterpretationSet:c34f4b10c3a349cda9ada9c343b5e590:",
+        "PrincipalAcquisitionProjectID": [
+            "sandbox-weu-des-prod-testing-e:master-data--SeismicAcquisitionSurvey:4e6e22ab4754408188838ebff4c8894d:"
+        ],
+        "ProcessingProject": [
+            "sandbox-weu-des-prod-testing-e:master-data--SeismicProcessingProject:9424d124fc3e48db8283d5bdeb278b46:"
+        ],
+        "ReplacementVelocity": 4855.6,
+        "SampleCount": 1125,
+        "SampleInterval": 4,
+        "SeismicAttributeTypeID": "sandbox-weu-des-prod-testing-e:reference-data--SeismicAttributeType:Amplitude:",
+        "SeismicDomainTypeID": "sandbox-weu-des-prod-testing-e:reference-data--SeismicDomainType:Time:",
+        "SeismicMigrationTypeID": "sandbox-weu-des-prod-testing-e:reference-data--SeismicMigrationType:PoststackTime:",
+        "SeismicProcessingStageTypeID": "sandbox-weu-des-prod-testing-e:reference-data--SeismicProcessingStageType:Stack:",
+        "SeismicStackingTypeID": "sandbox-weu-des-prod-testing-e:reference-data--SeismicStackingType:Stk:",
+        "SeismicTraceDataDimensionalityTypeID": "sandbox-weu-des-prod-testing-e:reference-data--SeismicTraceDataDimensionalityType:3D:",
+        "ShiftApplied": 0,
+        "Source": "osdu",
+        "SpatialArea": {
+            "AsIngestedCoordinates": {
+                "features": [
+                    {
+                        "geometry": {
+                            "coordinates": [
+                                [
+                                    [
+                                        439272.97,
+                                        6475068.89
+                                    ],
+                                    [
+                                        429582.141433818,
+                                        6477485.0849323
+                                    ],
+                                    [
+                                        430897.591741142,
+                                        6482761.06794393
+                                    ],
+                                    [
+                                        440588.420307323,
+                                        6480344.87301163
+                                    ],
+                                    [
+                                        439272.97,
+                                        6475068.89
+                                    ]
+                                ]
+                            ],
+                            "type": "AnyCrsPolygon"
+                        },
+                        "properties": {
+                            "Kind": "osdu:wks:AbstractGeoJson.PropertiesBinGridCorners:1.0.0",
+                            "PointProperties": [
+                                {
+                                    "Crossline": 1881,
+                                    "Inline": 9961
+                                },
+                                {
+                                    "Crossline": 2680,
+                                    "Inline": 9961
+                                },
+                                {
+                                    "Crossline": 2680,
+                                    "Inline": 10396
+                                },
+                                {
+                                    "Crossline": 1881,
+                                    "Inline": 10396
+                                },
+                                {
+                                    "Crossline": 1881,
+                                    "Inline": 9961
+                                }
+                            ]
+                        },
+                        "type": "AnyCrsFeature"
+                    }
+                ],
+                "persistableReferenceCrs": "{\"authCode\":{\"auth\":\"OSDU\",\"code\":\"23031024\"},\"lateBoundCRS\":{\"authCode\":{\"auth\":\"EPSG\",\"code\":\"23031\"},\"name\":\"ED_1950_UTM_Zone_31N\",\"type\":\"LBC\",\"ver\":\"PE_10_9_1\",\"wkt\":\"PROJCS[\\\"ED_1950_UTM_Zone_31N\\\",GEOGCS[\\\"GCS_European_1950\\\",DATUM[\\\"D_European_1950\\\",SPHEROID[\\\"International_1924\\\",6378388.0,297.0]],PRIMEM[\\\"Greenwich\\\",0.0],UNIT[\\\"Degree\\\",0.0174532925199433]],PROJECTION[\\\"Transverse_Mercator\\\"],PARAMETER[\\\"False_Easting\\\",500000.0],PARAMETER[\\\"False_Northing\\\",0.0],PARAMETER[\\\"Central_Meridian\\\",3.0],PARAMETER[\\\"Scale_Factor\\\",0.9996],PARAMETER[\\\"Latitude_Of_Origin\\\",0.0],UNIT[\\\"Meter\\\",1.0],AUTHORITY[\\\"EPSG\\\",23031]]\"},\"name\":\"ED50 * EPSG-Nor S62 2001 / UTM zone 31N [23031,1613]\",\"singleCT\":{\"authCode\":{\"auth\":\"EPSG\",\"code\":\"1613\"},\"name\":\"ED_1950_To_WGS_1984_24\",\"type\":\"ST\",\"ver\":\"PE_10_9_1\",\"wkt\":\"GEOGTRAN[\\\"ED_1950_To_WGS_1984_24\\\",GEOGCS[\\\"GCS_European_1950\\\",DATUM[\\\"D_European_1950\\\",SPHEROID[\\\"International_1924\\\",6378388.0,297.0]],PRIMEM[\\\"Greenwich\\\",0.0],UNIT[\\\"Degree\\\",0.0174532925199433]],GEOGCS[\\\"GCS_WGS_1984\\\",DATUM[\\\"D_WGS_1984\\\",SPHEROID[\\\"WGS_1984\\\",6378137.0,298.257223563]],PRIMEM[\\\"Greenwich\\\",0.0],UNIT[\\\"Degree\\\",0.0174532925199433]],METHOD[\\\"Position_Vector\\\"],PARAMETER[\\\"X_Axis_Translation\\\",-90.365],PARAMETER[\\\"Y_Axis_Translation\\\",-101.13],PARAMETER[\\\"Z_Axis_Translation\\\",-123.384],PARAMETER[\\\"X_Axis_Rotation\\\",0.333],PARAMETER[\\\"Y_Axis_Rotation\\\",0.077],PARAMETER[\\\"Z_Axis_Rotation\\\",0.894],PARAMETER[\\\"Scale_Difference\\\",1.994],OPERATIONACCURACY[1.0],AUTHORITY[\\\"EPSG\\\",1613]]\"},\"type\":\"EBC\",\"ver\":\"PE_10_9_1\"}",
+                "type": "AnyCrsFeatureCollection"
+            }
+        },
+        "StartTime": 4,
+        "SubmitterName": "dalvarado4@slb.com",
+        "TextualFileHeader": [
+            "C01 CLIENT : STATOIL                              PROCESSED BY: WESTERNGECO     C02 AREA   : VOLVE, BLOCK 15/9,  NORTH SEA - ST10010     SURVEY: 3D 4C 0BC      C03 3D FULL AREA POST-STACK FINAL PSDM                       DATE: 2011-10-26   C04 DATA FORMAT: SEGY       DATA TYPE: STACK-FULL ANGLE, 3-41 DEGREES (D)       C05 ---------------------AQUISITION PARAMETRS---------------------------------- C06 DATA SHOT BY VESSEL: M/V SANCO SPIRIT & VIKLAND  CABLE LENGTH:6000 M        C07 NO OF GROUPS: 960/P,X,Y,Z.  NO OF CABLES: 8  ARRAY VOL/SOURCE: 3990 CU IN.  C08 GROUP INTERVAL: 25M  SHOT INTERVAL: 25M (FLIP-FLOP)  RECORD LENGTH: 10000 MSC09 GEODECTIC DATUM:  ED50      SPHEROID: INTERNAT 1924     PROJECTION: UTM     C10  UTM ZONE: 31 N                                                             C11 FIRST SAMPLE: 4 M     LAST SAMPLE: 4500 M     SAMPLE INTERVAL: 4 M          C12 NAVIGATION SOURCE P1/90 UKOOA, SPS                                          C13 ----------------------PROCESSING SEQUENCE---------------------------------- C14 REFORMAT, RESAMPLING TO 4MS                                                 C15 Z TO P AMP. MATCHING AND DESIGNATURE APPLIED                                C16 TIDAL STATIC CORRECTION, NOISE ATTENUATION                                  C17 PZ CALIBRATION & SUMMATION                                                  C18 DIRECT ARRIVAL REMOVAL (SHOT & RECEIVER DOMAIN)                             C19 LINEAR NOISE ATTENUATION (RECEIVER DOMAIN), OFFSET REGULARIZATION           C20 SINGLE BOUNCE DECON IN TAU-PQ DOMAIN                                        C21 DETERMINISTIC WATER DEMULTIPLE, PrSDM (2011 VELOCITY MODEL),                C22 DEPTH TO TIME CONVERSION, RESIDUAL VELOCITY APPLIED, RADON DEMULTIPLE       C23  ANGLE MUTE (3-41 DEGREES), STACK,  MODEL BASED DEMULTIPLE                  C24 INVERSE_Q (100),  RANDOM NOISE ATTENUATION, 12.5X12.5 INTERPOLATION         C25 BPF 70Hz 50dB/OCT HIGH-CUT, TIME TO DEPTH CONVERSION, OUTPUT SEGY FORMAT    C26 ----------------------PROCESSING GRID INFORMATION-------------------------  C27 INLINE  BIN SIZE: 12.5M   CROSSLINE BIN SIZE: 12.5M  AZIMUTH: 284 DEGREES   C28 INLINE NUMBER INCREMENT:1       CROSSLINE  NUMBER INCREMENT:1               C29 PG1   X: 439272.97   Y: 6475068.89   IL:   9961   XL: 1881                  C30 PG2   X: 429582.21   Y: 6477485.37   IL:   9961   XL: 2680                  C31 PG3   X: 440588.57   Y: 6480344.84   IL: 10396   XL: 1881                   C32 PG4   X: 430897.81   Y: 6482761.32   IL: 10396   XL: 2680                   C33                                                                             C34 ----------------------HEADER WORD POSITIONS-------------------------------- C35 3D INLINE  BYTES 189-192             |  3D CROSS LINE   BYTES 193-196       C36 BIN CENTRE UTM-X  BYTES 181-184.  |  BIN CENTRE UTM-Y  BYTES 185-188        C37 CMP BYTES 21-24                                                             C38 ALL COORDINATE VALUES ARE MULTIPLIED BY 100                                 C39                                                                             C40 END EBCDIC                                                                  "
+        ],
+        "TraceDomainUOM": "sandbox-weu-des-prod-testing-e:reference-data--UnitOfMeasure:ms:",
+        "TraceLength": 4500,
+        "VerticalDatumOffset": 0,
+        "VerticalMeasurementTypeID": "sandbox-weu-des-prod-testing-e:reference-data--VerticalMeasurementType:SRD:"
+    },
+    "meta": [
+        {
+            "kind": "Unit",
+            "name": "ms",
+            "persistableReference": "{\"abcd\":{\"a\":0.0,\"b\":0.001,\"c\":1.0,\"d\":0.0},\"symbol\":\"ms\",\"baseMeasurement\":{\"ancestry\":\"T\",\"type\":\"UM\"},\"type\":\"UAD\"}",
+            "propertyNames": [
+                "SampleInverval",
+                "StartTime",
+                "EndTime",
+                "VerticalDatumOffset",
+                "ShiftApplied",
+                "SampleInterval",
+                "TraceLength"
+            ],
+            "unitOfMeasureID": "sandbox-weu-des-prod-testing-e:reference-data--UnitOfMeasure:ms:"
+        },
+        {
+            "kind": "Unit",
+            "name": "ftUS/s",
+            "persistableReference": "{\"abcd\":{\"a\":0.0,\"b\":0.3048,\"c\":1.0,\"d\":0.0},\"symbol\":\"ftUS/s\",\"baseMeasurement\":{\"ancestry\":\"L/T\",\"type\":\"UM\"},\"type\":\"UAD\"}",
+            "propertyNames": [
+                "ReplacementVelocity"
+            ],
+            "unitOfMeasureID": "sandbox-weu-des-prod-testing-e:reference-data--UnitOfMeasure:ftUS%2Fs:"
+        }
+    ],
+    "modifyUser": "125dec82-20da-4874-a23d-840aef65b872",
+    "modifyTime": "2025-01-15T13:37:27.471Z",
+    "id": "sandbox-weu-des-prod-testing-e:work-product-component--SeismicTraceData:c1bbf546cf3d44209b38ab159ecc5c97",
+    "version": 1736948247399899,
+    "kind": "osdu:wks:work-product-component--SeismicTraceData:1.4.0",
+    "acl": {
+        "viewers": [
+            "data.dm-pj-d6c097d7-718c-415b-85e5-c1ba2f7b5b67.viewers@sandbox-weu-des-prod-testing-e.enterprisedata.slb.com"
+        ],
+        "owners": [
+            "data.dm-pj-d6c097d7-718c-415b-85e5-c1ba2f7b5b67.owners@sandbox-weu-des-prod-testing-e.enterprisedata.slb.com"
+        ]
+    },
+    "legal": {
+        "legaltags": [
+            "sandbox-weu-des-prod-testing-e-NZ-Public-NPD-PDD-PAM-NLR-NCR"
+        ],
+        "otherRelevantDataCountries": [
+            "US"
+        ],
+        "status": "compliant"
+    },
+    "tags": {
+        "dataflowId": "29a5ecc7-dd5d-4e44-902b-praz-41aa9a93140d",
+        "QualityScore": "High",
+        "DefaultTotalScore": "100.00",
+        "QCCompliance": "High"
+    },
+    "createUser": "125dec82-20da-4874-a23d-840aef65b872",
+    "createTime": "2025-01-15T13:36:27.249Z"
+}

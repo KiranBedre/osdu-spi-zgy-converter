@@ -1,0 +1,36 @@
+//! [result]
+{"JobIdentificatioNumber", 3201, 3204, 0},
+{"LineNumber", 3205, 3208, 500 },
+...
+//! [result]
+//! [json_result]
+{
+    "BinaryHeaders": [
+        {
+            "End": 3204,
+            "Id": "JobIdentificationNumber",
+            "Start": 3201,
+            "Value": 0.0
+        },
+        {
+            "End": 3208,
+            "Id": "LineNumber",
+            "Start": 3205,
+            "Value": 500.0
+        },
+        {
+            "End": 3212,
+            "Id": "ReelNumber",
+            "Start": 3209,
+            "Value": 0.0
+        },
+        ...
+    ],
+    "metadata": {
+        "Filenames": [
+            "E:\\Seismic\\SEGY 3D\\Cloudspin\\mig.sgy"
+        ],
+        "SegyRevision": 0
+    }
+}
+//! [json_result]

@@ -1,0 +1,119 @@
+include:
+  - local: "/devops/build-sdk/.templates.yml"
+
+
+build-segy-ubuntu-focal:
+  extends: .build-segy
+
+build-python-ubuntu-focal:
+  extends: .build-python
+  needs:
+    - build-segy-ubuntu-focal
+
+build-segy-ubuntu-jammy:
+  extends: .build-segy-jammy
+
+build-python-ubuntu-jammy:
+  extends: .build-python-jammy
+  needs:
+    - build-segy-ubuntu-jammy
+
+build-segy-ubuntu-noble:
+  extends: .build-segy-noble
+
+build-python-ubuntu-noble:
+  extends: .build-python-noble
+  needs:
+    - build-segy-ubuntu-noble
+
+test-python36-focal:
+  extends: .test-python367
+  needs:
+    - build-python-ubuntu-focal
+  variables:
+    PYTHONVERSION: '3.6.15'
+
+test-python37-focal:
+  extends: .test-python367
+  needs:
+    - build-python-ubuntu-focal
+  variables:
+    PYTHONVERSION: '3.7.13'
+
+test-python38-focal:
+  extends: .test-python
+  needs:
+    - build-python-ubuntu-focal
+  variables:
+    PYTHONVERSION: '3.8'
+
+test-python39-focal:
+  extends: .test-python
+  needs:
+    - build-python-ubuntu-focal
+  variables:
+    PYTHONVERSION: '3.9'
+
+test-python310-jammy:
+  extends: .test-python
+  image: ubuntu:jammy
+  artifacts:
+    name: SegySDK-jammy
+    expire_in: 1 hours
+    paths:
+    - UbuntuJammyWheel
+  needs:
+    - build-python-ubuntu-jammy
+  variables:
+    UBUNTU_NAME: "Jammy"
+    PYTHONVERSION: '3.10'
+
+test-python310-noble:
+  extends: .test-python
+  image: ubuntu:noble
+  artifacts:
+    name: SegySDK-noble
+    expire_in: 1 hours
+    paths:
+    - UbuntuNobleWheel
+  needs:
+    - build-python-ubuntu-noble
+  variables:
+    UBUNTU_NAME: "Noble"
+    PYTHONVERSION: '3.10'
+
+
+publish-python-focal:
+  extends: .publish-python
+  stage: publish
+  needs:
+    - test-python36-focal
+    - test-python37-focal
+    - test-python38-focal
+    - test-python39-focal
+    - build-segy-ubuntu-focal
+  rules:
+     - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH  # Run only in master branch
+
+
+publish-python-jammy:
+  extends: .publish-python
+  stage: publish
+  variables:
+    UBUNTU_NAME: "Jammy"
+  needs:
+    - test-python310-jammy
+    - build-segy-ubuntu-jammy
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH  # Run only in master branch
+
+publish-python-noble:
+  extends: .publish-python
+  stage: publish
+  variables:
+    UBUNTU_NAME: "Noble"
+  needs:
+    - test-python310-noble
+    - build-segy-ubuntu-noble
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH  # Run only in master branch

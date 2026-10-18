@@ -1,0 +1,44 @@
+{
+    "tests": [
+        {
+            "name": "createSession",
+            "data": [
+                {
+                    "dataset": "tiny.sgy",
+                    "result": {
+                        "type": "return_int",
+                        "value": 0
+                    }
+                },
+                {
+                    "dataset": "empty_file",
+                    "result": {
+                        "type": "exception",
+                        "value": "Cannot create session"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "getSegyVersion",
+            "data": [
+                {
+                    "dataset": "tiny.sgy",
+                    "result": {
+                        "type": "json",
+                        "value": {
+                            "version": 1
+                        }
+                    }
+                },
+                {
+                    "dataset": "empty_file",
+                    "result": {
+                        "type": "exception",
+                        "value": "Cannot create session"
+                    }
+                }
+            ]
+        }
+    ]
+}

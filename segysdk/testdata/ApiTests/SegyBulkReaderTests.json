@@ -1,0 +1,169 @@
+{
+    "tests": [
+        {
+            "name": "SegyBulkReaderGetBufferSize",
+            "data": [
+                {
+                  "parameters": {
+                    "dataset": "ApiTests/datasets/volve_16bit_gaps_time_1000_1500_4ms.sgy",
+                    "jsonParameters": "empty_config.json"
+                  },
+                    "result": "value",
+                    "value": 1048576
+                }
+            ]
+        },
+        {
+            "name": "SegyBulkReaderReadUncached",
+            "data": [
+              {
+                "parameters": {
+                  "dataset": "ApiTests/datasets/volve_16bit_gaps_time_1000_1500_4ms.sgy",
+                  "jsonParameters": "empty_config.json",
+                  "inlineIndex": 1,
+                  "xlineIndex": 1,
+                  "sampleIndex": 1,
+                  "inlineCount": 1,
+                  "xlineCount": 1,
+                  "sampleCount": 1
+                },
+                "result": "vector",
+                "baseline": "ApiTests/baselines/SegyBulkReader/volve_16bit_gaps_time_1000_1500_4ms.sgy.readUncached.0"
+              },
+                {
+                  "parameters": {
+                    "dataset": "ApiTests/datasets/volve_16bit_gaps_time_1000_1500_4ms.sgy",
+                    "jsonParameters": "empty_config.json",
+                    "inlineIndex": 0,
+                    "xlineIndex": 0,
+                    "sampleIndex": 0,
+                    "inlineCount": 2,
+                    "xlineCount": 4,
+                    "sampleCount": 500
+                  },
+                    "result": "throws",
+                    "exception": "Invalid sample extent."
+                },
+              {
+                "parameters": {
+                  "dataset": "ApiTests/datasets/volve_16bit_gaps_time_1000_1500_4ms.sgy",
+                  "jsonParameters": "empty_config.json",
+                  "inlineIndex": 0,
+                  "xlineIndex": 0,
+                  "sampleIndex": 0,
+                  "inlineCount": 20,
+                  "xlineCount": 4,
+                  "sampleCount": 10
+                },
+                "result": "vector",
+                "baseline": "ApiTests/baselines/SegyBulkReader/volve_16bit_gaps_time_1000_1500_4ms.sgy.readUncached.2"
+              },
+                {
+                  "parameters": {
+                    "dataset": "ApiTests/datasets/volve_16bit_gaps_time_1000_1500_4ms.sgy",
+                    "jsonParameters": "empty_config.json",
+                    "inlineIndex": 0,
+                    "xlineIndex": 0,
+                    "sampleIndex": 0,
+                    "inlineCount": 2,
+                    "xlineCount": 50,
+                    "sampleCount": 10
+                  },
+                    "result": "throws",
+                    "exception": "Invalid crossline extent."
+                },
+              {
+                "parameters": {
+                  "dataset": "ApiTests/datasets/volve_16bit_gaps_time_1000_1500_4ms.sgy",
+                  "jsonParameters": "empty_config.json",
+                  "inlineIndex": 0,
+                  "xlineIndex": 0,
+                  "sampleIndex": 0,
+                  "inlineCount": 2,
+                  "xlineCount": 4,
+                  "sampleCount": 20
+                },
+                "result": "vector",
+                "baseline": "ApiTests/baselines/SegyBulkReader/volve_16bit_gaps_time_1000_1500_4ms.sgy.readUncached.4"
+              }
+            ]
+        },
+        {
+            "name": "SegyBulkReaderLoadDataToCache",
+            "data": [
+              {
+                "parameters": {
+                  "dataset": "ApiTests/datasets/volve_16bit_gaps_time_1000_1500_4ms.sgy",
+                  "jsonParameters": "empty_config.json",
+                  "fileOffset": 134217728,
+                  "cacheSize": 1048576
+                },
+                "result": "throws",
+                "exception": "Error reading from ${PARENTDIR}volve_16bit_gaps_time_1000_1500_4ms.sgy"
+              },
+                {
+                  "parameters": {
+                    "dataset": "ApiTests/datasets/volve_16bit_gaps_time_1000_1500_4ms.sgy",
+                    "jsonParameters": "empty_config.json",
+                    "fileOffset": 1024,
+                    "cacheSize": 134217728
+                  },
+                    "result": "success"
+                }
+            ]
+        },
+        {
+            "name": "SegyBulkReaderReadCached",
+            "data": [
+              {
+                "parameters": {
+                  "dataset": "ApiTests/datasets/volve_16bit_gaps_time_1000_1500_4ms.sgy",
+                  "jsonParameters": "empty_config.json",
+                  "inlineIndex": 1,
+                  "xlineIndex": 1,
+                  "sampleIndex": 1,
+                  "inlineCount": 1,
+                  "xlineCount": 1,
+                  "sampleCount": 1,
+                  "fileOffset": 0,
+                  "cacheSize": 1048576
+                },
+                "result": "vector",
+                "baseline": "ApiTests/baselines/SegyBulkReader/volve_16bit_gaps_time_1000_1500_4ms.sgy.readCached.0"
+              },
+              {
+                "parameters": {
+                  "dataset": "ApiTests/datasets/volve_16bit_gaps_time_1000_1500_4ms.sgy",
+                  "jsonParameters": "empty_config.json",
+                  "inlineIndex": 0,
+                  "xlineIndex": 0,
+                  "sampleIndex": 0,
+                  "inlineCount": 2,
+                  "xlineCount": 4,
+                  "sampleCount": 20,
+                  "fileOffset": 0,
+                  "cacheSize": 1048576
+                },
+                "result": "vector",
+                "baseline": "ApiTests/baselines/SegyBulkReader/volve_16bit_gaps_time_1000_1500_4ms.sgy.readCached.1"
+              },
+              {
+                "parameters": {
+                  "dataset": "ApiTests/datasets/volve_16bit_gaps_time_1000_1500_4ms.sgy",
+                  "jsonParameters": "empty_config.json",
+                  "inlineIndex": 0,
+                  "xlineIndex": 0,
+                  "sampleIndex": 0,
+                  "inlineCount": 2,
+                  "xlineCount": 4,
+                  "sampleCount": 20,
+                  "fileOffset": 0,
+                  "cacheSize": 1
+                },
+                "result": "vector",
+                "baseline": "ApiTests/baselines/SegyBulkReader/volve_16bit_gaps_time_1000_1500_4ms.sgy.readCached.2"
+              }
+            ]
+        }
+    ]
+}

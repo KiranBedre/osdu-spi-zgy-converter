@@ -1,0 +1,6 @@
+add_subdirectory(Common)
+add_subdirectory(SeismicSection)
+add_subdirectory(IndexingSample)
+add_subdirectory(SegyHeaderSamples)
+add_subdirectory(BMPGenerator)
+add_subdirectory(BMPGeneratorTests)

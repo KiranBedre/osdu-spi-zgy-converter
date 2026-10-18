@@ -1,0 +1,239 @@
+{
+  "cmakeMinimumRequired": {
+    "major": 3,
+    "minor": 22,
+    "patch": 0
+  },
+  // To list all presets:
+  // cmake --list-presets=all
+  //
+  // to run:
+  // cmake --preset <configure preset name>
+  "configurePresets": [
+    {
+      "name": "base",
+      "binaryDir": "${sourceDir}/../out/build/${presetName}",
+      "architecture": {
+        "value": "x64",
+        "strategy": "external"
+      },
+      "cacheVariables": {
+        "CMAKE_CXX_STANDARD": "17",
+        "CMAKE_CXX_STANDARD_REQUIRED": true,
+        "CMAKE_BUILD_TYPE": "Debug",
+        "CMAKE_INSTALL_PREFIX": "${sourceDir}/../out/install/${presetName}",
+        "DCMAKE_CXX_FLAGS": "/MP"
+      },
+      "description": "Sets build and install directory",
+      "generator": "Ninja",
+      "hidden": true,
+      "warnings": {
+        "dev": true
+      }
+    },
+    {
+      "name": "linux-base",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug",
+        "CMAKE_C_COMPILER": "gcc",
+        "CMAKE_CXX_COMPILER": "g++"
+      },
+      "description": "Sets generator, compilers, build type",
+      "hidden": true,
+      "inherits": "base",
+      "vendor": {
+        "microsoft.com/VisualStudioSettings/CMake/1.0": {
+          "hostOS": [
+            "Linux"
+          ]
+        }
+      },
+      "warnings": {
+        "dev": false
+      }
+    },
+    {
+      "name": "linux-warnings",
+      "description": "Enables dev warnings (-wdev)",
+      "inherits": "linux-base",
+      "warnings": {
+        "dev": true
+      }
+    },
+    {
+      "name": "linux-debug",
+      "description": "Target Linux (64-bit) Debug build",
+      "inherits": "linux-warnings",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug"
+      }
+    },
+    {
+      "name": "linux-release",
+      "description": "Target Linux (64-bit) Release build",
+      "inherits": "linux-base",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release"
+      }
+    },
+    {
+      "name": "vcpkg",
+      "generator": "Ninja",
+      "hidden": true,
+      "binaryDir": "${sourceDir}/build",
+      "cacheVariables": {
+        "CMAKE_TOOLCHAIN_FILE": "$env{VCPKG_HOME}/scripts/buildsystems/vcpkg.cmake"
+      }
+    },
+    {
+      "name": "windows-base",
+      "description": "Target Windows with the Visual Studio development environment.",
+      "hidden": true,
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/../out/build/${presetName}",
+      "installDir": "${sourceDir}/../out/install/${presetName}",
+      "cacheVariables": {
+        "CMAKE_C_COMPILER": "cl.exe",
+        "CMAKE_CXX_COMPILER": "cl.exe"
+      },
+      "inherits": "vcpkg",
+      "environment": {
+        "VCPKG_HOME": "C:/vcpkg"
+      },
+      "condition": {
+        "type": "equals",
+        "lhs": "${hostSystemName}",
+        "rhs": "Windows"
+      }
+    },
+    {
+      "name": "Windows-warnings",
+      "description": "Enables dev warnings (-wdev)",
+      "inherits": "windows-base",
+      "hidden": true,
+      "warnings": {
+        "dev": true
+      }
+    },
+    {
+      "name": "x64-debug",
+      "displayName": "x64 Debug",
+      "description": "Target Windows (64-bit) with the Visual Studio development environment. (Debug)",
+      "inherits": "Windows-warnings",
+      "architecture": {
+        "value": "x64",
+        "strategy": "external"
+      },
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug"
+      }
+    },
+    {
+      "name": "x64-release",
+      "displayName": "x64 Release",
+      "description": "Target Windows (64-bit) with the Visual Studio development environment. (RelWithDebInfo)",
+      "inherits": "windows-base",
+      "architecture": {
+        "value": "x64",
+        "strategy": "external"
+      },
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release"
+      }
+    }
+  ],
+  // to run:
+  // cmake --build --preset <build preset name>
+  "buildPresets": [
+    {
+      "name": "win-debug",
+      "configurePreset": "x64-debug",
+      "description": "Inherits environment from x64-debug configurePreset"
+    },
+    {
+      "name": "win-release",
+      "configurePreset": "x64-release",
+      "description": "Inherits environment from x64-release configurePreset"
+    },
+    {
+      "name": "lnx-debug",
+      "configurePreset": "linux-debug",
+      "description": "Inherits environment from linux-debug configurePreset"
+    },
+    {
+      "name": "lnx-release",
+      "configurePreset": "linux-release",
+      "description": "Inherits environment from linux-release configurePreset"
+    },
+    {
+      "name": "buildPresets",
+      "displayName": "Custom Build Preset",
+      "description": "Custom build preset description",
+      "configurePreset": "Windows-warnings"
+    },
+    {
+      "name": "buildPresets2",
+      "displayName": "Custom Build Preset",
+      "description": "Custom build preset description",
+      "configurePreset": "x64-debug"
+    }
+  ],
+  // to run:
+  // ctest --preset <test preset name>
+  "testPresets": [
+    {
+      "name": "testEnvironmentSection",
+      "displayName": "Common Test Environment variables",
+      "hidden": true,
+      "environment": {
+        "CORRELATION_ID": "",
+        "SEGY_LOCALTESTDATA_PATH": "${sourceDir}/../segy-to-zgy-conversion/segysdk/testdata/",
+        "SEGY_INTERNAL_TESTDATA_PATH": "${sourceDir}/testdata"
+      }
+    },
+    {
+      "name": "testExecutionSection",
+      "displayName": "Common Test Execution and Output parameters",
+      "hidden": true,
+      "inherits": "testEnvironmentSection",
+      "output": {
+        "outputOnFailure": true
+      },
+      "execution": {
+        "noTestsAction": "error",
+        // "jobs": 8,
+        "stopOnFailure": false
+      }
+    },
+    {
+      "name": "x64-Debug-Tests",
+      "displayName": "X64 Debug Test Preset",
+      "description": "X64 Debug Unit Test Preset",
+      "configurePreset": "x64-debug",
+      "inherits": "testExecutionSection"
+    },
+    {
+      "name": "x64-Release-Tests",
+      "displayName": "X64 Release Test Preset",
+      "description": "X64 Release Unit Test Preset",
+      "configurePreset": "x64-release",
+      "inherits": "testExecutionSection"
+    },
+    {
+      "name": "linux-Debug-Tests",
+      "displayName": "Linux Debug Test Preset",
+      "description": "Linux Debug Unit Test Preset",
+      "configurePreset": "linux-debug",
+      "inherits": "testExecutionSection"
+    },
+    {
+      "name": "linux-Release-Tests",
+      "displayName": "Linux Release Test Preset",
+      "description": "Linux Release Unit Test Preset",
+      "configurePreset": "linux-release",
+      "inherits": "testExecutionSection"
+    }
+  ],
+  // cmake version 3.22 (e.g. ubuntu Jammy) is limited to version 3 or below.
+  "version": 3
+}

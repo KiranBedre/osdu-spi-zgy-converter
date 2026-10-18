@@ -1,0 +1,22 @@
+{
+  "name": "segy-node-wrapper",
+  "version": "1.0.0",
+  "description": "Segy nodeJs wrapper.",
+  "main": "src/segyApi.js",
+  "engines": {
+    "node": ">=14.0"
+  },
+  "scripts": {
+    "rebuild": "cmake-js compile",
+    "test": "mocha"
+  },
+  "keywords": [],
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "node-addon-api": "^4.0.0"
+  },
+  "devDependencies": {
+    "cmake-js": "^6.2.1",
+    "mocha": "^9.0.3"
+  }
+}

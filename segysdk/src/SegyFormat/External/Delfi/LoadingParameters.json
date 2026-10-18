@@ -1,0 +1,70 @@
+{
+  "TraceHeaderMapping": {
+    "Description": "Required headers for SEG-Y rev 1 Post stack 3D",
+    "Items": [
+      {
+        "KeyName": "INLINE",
+        "WordFormat": "Integer",
+        "WordWidth": 4,
+        "Position": 189,
+        "UoM": "Unitless",
+        "ScalarIndicator": "NOSCALE",
+        "ScalarOverride": 0
+      },
+      {
+        "KeyName": "CROSSLINE",
+        "WordFormat": "Integer",
+        "WordWidth": 4,
+        "Position": 193,
+        "UoM": "Unitless",
+        "ScalarIndicator": "NOSCALE",
+        "ScalarOverride": 0
+      },
+      {
+        "KeyName": "CDPX",
+        "WordFormat": "Integer",
+        "WordWidth": 4,
+        "Position": 181,
+        "UoM": "m",
+        "ScalarIndicator": "STANDARD",
+        "ScalarOverride": 0
+      },
+      {
+        "KeyName": "CDPY",
+        "WordFormat": "Integer",
+        "WordWidth": 4,
+        "Position": 185,
+        "UoM": "m",
+        "ScalarIndicator": "STANDARD",
+        "ScalarOverride": 0
+      },
+      {
+        "KeyName": "ShotToRecordingLagTime",
+        "WordFormat": "Integer",
+        "WordWidth": 2,
+        "Position": 109,
+        "UoM": "ms",
+        "ScalarIndicator": "STANDARD",
+        "ScalarOverride": 0
+      },
+      {
+        "KeyName": "ZSCALAR",
+        "WordFormat": "Integer",
+        "WordWidth": 2,
+        "Position": 69,
+        "UoM": "Unitless",
+        "ScalarIndicator": "NOSCALE",
+        "ScalarOverride": 0
+      },
+      {
+        "KeyName": "XYSCALAR",
+        "WordFormat": "Integer",
+        "WordWidth": 2,
+        "Position": 71,
+        "UoM": "Unitless",
+        "ScalarIndicator": "NOSCALE",
+        "ScalarOverride": 0
+      }
+    ]
+  }
+}

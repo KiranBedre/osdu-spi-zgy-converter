@@ -1,0 +1,19 @@
+{
+  "sgy_to_zgy_env_var": {
+    "SGY_TO_ZGY_DOCKER_IMAGE": "community.opengroup.org:5555/osdu/platform/data-flow/ingestion/segy-to-zgy-conversion/segy-to-zgy-conversion-v0-13-1:e9941b0ac5c244cb77f8fb366c1a32df406c8f07",
+    "SGY_TO_ZGY_NAMESPACE": "osdu-airflow",
+    "STORAGE_SVC_URL": "http://storage.og-cicd.svc.cluster.local:8080/api/storage/v2/",
+    "SD_SVC_URL": "http://seismic-store-service.og-cicd.svc.cluster.local:8080/api/v3",
+    "SD_SVC_TOKEN": "",
+    "SPATIALREF_SVC_TOKEN": "authorization",
+    "STORAGE_SVC_TOKEN": "",
+    "STORAGE_SVC_API_KEY": "",
+    "SD_SVC_API_KEY": "ok",
+    "OSDU_DATAPARTITIONID": "opendes",
+    "SD_READ_CACHE_PAGE_SIZE": "4195024",
+    "SD_READ_CACHE_MAX_PAGES": "16",
+    "SEGYTOZGY_VERBOSITY": "3",
+    "SEGYTOZGY_GENERATE_INDEX": "1",
+    "IBM_COS_URL": "minio-osdu-minio.osdu-qa-16x64-ba8e38d4c011d627379af1a4280c4e35-0000.sjc03.containers.appdomain.cloud"
+  }
+}

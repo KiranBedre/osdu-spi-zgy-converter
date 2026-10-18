@@ -1,0 +1,51 @@
+{
+   "CrosslinelineExtent" : {
+      "First" : 2325,
+      "Last" : 2350,
+      "Step" : 1
+   },
+   "DataGrid" : {
+      "Corner11" : {
+         "Crossline" : 2325,
+         "Inline" : 10150,
+         "X" : 434460.04000000004,
+         "Y" : 6478703.0300000003
+      },
+      "Corner1N" : {
+         "Crossline" : 2350,
+         "Inline" : 10150,
+         "X" : 434384.44,
+         "Y" : 6478399.8100000005
+      },
+      "CornerN1" : {
+         "Crossline" : 2325,
+         "Inline" : 10170,
+         "X" : 434217.47000000003,
+         "Y" : 6478763.5099999998
+      },
+      "CornerNN" : {
+         "Crossline" : 2350,
+         "Inline" : 10170,
+         "X" : 434141.87,
+         "Y" : 6478460.29
+      },
+      "IVectorRotationAngle" : 193.99977993505448,
+      "IVectorUnitDistance" : 12.50009461723212,
+      "JVectorRotationAngle" : 284.00011260151882,
+      "JVectorUnitDistance" : 12.499803528450437
+   },
+   "InlineExtent" : {
+      "First" : 10150,
+      "Last" : 10170,
+      "Step" : 1
+   },
+   "IsInlineOrdered" : true,
+   "IsRegular" : true,
+   "SampleExtent" : {
+      "Domain" : "Time",
+      "First" : 1.0,
+      "Last" : 1.504,
+      "Step" : 0.0040000000000000001,
+      "zUoM" : "seconds"
+   }
+}

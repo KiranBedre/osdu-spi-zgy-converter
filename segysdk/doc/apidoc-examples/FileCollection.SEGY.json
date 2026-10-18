@@ -1,0 +1,122 @@
+//! [OSDU_FileCollection example]
+
+{
+      "id": "opendes:dataset--FileCollection.SEGY:60e1cb1a-adef-4113-85fb-143d48eea925",
+      "kind": "osdu:wks:dataset--FileCollection.SEGY:1.0.0",
+      "version": 1562066009929332,
+      "acl": {
+        "owners": [
+          "data.default.owners@opendes.contoso.com"
+        ],
+        "viewers": [
+          "data.default.viewers@opendes.contoso.com"
+        ]
+      },
+      "legal": {
+        "legaltags": [
+          "opendes-default-legal"
+        ],
+        "otherRelevantDataCountries": [
+          "US"
+        ],
+        "status": "compliant"
+      },
+      "tags": {
+        "NameOfKey": "String value"
+      },
+      "createTime": "2020-12-16T11:46:20.163Z",
+      "createUser": "some-user@some-company-cloud.com",
+      "modifyTime": "2020-12-16T11:52:24.477Z",
+      "modifyUser": "some-user@some-company-cloud.com",
+      "ancestry": {
+        "parents": []
+      },
+      "meta": [],
+      "data": {
+        "Name": "OSDU_SEGY",
+        "Description": "As originally delivered by ACME.com.",
+        "TotalSize": "26869760",
+        "SchemaFormatTypeID": "opendes:reference-data--SchemaFormatType:SEGY:",
+        "Endian": "BIG",
+        "DatasetProperties": {
+          "FileSourceInfos": [
+            {
+           "FileSource": "E:\\Seismic\\SEGY 3D\\Cloudspin\\mig.sgy",
+           "PreloadFilePath": "C:\\Users\\gehrmann\\Downloads\\seismic-to-osdu\\Petrel\\OSDU_SEGY",
+           "Name": "OSDU_SEGY",
+           "FileSize": "224235504"
+            }
+          ],
+          "Checksum": "d41d8cd98f00b204e9800998ecf8427e"
+        },
+        "VectorHeaderMapping": [
+        {
+           "KeyName": "dev-weu-des-prod-testing-eu:reference-data--HeaderKeyName:Inline",
+           "WordFormat": "dev-weu-des-prod-testing-eu:reference-data--WordFormatType:INT:",
+           "WordWidth": 4,
+           "Position": 221,
+           "UoM": "Unitless",
+           "ScalarIndicator": "NOSCALE",
+           "ScalarOverride": 0
+        },
+        {
+           "KeyName": "dev-weu-des-prod-testing-eu:reference-data--HeaderKeyName:Crossline",
+           "WordFormat": "dev-weu-des-prod-testing-eu:reference-data--WordFormatType:INT:",
+           "WordWidth": 4,
+           "Position": 21,
+           "UoM": "Unitless",
+           "ScalarIndicator": "NOSCALE",
+           "ScalarOverride": 0
+        },
+        {
+           "KeyName": "dev-weu-des-prod-testing-eu:reference-data--HeaderKeyName:CMPX",
+           "WordFormat": "dev-weu-des-prod-testing-eu:reference-data--WordFormatType:INT:",
+           "WordWidth": 4,
+           "Position": 181,
+           "UoM": "m",
+           "ScalarIndicator": "STANDARD",
+           "ScalarOverride": 0
+        },
+        {
+           "KeyName": "dev-weu-des-prod-testing-eu:reference-data--HeaderKeyName:CMPY",
+           "WordFormat": "dev-weu-des-prod-testing-eu:reference-data--WordFormatType:INT:",
+           "WordWidth": 4,
+           "Position": 185,
+           "UoM": "m",
+           "ScalarIndicator": "STANDARD",
+           "ScalarOverride": 0
+        },
+        {
+           "KeyName": "dev-weu-des-prod-testing-eu:reference-data--HeaderKeyName:STARTTIME",
+           "WordFormat": "dev-weu-des-prod-testing-eu:reference-data--WordFormatType:INT:",
+           "WordWidth": 2,
+           "Position": 109,
+           "UoM": "ms",
+           "ScalarIndicator": "STANDARD",
+           "ScalarOverride": 0
+        },
+        {
+           "KeyName": "dev-weu-des-prod-testing-eu:reference-data--HeaderKeyName:ZSCALAR",
+           "WordFormat": "dev-weu-des-prod-testing-eu:reference-data--WordFormatType:INT:",
+           "WordWidth": 2,
+           "Position": 69,
+           "UoM": "Unitless",
+           "ScalarIndicator": "NOSCALE",
+           "ScalarOverride": 0
+        },
+        {
+           "KeyName": "dev-weu-des-prod-testing-eu:reference-data--HeaderKeyName:XYSCALAR",
+           "WordFormat": "dev-weu-des-prod-testing-eu:reference-data--WordFormatType:INT:",
+           "WordWidth": 2,
+           "Position": 71,
+           "UoM": "Unitless",
+           "ScalarIndicator": "NOSCALE",
+           "ScalarOverride": 0
+        }
+        ],
+        "SEGYRevision": "rev 0",
+        "ExtensionProperties": {}
+    }
+}
+
+//! [OSDU_FileCollection example]

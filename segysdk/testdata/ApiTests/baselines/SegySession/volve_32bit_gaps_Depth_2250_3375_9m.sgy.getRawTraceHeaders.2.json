@@ -1,0 +1,4404 @@
+{
+   "rawTraceHeaders" : [
+      [
+         {
+            "end" : 4,
+            "id" : "TraceSequenceLine",
+            "offset" : 1,
+            "value" : 12.0
+         },
+         {
+            "end" : 8,
+            "id" : "TraceSequenceFile",
+            "offset" : 5,
+            "value" : 10159.0
+         },
+         {
+            "end" : 12,
+            "id" : "FieldRecordNumber",
+            "offset" : 9,
+            "value" : 10159.0
+         },
+         {
+            "end" : 16,
+            "id" : "TraceNumberField",
+            "offset" : 13,
+            "value" : 12.0
+         },
+         {
+            "end" : 20,
+            "id" : "EnergySourcePointNumber",
+            "offset" : 17,
+            "value" : 0.0
+         },
+         {
+            "end" : 24,
+            "id" : "EnsembleNumber",
+            "offset" : 21,
+            "value" : 2336.0
+         },
+         {
+            "end" : 28,
+            "id" : "TraceNumberEnsemble",
+            "offset" : 25,
+            "value" : 1.0
+         },
+         {
+            "end" : 30,
+            "id" : "TraceIdentificationCode",
+            "offset" : 29,
+            "value" : 1.0
+         },
+         {
+            "end" : 32,
+            "id" : "NumberVerticallySummedTraces",
+            "offset" : 31,
+            "value" : 0.0
+         },
+         {
+            "end" : 34,
+            "id" : "NumberHorizontallyStackedTraces",
+            "offset" : 33,
+            "value" : 0.0
+         },
+         {
+            "end" : 36,
+            "id" : "DataUse",
+            "offset" : 35,
+            "value" : 1.0
+         },
+         {
+            "end" : 40,
+            "id" : "Offset",
+            "offset" : 37,
+            "value" : 0.0
+         },
+         {
+            "end" : 44,
+            "id" : "ReceiverGroupElevation",
+            "offset" : 41,
+            "value" : 0.0
+         },
+         {
+            "end" : 48,
+            "id" : "SurfaceElevationAtSource",
+            "offset" : 45,
+            "value" : 0.0
+         },
+         {
+            "end" : 52,
+            "id" : "SourceDepthBelowSurface",
+            "offset" : 49,
+            "value" : 0.0
+         },
+         {
+            "end" : 56,
+            "id" : "DatumElevationAtReceiverGroup",
+            "offset" : 53,
+            "value" : 0.0
+         },
+         {
+            "end" : 60,
+            "id" : "DatumElevationAtSource",
+            "offset" : 57,
+            "value" : 0.0
+         },
+         {
+            "end" : 64,
+            "id" : "WaterDepthAtSource",
+            "offset" : 61,
+            "value" : 0.0
+         },
+         {
+            "end" : 68,
+            "id" : "WaterDepthArtReceiverGroup",
+            "offset" : 65,
+            "value" : 0.0
+         },
+         {
+            "end" : 70,
+            "id" : "ScalarForElevations",
+            "offset" : 69,
+            "value" : 1.0
+         },
+         {
+            "end" : 72,
+            "id" : "ScalarForCoordinates",
+            "offset" : 71,
+            "value" : -100.0
+         },
+         {
+            "end" : 76,
+            "id" : "SourceCoordinateX",
+            "offset" : 73,
+            "value" : 43435384.0
+         },
+         {
+            "end" : 80,
+            "id" : "SourceCoordinateY",
+            "offset" : 77,
+            "value" : 647884545.0
+         },
+         {
+            "end" : 84,
+            "id" : "ReceiverCoordinateX",
+            "offset" : 81,
+            "value" : 0.0
+         },
+         {
+            "end" : 88,
+            "id" : "ReceiverCoordinateY",
+            "offset" : 85,
+            "value" : 0.0
+         },
+         {
+            "end" : 90,
+            "id" : "CoordinateUnits",
+            "offset" : 89,
+            "value" : 1.0
+         },
+         {
+            "end" : 92,
+            "id" : "WeatheringVelocity",
+            "offset" : 91,
+            "value" : 0.0
+         },
+         {
+            "end" : 94,
+            "id" : "SubweatheringVelocity",
+            "offset" : 93,
+            "value" : 0.0
+         },
+         {
+            "end" : 96,
+            "id" : "UpholeTimeSource",
+            "offset" : 95,
+            "value" : 0.0
+         },
+         {
+            "end" : 98,
+            "id" : "UpholeTimeReceiverGroup",
+            "offset" : 97,
+            "value" : 0.0
+         },
+         {
+            "end" : 100,
+            "id" : "StaticCorrectionSource",
+            "offset" : 99,
+            "value" : 0.0
+         },
+         {
+            "end" : 102,
+            "id" : "StaticCorrectionReceiverGroup",
+            "offset" : 101,
+            "value" : 0.0
+         },
+         {
+            "end" : 104,
+            "id" : "TotalStaticApplied",
+            "offset" : 103,
+            "value" : 0.0
+         },
+         {
+            "end" : 106,
+            "id" : "HeaderToTimeBreakLagTime",
+            "offset" : 105,
+            "value" : 2250.0
+         },
+         {
+            "end" : 108,
+            "id" : "TimeBreakToShotLagTime",
+            "offset" : 107,
+            "value" : 0.0
+         },
+         {
+            "end" : 110,
+            "id" : "ShotToRecordingLagTime",
+            "offset" : 109,
+            "value" : 2250.0
+         },
+         {
+            "end" : 112,
+            "id" : "MuteTimeStart",
+            "offset" : 111,
+            "value" : 0.0
+         },
+         {
+            "end" : 114,
+            "id" : "MuteTimeEnd",
+            "offset" : 113,
+            "value" : 0.0
+         },
+         {
+            "end" : 116,
+            "id" : "SamplesPerTrace",
+            "offset" : 115,
+            "value" : 126.0
+         },
+         {
+            "end" : 118,
+            "id" : "SampleInterval",
+            "offset" : 117,
+            "value" : 9000.0
+         },
+         {
+            "end" : 120,
+            "id" : "GainTypeInstrument",
+            "offset" : 119,
+            "value" : 0.0
+         },
+         {
+            "end" : 122,
+            "id" : "GainConstantInstrument",
+            "offset" : 121,
+            "value" : 0.0
+         },
+         {
+            "end" : 124,
+            "id" : "GainInstrumentInitial",
+            "offset" : 123,
+            "value" : 0.0
+         },
+         {
+            "end" : 126,
+            "id" : "Correlated",
+            "offset" : 125,
+            "value" : 1.0
+         },
+         {
+            "end" : 128,
+            "id" : "SweepFrequencyStart",
+            "offset" : 127,
+            "value" : 0.0
+         },
+         {
+            "end" : 130,
+            "id" : "SweepFrequencyEnd",
+            "offset" : 129,
+            "value" : 0.0
+         },
+         {
+            "end" : 132,
+            "id" : "SweepLength",
+            "offset" : 131,
+            "value" : 0.0
+         },
+         {
+            "end" : 134,
+            "id" : "SweepType",
+            "offset" : 133,
+            "value" : 1.0
+         },
+         {
+            "end" : 136,
+            "id" : "SweepTraceTaperLengthStart",
+            "offset" : 135,
+            "value" : 0.0
+         },
+         {
+            "end" : 138,
+            "id" : "SweepTraceTaperLengthEnd",
+            "offset" : 137,
+            "value" : 0.0
+         },
+         {
+            "end" : 140,
+            "id" : "TaperType",
+            "offset" : 139,
+            "value" : 1.0
+         },
+         {
+            "end" : 142,
+            "id" : "AliasFilterFrequency",
+            "offset" : 141,
+            "value" : 0.0
+         },
+         {
+            "end" : 144,
+            "id" : "AliasFilterSlope",
+            "offset" : 143,
+            "value" : 0.0
+         },
+         {
+            "end" : 146,
+            "id" : "NotchFilterFrequency",
+            "offset" : 145,
+            "value" : 0.0
+         },
+         {
+            "end" : 148,
+            "id" : "NotchFilterSlope",
+            "offset" : 147,
+            "value" : 0.0
+         },
+         {
+            "end" : 150,
+            "id" : "LowCutFrequency",
+            "offset" : 149,
+            "value" : 0.0
+         },
+         {
+            "end" : 152,
+            "id" : "HighCutFrequency",
+            "offset" : 151,
+            "value" : 0.0
+         },
+         {
+            "end" : 154,
+            "id" : "LowCutSlope",
+            "offset" : 153,
+            "value" : 0.0
+         },
+         {
+            "end" : 156,
+            "id" : "HighCutSlope",
+            "offset" : 155,
+            "value" : 0.0
+         },
+         {
+            "end" : 158,
+            "id" : "Year",
+            "offset" : 157,
+            "value" : 0.0
+         },
+         {
+            "end" : 160,
+            "id" : "DayOfYear",
+            "offset" : 159,
+            "value" : 0.0
+         },
+         {
+            "end" : 162,
+            "id" : "Hour",
+            "offset" : 161,
+            "value" : 0.0
+         },
+         {
+            "end" : 164,
+            "id" : "Minute",
+            "offset" : 163,
+            "value" : 0.0
+         },
+         {
+            "end" : 166,
+            "id" : "Second",
+            "offset" : 165,
+            "value" : 0.0
+         },
+         {
+            "end" : 168,
+            "id" : "TimeBasisCode",
+            "offset" : 167,
+            "value" : 1.0
+         },
+         {
+            "end" : 170,
+            "id" : "TraceWeightingFactor",
+            "offset" : 169,
+            "value" : 0.0
+         },
+         {
+            "end" : 172,
+            "id" : "GeophoneGroupNumberOfRollSwitchP1",
+            "offset" : 171,
+            "value" : 0.0
+         },
+         {
+            "end" : 174,
+            "id" : "GeophoneGroupNumberOfFirstTrace",
+            "offset" : 173,
+            "value" : 0.0
+         },
+         {
+            "end" : 176,
+            "id" : "GeophoneGroupNumberOfLastTrace",
+            "offset" : 175,
+            "value" : 0.0
+         },
+         {
+            "end" : 178,
+            "id" : "GapSize",
+            "offset" : 177,
+            "value" : 0.0
+         },
+         {
+            "end" : 180,
+            "id" : "Overtravel",
+            "offset" : 179,
+            "value" : 0.0
+         },
+         {
+            "end" : 192,
+            "id" : "InlineNumber",
+            "offset" : 189,
+            "value" : 10159.0
+         },
+         {
+            "end" : 196,
+            "id" : "CrosslineNumber",
+            "offset" : 193,
+            "value" : 2336.0
+         }
+      ],
+      [
+         {
+            "end" : 4,
+            "id" : "TraceSequenceLine",
+            "offset" : 1,
+            "value" : 13.0
+         },
+         {
+            "end" : 8,
+            "id" : "TraceSequenceFile",
+            "offset" : 5,
+            "value" : 10159.0
+         },
+         {
+            "end" : 12,
+            "id" : "FieldRecordNumber",
+            "offset" : 9,
+            "value" : 10159.0
+         },
+         {
+            "end" : 16,
+            "id" : "TraceNumberField",
+            "offset" : 13,
+            "value" : 13.0
+         },
+         {
+            "end" : 20,
+            "id" : "EnergySourcePointNumber",
+            "offset" : 17,
+            "value" : 0.0
+         },
+         {
+            "end" : 24,
+            "id" : "EnsembleNumber",
+            "offset" : 21,
+            "value" : 2337.0
+         },
+         {
+            "end" : 28,
+            "id" : "TraceNumberEnsemble",
+            "offset" : 25,
+            "value" : 1.0
+         },
+         {
+            "end" : 30,
+            "id" : "TraceIdentificationCode",
+            "offset" : 29,
+            "value" : 1.0
+         },
+         {
+            "end" : 32,
+            "id" : "NumberVerticallySummedTraces",
+            "offset" : 31,
+            "value" : 0.0
+         },
+         {
+            "end" : 34,
+            "id" : "NumberHorizontallyStackedTraces",
+            "offset" : 33,
+            "value" : 0.0
+         },
+         {
+            "end" : 36,
+            "id" : "DataUse",
+            "offset" : 35,
+            "value" : 1.0
+         },
+         {
+            "end" : 40,
+            "id" : "Offset",
+            "offset" : 37,
+            "value" : 0.0
+         },
+         {
+            "end" : 44,
+            "id" : "ReceiverGroupElevation",
+            "offset" : 41,
+            "value" : 0.0
+         },
+         {
+            "end" : 48,
+            "id" : "SurfaceElevationAtSource",
+            "offset" : 45,
+            "value" : 0.0
+         },
+         {
+            "end" : 52,
+            "id" : "SourceDepthBelowSurface",
+            "offset" : 49,
+            "value" : 0.0
+         },
+         {
+            "end" : 56,
+            "id" : "DatumElevationAtReceiverGroup",
+            "offset" : 53,
+            "value" : 0.0
+         },
+         {
+            "end" : 60,
+            "id" : "DatumElevationAtSource",
+            "offset" : 57,
+            "value" : 0.0
+         },
+         {
+            "end" : 64,
+            "id" : "WaterDepthAtSource",
+            "offset" : 61,
+            "value" : 0.0
+         },
+         {
+            "end" : 68,
+            "id" : "WaterDepthArtReceiverGroup",
+            "offset" : 65,
+            "value" : 0.0
+         },
+         {
+            "end" : 70,
+            "id" : "ScalarForElevations",
+            "offset" : 69,
+            "value" : 1.0
+         },
+         {
+            "end" : 72,
+            "id" : "ScalarForCoordinates",
+            "offset" : 71,
+            "value" : -100.0
+         },
+         {
+            "end" : 76,
+            "id" : "SourceCoordinateX",
+            "offset" : 73,
+            "value" : 43434171.0
+         },
+         {
+            "end" : 80,
+            "id" : "SourceCoordinateY",
+            "offset" : 77,
+            "value" : 647884848.0
+         },
+         {
+            "end" : 84,
+            "id" : "ReceiverCoordinateX",
+            "offset" : 81,
+            "value" : 0.0
+         },
+         {
+            "end" : 88,
+            "id" : "ReceiverCoordinateY",
+            "offset" : 85,
+            "value" : 0.0
+         },
+         {
+            "end" : 90,
+            "id" : "CoordinateUnits",
+            "offset" : 89,
+            "value" : 1.0
+         },
+         {
+            "end" : 92,
+            "id" : "WeatheringVelocity",
+            "offset" : 91,
+            "value" : 0.0
+         },
+         {
+            "end" : 94,
+            "id" : "SubweatheringVelocity",
+            "offset" : 93,
+            "value" : 0.0
+         },
+         {
+            "end" : 96,
+            "id" : "UpholeTimeSource",
+            "offset" : 95,
+            "value" : 0.0
+         },
+         {
+            "end" : 98,
+            "id" : "UpholeTimeReceiverGroup",
+            "offset" : 97,
+            "value" : 0.0
+         },
+         {
+            "end" : 100,
+            "id" : "StaticCorrectionSource",
+            "offset" : 99,
+            "value" : 0.0
+         },
+         {
+            "end" : 102,
+            "id" : "StaticCorrectionReceiverGroup",
+            "offset" : 101,
+            "value" : 0.0
+         },
+         {
+            "end" : 104,
+            "id" : "TotalStaticApplied",
+            "offset" : 103,
+            "value" : 0.0
+         },
+         {
+            "end" : 106,
+            "id" : "HeaderToTimeBreakLagTime",
+            "offset" : 105,
+            "value" : 2250.0
+         },
+         {
+            "end" : 108,
+            "id" : "TimeBreakToShotLagTime",
+            "offset" : 107,
+            "value" : 0.0
+         },
+         {
+            "end" : 110,
+            "id" : "ShotToRecordingLagTime",
+            "offset" : 109,
+            "value" : 2250.0
+         },
+         {
+            "end" : 112,
+            "id" : "MuteTimeStart",
+            "offset" : 111,
+            "value" : 0.0
+         },
+         {
+            "end" : 114,
+            "id" : "MuteTimeEnd",
+            "offset" : 113,
+            "value" : 0.0
+         },
+         {
+            "end" : 116,
+            "id" : "SamplesPerTrace",
+            "offset" : 115,
+            "value" : 126.0
+         },
+         {
+            "end" : 118,
+            "id" : "SampleInterval",
+            "offset" : 117,
+            "value" : 9000.0
+         },
+         {
+            "end" : 120,
+            "id" : "GainTypeInstrument",
+            "offset" : 119,
+            "value" : 0.0
+         },
+         {
+            "end" : 122,
+            "id" : "GainConstantInstrument",
+            "offset" : 121,
+            "value" : 0.0
+         },
+         {
+            "end" : 124,
+            "id" : "GainInstrumentInitial",
+            "offset" : 123,
+            "value" : 0.0
+         },
+         {
+            "end" : 126,
+            "id" : "Correlated",
+            "offset" : 125,
+            "value" : 1.0
+         },
+         {
+            "end" : 128,
+            "id" : "SweepFrequencyStart",
+            "offset" : 127,
+            "value" : 0.0
+         },
+         {
+            "end" : 130,
+            "id" : "SweepFrequencyEnd",
+            "offset" : 129,
+            "value" : 0.0
+         },
+         {
+            "end" : 132,
+            "id" : "SweepLength",
+            "offset" : 131,
+            "value" : 0.0
+         },
+         {
+            "end" : 134,
+            "id" : "SweepType",
+            "offset" : 133,
+            "value" : 1.0
+         },
+         {
+            "end" : 136,
+            "id" : "SweepTraceTaperLengthStart",
+            "offset" : 135,
+            "value" : 0.0
+         },
+         {
+            "end" : 138,
+            "id" : "SweepTraceTaperLengthEnd",
+            "offset" : 137,
+            "value" : 0.0
+         },
+         {
+            "end" : 140,
+            "id" : "TaperType",
+            "offset" : 139,
+            "value" : 1.0
+         },
+         {
+            "end" : 142,
+            "id" : "AliasFilterFrequency",
+            "offset" : 141,
+            "value" : 0.0
+         },
+         {
+            "end" : 144,
+            "id" : "AliasFilterSlope",
+            "offset" : 143,
+            "value" : 0.0
+         },
+         {
+            "end" : 146,
+            "id" : "NotchFilterFrequency",
+            "offset" : 145,
+            "value" : 0.0
+         },
+         {
+            "end" : 148,
+            "id" : "NotchFilterSlope",
+            "offset" : 147,
+            "value" : 0.0
+         },
+         {
+            "end" : 150,
+            "id" : "LowCutFrequency",
+            "offset" : 149,
+            "value" : 0.0
+         },
+         {
+            "end" : 152,
+            "id" : "HighCutFrequency",
+            "offset" : 151,
+            "value" : 0.0
+         },
+         {
+            "end" : 154,
+            "id" : "LowCutSlope",
+            "offset" : 153,
+            "value" : 0.0
+         },
+         {
+            "end" : 156,
+            "id" : "HighCutSlope",
+            "offset" : 155,
+            "value" : 0.0
+         },
+         {
+            "end" : 158,
+            "id" : "Year",
+            "offset" : 157,
+            "value" : 0.0
+         },
+         {
+            "end" : 160,
+            "id" : "DayOfYear",
+            "offset" : 159,
+            "value" : 0.0
+         },
+         {
+            "end" : 162,
+            "id" : "Hour",
+            "offset" : 161,
+            "value" : 0.0
+         },
+         {
+            "end" : 164,
+            "id" : "Minute",
+            "offset" : 163,
+            "value" : 0.0
+         },
+         {
+            "end" : 166,
+            "id" : "Second",
+            "offset" : 165,
+            "value" : 0.0
+         },
+         {
+            "end" : 168,
+            "id" : "TimeBasisCode",
+            "offset" : 167,
+            "value" : 1.0
+         },
+         {
+            "end" : 170,
+            "id" : "TraceWeightingFactor",
+            "offset" : 169,
+            "value" : 0.0
+         },
+         {
+            "end" : 172,
+            "id" : "GeophoneGroupNumberOfRollSwitchP1",
+            "offset" : 171,
+            "value" : 0.0
+         },
+         {
+            "end" : 174,
+            "id" : "GeophoneGroupNumberOfFirstTrace",
+            "offset" : 173,
+            "value" : 0.0
+         },
+         {
+            "end" : 176,
+            "id" : "GeophoneGroupNumberOfLastTrace",
+            "offset" : 175,
+            "value" : 0.0
+         },
+         {
+            "end" : 178,
+            "id" : "GapSize",
+            "offset" : 177,
+            "value" : 0.0
+         },
+         {
+            "end" : 180,
+            "id" : "Overtravel",
+            "offset" : 179,
+            "value" : 0.0
+         },
+         {
+            "end" : 192,
+            "id" : "InlineNumber",
+            "offset" : 189,
+            "value" : 10159.0
+         },
+         {
+            "end" : 196,
+            "id" : "CrosslineNumber",
+            "offset" : 193,
+            "value" : 2337.0
+         }
+      ],
+      [
+         {
+            "end" : 4,
+            "id" : "TraceSequenceLine",
+            "offset" : 1,
+            "value" : 14.0
+         },
+         {
+            "end" : 8,
+            "id" : "TraceSequenceFile",
+            "offset" : 5,
+            "value" : 10159.0
+         },
+         {
+            "end" : 12,
+            "id" : "FieldRecordNumber",
+            "offset" : 9,
+            "value" : 10159.0
+         },
+         {
+            "end" : 16,
+            "id" : "TraceNumberField",
+            "offset" : 13,
+            "value" : 14.0
+         },
+         {
+            "end" : 20,
+            "id" : "EnergySourcePointNumber",
+            "offset" : 17,
+            "value" : 0.0
+         },
+         {
+            "end" : 24,
+            "id" : "EnsembleNumber",
+            "offset" : 21,
+            "value" : 2338.0
+         },
+         {
+            "end" : 28,
+            "id" : "TraceNumberEnsemble",
+            "offset" : 25,
+            "value" : 1.0
+         },
+         {
+            "end" : 30,
+            "id" : "TraceIdentificationCode",
+            "offset" : 29,
+            "value" : 1.0
+         },
+         {
+            "end" : 32,
+            "id" : "NumberVerticallySummedTraces",
+            "offset" : 31,
+            "value" : 0.0
+         },
+         {
+            "end" : 34,
+            "id" : "NumberHorizontallyStackedTraces",
+            "offset" : 33,
+            "value" : 0.0
+         },
+         {
+            "end" : 36,
+            "id" : "DataUse",
+            "offset" : 35,
+            "value" : 1.0
+         },
+         {
+            "end" : 40,
+            "id" : "Offset",
+            "offset" : 37,
+            "value" : 0.0
+         },
+         {
+            "end" : 44,
+            "id" : "ReceiverGroupElevation",
+            "offset" : 41,
+            "value" : 0.0
+         },
+         {
+            "end" : 48,
+            "id" : "SurfaceElevationAtSource",
+            "offset" : 45,
+            "value" : 0.0
+         },
+         {
+            "end" : 52,
+            "id" : "SourceDepthBelowSurface",
+            "offset" : 49,
+            "value" : 0.0
+         },
+         {
+            "end" : 56,
+            "id" : "DatumElevationAtReceiverGroup",
+            "offset" : 53,
+            "value" : 0.0
+         },
+         {
+            "end" : 60,
+            "id" : "DatumElevationAtSource",
+            "offset" : 57,
+            "value" : 0.0
+         },
+         {
+            "end" : 64,
+            "id" : "WaterDepthAtSource",
+            "offset" : 61,
+            "value" : 0.0
+         },
+         {
+            "end" : 68,
+            "id" : "WaterDepthArtReceiverGroup",
+            "offset" : 65,
+            "value" : 0.0
+         },
+         {
+            "end" : 70,
+            "id" : "ScalarForElevations",
+            "offset" : 69,
+            "value" : 1.0
+         },
+         {
+            "end" : 72,
+            "id" : "ScalarForCoordinates",
+            "offset" : 71,
+            "value" : -100.0
+         },
+         {
+            "end" : 76,
+            "id" : "SourceCoordinateX",
+            "offset" : 73,
+            "value" : 43432959.0
+         },
+         {
+            "end" : 80,
+            "id" : "SourceCoordinateY",
+            "offset" : 77,
+            "value" : 647885150.0
+         },
+         {
+            "end" : 84,
+            "id" : "ReceiverCoordinateX",
+            "offset" : 81,
+            "value" : 0.0
+         },
+         {
+            "end" : 88,
+            "id" : "ReceiverCoordinateY",
+            "offset" : 85,
+            "value" : 0.0
+         },
+         {
+            "end" : 90,
+            "id" : "CoordinateUnits",
+            "offset" : 89,
+            "value" : 1.0
+         },
+         {
+            "end" : 92,
+            "id" : "WeatheringVelocity",
+            "offset" : 91,
+            "value" : 0.0
+         },
+         {
+            "end" : 94,
+            "id" : "SubweatheringVelocity",
+            "offset" : 93,
+            "value" : 0.0
+         },
+         {
+            "end" : 96,
+            "id" : "UpholeTimeSource",
+            "offset" : 95,
+            "value" : 0.0
+         },
+         {
+            "end" : 98,
+            "id" : "UpholeTimeReceiverGroup",
+            "offset" : 97,
+            "value" : 0.0
+         },
+         {
+            "end" : 100,
+            "id" : "StaticCorrectionSource",
+            "offset" : 99,
+            "value" : 0.0
+         },
+         {
+            "end" : 102,
+            "id" : "StaticCorrectionReceiverGroup",
+            "offset" : 101,
+            "value" : 0.0
+         },
+         {
+            "end" : 104,
+            "id" : "TotalStaticApplied",
+            "offset" : 103,
+            "value" : 0.0
+         },
+         {
+            "end" : 106,
+            "id" : "HeaderToTimeBreakLagTime",
+            "offset" : 105,
+            "value" : 2250.0
+         },
+         {
+            "end" : 108,
+            "id" : "TimeBreakToShotLagTime",
+            "offset" : 107,
+            "value" : 0.0
+         },
+         {
+            "end" : 110,
+            "id" : "ShotToRecordingLagTime",
+            "offset" : 109,
+            "value" : 2250.0
+         },
+         {
+            "end" : 112,
+            "id" : "MuteTimeStart",
+            "offset" : 111,
+            "value" : 0.0
+         },
+         {
+            "end" : 114,
+            "id" : "MuteTimeEnd",
+            "offset" : 113,
+            "value" : 0.0
+         },
+         {
+            "end" : 116,
+            "id" : "SamplesPerTrace",
+            "offset" : 115,
+            "value" : 126.0
+         },
+         {
+            "end" : 118,
+            "id" : "SampleInterval",
+            "offset" : 117,
+            "value" : 9000.0
+         },
+         {
+            "end" : 120,
+            "id" : "GainTypeInstrument",
+            "offset" : 119,
+            "value" : 0.0
+         },
+         {
+            "end" : 122,
+            "id" : "GainConstantInstrument",
+            "offset" : 121,
+            "value" : 0.0
+         },
+         {
+            "end" : 124,
+            "id" : "GainInstrumentInitial",
+            "offset" : 123,
+            "value" : 0.0
+         },
+         {
+            "end" : 126,
+            "id" : "Correlated",
+            "offset" : 125,
+            "value" : 1.0
+         },
+         {
+            "end" : 128,
+            "id" : "SweepFrequencyStart",
+            "offset" : 127,
+            "value" : 0.0
+         },
+         {
+            "end" : 130,
+            "id" : "SweepFrequencyEnd",
+            "offset" : 129,
+            "value" : 0.0
+         },
+         {
+            "end" : 132,
+            "id" : "SweepLength",
+            "offset" : 131,
+            "value" : 0.0
+         },
+         {
+            "end" : 134,
+            "id" : "SweepType",
+            "offset" : 133,
+            "value" : 1.0
+         },
+         {
+            "end" : 136,
+            "id" : "SweepTraceTaperLengthStart",
+            "offset" : 135,
+            "value" : 0.0
+         },
+         {
+            "end" : 138,
+            "id" : "SweepTraceTaperLengthEnd",
+            "offset" : 137,
+            "value" : 0.0
+         },
+         {
+            "end" : 140,
+            "id" : "TaperType",
+            "offset" : 139,
+            "value" : 1.0
+         },
+         {
+            "end" : 142,
+            "id" : "AliasFilterFrequency",
+            "offset" : 141,
+            "value" : 0.0
+         },
+         {
+            "end" : 144,
+            "id" : "AliasFilterSlope",
+            "offset" : 143,
+            "value" : 0.0
+         },
+         {
+            "end" : 146,
+            "id" : "NotchFilterFrequency",
+            "offset" : 145,
+            "value" : 0.0
+         },
+         {
+            "end" : 148,
+            "id" : "NotchFilterSlope",
+            "offset" : 147,
+            "value" : 0.0
+         },
+         {
+            "end" : 150,
+            "id" : "LowCutFrequency",
+            "offset" : 149,
+            "value" : 0.0
+         },
+         {
+            "end" : 152,
+            "id" : "HighCutFrequency",
+            "offset" : 151,
+            "value" : 0.0
+         },
+         {
+            "end" : 154,
+            "id" : "LowCutSlope",
+            "offset" : 153,
+            "value" : 0.0
+         },
+         {
+            "end" : 156,
+            "id" : "HighCutSlope",
+            "offset" : 155,
+            "value" : 0.0
+         },
+         {
+            "end" : 158,
+            "id" : "Year",
+            "offset" : 157,
+            "value" : 0.0
+         },
+         {
+            "end" : 160,
+            "id" : "DayOfYear",
+            "offset" : 159,
+            "value" : 0.0
+         },
+         {
+            "end" : 162,
+            "id" : "Hour",
+            "offset" : 161,
+            "value" : 0.0
+         },
+         {
+            "end" : 164,
+            "id" : "Minute",
+            "offset" : 163,
+            "value" : 0.0
+         },
+         {
+            "end" : 166,
+            "id" : "Second",
+            "offset" : 165,
+            "value" : 0.0
+         },
+         {
+            "end" : 168,
+            "id" : "TimeBasisCode",
+            "offset" : 167,
+            "value" : 1.0
+         },
+         {
+            "end" : 170,
+            "id" : "TraceWeightingFactor",
+            "offset" : 169,
+            "value" : 0.0
+         },
+         {
+            "end" : 172,
+            "id" : "GeophoneGroupNumberOfRollSwitchP1",
+            "offset" : 171,
+            "value" : 0.0
+         },
+         {
+            "end" : 174,
+            "id" : "GeophoneGroupNumberOfFirstTrace",
+            "offset" : 173,
+            "value" : 0.0
+         },
+         {
+            "end" : 176,
+            "id" : "GeophoneGroupNumberOfLastTrace",
+            "offset" : 175,
+            "value" : 0.0
+         },
+         {
+            "end" : 178,
+            "id" : "GapSize",
+            "offset" : 177,
+            "value" : 0.0
+         },
+         {
+            "end" : 180,
+            "id" : "Overtravel",
+            "offset" : 179,
+            "value" : 0.0
+         },
+         {
+            "end" : 192,
+            "id" : "InlineNumber",
+            "offset" : 189,
+            "value" : 10159.0
+         },
+         {
+            "end" : 196,
+            "id" : "CrosslineNumber",
+            "offset" : 193,
+            "value" : 2338.0
+         }
+      ],
+      [
+         {
+            "end" : 4,
+            "id" : "TraceSequenceLine",
+            "offset" : 1,
+            "value" : 15.0
+         },
+         {
+            "end" : 8,
+            "id" : "TraceSequenceFile",
+            "offset" : 5,
+            "value" : 10159.0
+         },
+         {
+            "end" : 12,
+            "id" : "FieldRecordNumber",
+            "offset" : 9,
+            "value" : 10159.0
+         },
+         {
+            "end" : 16,
+            "id" : "TraceNumberField",
+            "offset" : 13,
+            "value" : 15.0
+         },
+         {
+            "end" : 20,
+            "id" : "EnergySourcePointNumber",
+            "offset" : 17,
+            "value" : 0.0
+         },
+         {
+            "end" : 24,
+            "id" : "EnsembleNumber",
+            "offset" : 21,
+            "value" : 2339.0
+         },
+         {
+            "end" : 28,
+            "id" : "TraceNumberEnsemble",
+            "offset" : 25,
+            "value" : 1.0
+         },
+         {
+            "end" : 30,
+            "id" : "TraceIdentificationCode",
+            "offset" : 29,
+            "value" : 1.0
+         },
+         {
+            "end" : 32,
+            "id" : "NumberVerticallySummedTraces",
+            "offset" : 31,
+            "value" : 0.0
+         },
+         {
+            "end" : 34,
+            "id" : "NumberHorizontallyStackedTraces",
+            "offset" : 33,
+            "value" : 0.0
+         },
+         {
+            "end" : 36,
+            "id" : "DataUse",
+            "offset" : 35,
+            "value" : 1.0
+         },
+         {
+            "end" : 40,
+            "id" : "Offset",
+            "offset" : 37,
+            "value" : 0.0
+         },
+         {
+            "end" : 44,
+            "id" : "ReceiverGroupElevation",
+            "offset" : 41,
+            "value" : 0.0
+         },
+         {
+            "end" : 48,
+            "id" : "SurfaceElevationAtSource",
+            "offset" : 45,
+            "value" : 0.0
+         },
+         {
+            "end" : 52,
+            "id" : "SourceDepthBelowSurface",
+            "offset" : 49,
+            "value" : 0.0
+         },
+         {
+            "end" : 56,
+            "id" : "DatumElevationAtReceiverGroup",
+            "offset" : 53,
+            "value" : 0.0
+         },
+         {
+            "end" : 60,
+            "id" : "DatumElevationAtSource",
+            "offset" : 57,
+            "value" : 0.0
+         },
+         {
+            "end" : 64,
+            "id" : "WaterDepthAtSource",
+            "offset" : 61,
+            "value" : 0.0
+         },
+         {
+            "end" : 68,
+            "id" : "WaterDepthArtReceiverGroup",
+            "offset" : 65,
+            "value" : 0.0
+         },
+         {
+            "end" : 70,
+            "id" : "ScalarForElevations",
+            "offset" : 69,
+            "value" : 1.0
+         },
+         {
+            "end" : 72,
+            "id" : "ScalarForCoordinates",
+            "offset" : 71,
+            "value" : -100.0
+         },
+         {
+            "end" : 76,
+            "id" : "SourceCoordinateX",
+            "offset" : 73,
+            "value" : 43431746.0
+         },
+         {
+            "end" : 80,
+            "id" : "SourceCoordinateY",
+            "offset" : 77,
+            "value" : 647885453.0
+         },
+         {
+            "end" : 84,
+            "id" : "ReceiverCoordinateX",
+            "offset" : 81,
+            "value" : 0.0
+         },
+         {
+            "end" : 88,
+            "id" : "ReceiverCoordinateY",
+            "offset" : 85,
+            "value" : 0.0
+         },
+         {
+            "end" : 90,
+            "id" : "CoordinateUnits",
+            "offset" : 89,
+            "value" : 1.0
+         },
+         {
+            "end" : 92,
+            "id" : "WeatheringVelocity",
+            "offset" : 91,
+            "value" : 0.0
+         },
+         {
+            "end" : 94,
+            "id" : "SubweatheringVelocity",
+            "offset" : 93,
+            "value" : 0.0
+         },
+         {
+            "end" : 96,
+            "id" : "UpholeTimeSource",
+            "offset" : 95,
+            "value" : 0.0
+         },
+         {
+            "end" : 98,
+            "id" : "UpholeTimeReceiverGroup",
+            "offset" : 97,
+            "value" : 0.0
+         },
+         {
+            "end" : 100,
+            "id" : "StaticCorrectionSource",
+            "offset" : 99,
+            "value" : 0.0
+         },
+         {
+            "end" : 102,
+            "id" : "StaticCorrectionReceiverGroup",
+            "offset" : 101,
+            "value" : 0.0
+         },
+         {
+            "end" : 104,
+            "id" : "TotalStaticApplied",
+            "offset" : 103,
+            "value" : 0.0
+         },
+         {
+            "end" : 106,
+            "id" : "HeaderToTimeBreakLagTime",
+            "offset" : 105,
+            "value" : 2250.0
+         },
+         {
+            "end" : 108,
+            "id" : "TimeBreakToShotLagTime",
+            "offset" : 107,
+            "value" : 0.0
+         },
+         {
+            "end" : 110,
+            "id" : "ShotToRecordingLagTime",
+            "offset" : 109,
+            "value" : 2250.0
+         },
+         {
+            "end" : 112,
+            "id" : "MuteTimeStart",
+            "offset" : 111,
+            "value" : 0.0
+         },
+         {
+            "end" : 114,
+            "id" : "MuteTimeEnd",
+            "offset" : 113,
+            "value" : 0.0
+         },
+         {
+            "end" : 116,
+            "id" : "SamplesPerTrace",
+            "offset" : 115,
+            "value" : 126.0
+         },
+         {
+            "end" : 118,
+            "id" : "SampleInterval",
+            "offset" : 117,
+            "value" : 9000.0
+         },
+         {
+            "end" : 120,
+            "id" : "GainTypeInstrument",
+            "offset" : 119,
+            "value" : 0.0
+         },
+         {
+            "end" : 122,
+            "id" : "GainConstantInstrument",
+            "offset" : 121,
+            "value" : 0.0
+         },
+         {
+            "end" : 124,
+            "id" : "GainInstrumentInitial",
+            "offset" : 123,
+            "value" : 0.0
+         },
+         {
+            "end" : 126,
+            "id" : "Correlated",
+            "offset" : 125,
+            "value" : 1.0
+         },
+         {
+            "end" : 128,
+            "id" : "SweepFrequencyStart",
+            "offset" : 127,
+            "value" : 0.0
+         },
+         {
+            "end" : 130,
+            "id" : "SweepFrequencyEnd",
+            "offset" : 129,
+            "value" : 0.0
+         },
+         {
+            "end" : 132,
+            "id" : "SweepLength",
+            "offset" : 131,
+            "value" : 0.0
+         },
+         {
+            "end" : 134,
+            "id" : "SweepType",
+            "offset" : 133,
+            "value" : 1.0
+         },
+         {
+            "end" : 136,
+            "id" : "SweepTraceTaperLengthStart",
+            "offset" : 135,
+            "value" : 0.0
+         },
+         {
+            "end" : 138,
+            "id" : "SweepTraceTaperLengthEnd",
+            "offset" : 137,
+            "value" : 0.0
+         },
+         {
+            "end" : 140,
+            "id" : "TaperType",
+            "offset" : 139,
+            "value" : 1.0
+         },
+         {
+            "end" : 142,
+            "id" : "AliasFilterFrequency",
+            "offset" : 141,
+            "value" : 0.0
+         },
+         {
+            "end" : 144,
+            "id" : "AliasFilterSlope",
+            "offset" : 143,
+            "value" : 0.0
+         },
+         {
+            "end" : 146,
+            "id" : "NotchFilterFrequency",
+            "offset" : 145,
+            "value" : 0.0
+         },
+         {
+            "end" : 148,
+            "id" : "NotchFilterSlope",
+            "offset" : 147,
+            "value" : 0.0
+         },
+         {
+            "end" : 150,
+            "id" : "LowCutFrequency",
+            "offset" : 149,
+            "value" : 0.0
+         },
+         {
+            "end" : 152,
+            "id" : "HighCutFrequency",
+            "offset" : 151,
+            "value" : 0.0
+         },
+         {
+            "end" : 154,
+            "id" : "LowCutSlope",
+            "offset" : 153,
+            "value" : 0.0
+         },
+         {
+            "end" : 156,
+            "id" : "HighCutSlope",
+            "offset" : 155,
+            "value" : 0.0
+         },
+         {
+            "end" : 158,
+            "id" : "Year",
+            "offset" : 157,
+            "value" : 0.0
+         },
+         {
+            "end" : 160,
+            "id" : "DayOfYear",
+            "offset" : 159,
+            "value" : 0.0
+         },
+         {
+            "end" : 162,
+            "id" : "Hour",
+            "offset" : 161,
+            "value" : 0.0
+         },
+         {
+            "end" : 164,
+            "id" : "Minute",
+            "offset" : 163,
+            "value" : 0.0
+         },
+         {
+            "end" : 166,
+            "id" : "Second",
+            "offset" : 165,
+            "value" : 0.0
+         },
+         {
+            "end" : 168,
+            "id" : "TimeBasisCode",
+            "offset" : 167,
+            "value" : 1.0
+         },
+         {
+            "end" : 170,
+            "id" : "TraceWeightingFactor",
+            "offset" : 169,
+            "value" : 0.0
+         },
+         {
+            "end" : 172,
+            "id" : "GeophoneGroupNumberOfRollSwitchP1",
+            "offset" : 171,
+            "value" : 0.0
+         },
+         {
+            "end" : 174,
+            "id" : "GeophoneGroupNumberOfFirstTrace",
+            "offset" : 173,
+            "value" : 0.0
+         },
+         {
+            "end" : 176,
+            "id" : "GeophoneGroupNumberOfLastTrace",
+            "offset" : 175,
+            "value" : 0.0
+         },
+         {
+            "end" : 178,
+            "id" : "GapSize",
+            "offset" : 177,
+            "value" : 0.0
+         },
+         {
+            "end" : 180,
+            "id" : "Overtravel",
+            "offset" : 179,
+            "value" : 0.0
+         },
+         {
+            "end" : 192,
+            "id" : "InlineNumber",
+            "offset" : 189,
+            "value" : 10159.0
+         },
+         {
+            "end" : 196,
+            "id" : "CrosslineNumber",
+            "offset" : 193,
+            "value" : 2339.0
+         }
+      ],
+      [
+         {
+            "end" : 4,
+            "id" : "TraceSequenceLine",
+            "offset" : 1,
+            "value" : 16.0
+         },
+         {
+            "end" : 8,
+            "id" : "TraceSequenceFile",
+            "offset" : 5,
+            "value" : 10159.0
+         },
+         {
+            "end" : 12,
+            "id" : "FieldRecordNumber",
+            "offset" : 9,
+            "value" : 10159.0
+         },
+         {
+            "end" : 16,
+            "id" : "TraceNumberField",
+            "offset" : 13,
+            "value" : 16.0
+         },
+         {
+            "end" : 20,
+            "id" : "EnergySourcePointNumber",
+            "offset" : 17,
+            "value" : 0.0
+         },
+         {
+            "end" : 24,
+            "id" : "EnsembleNumber",
+            "offset" : 21,
+            "value" : 2340.0
+         },
+         {
+            "end" : 28,
+            "id" : "TraceNumberEnsemble",
+            "offset" : 25,
+            "value" : 1.0
+         },
+         {
+            "end" : 30,
+            "id" : "TraceIdentificationCode",
+            "offset" : 29,
+            "value" : 1.0
+         },
+         {
+            "end" : 32,
+            "id" : "NumberVerticallySummedTraces",
+            "offset" : 31,
+            "value" : 0.0
+         },
+         {
+            "end" : 34,
+            "id" : "NumberHorizontallyStackedTraces",
+            "offset" : 33,
+            "value" : 0.0
+         },
+         {
+            "end" : 36,
+            "id" : "DataUse",
+            "offset" : 35,
+            "value" : 1.0
+         },
+         {
+            "end" : 40,
+            "id" : "Offset",
+            "offset" : 37,
+            "value" : 0.0
+         },
+         {
+            "end" : 44,
+            "id" : "ReceiverGroupElevation",
+            "offset" : 41,
+            "value" : 0.0
+         },
+         {
+            "end" : 48,
+            "id" : "SurfaceElevationAtSource",
+            "offset" : 45,
+            "value" : 0.0
+         },
+         {
+            "end" : 52,
+            "id" : "SourceDepthBelowSurface",
+            "offset" : 49,
+            "value" : 0.0
+         },
+         {
+            "end" : 56,
+            "id" : "DatumElevationAtReceiverGroup",
+            "offset" : 53,
+            "value" : 0.0
+         },
+         {
+            "end" : 60,
+            "id" : "DatumElevationAtSource",
+            "offset" : 57,
+            "value" : 0.0
+         },
+         {
+            "end" : 64,
+            "id" : "WaterDepthAtSource",
+            "offset" : 61,
+            "value" : 0.0
+         },
+         {
+            "end" : 68,
+            "id" : "WaterDepthArtReceiverGroup",
+            "offset" : 65,
+            "value" : 0.0
+         },
+         {
+            "end" : 70,
+            "id" : "ScalarForElevations",
+            "offset" : 69,
+            "value" : 1.0
+         },
+         {
+            "end" : 72,
+            "id" : "ScalarForCoordinates",
+            "offset" : 71,
+            "value" : -100.0
+         },
+         {
+            "end" : 76,
+            "id" : "SourceCoordinateX",
+            "offset" : 73,
+            "value" : 43430533.0
+         },
+         {
+            "end" : 80,
+            "id" : "SourceCoordinateY",
+            "offset" : 77,
+            "value" : 647885755.0
+         },
+         {
+            "end" : 84,
+            "id" : "ReceiverCoordinateX",
+            "offset" : 81,
+            "value" : 0.0
+         },
+         {
+            "end" : 88,
+            "id" : "ReceiverCoordinateY",
+            "offset" : 85,
+            "value" : 0.0
+         },
+         {
+            "end" : 90,
+            "id" : "CoordinateUnits",
+            "offset" : 89,
+            "value" : 1.0
+         },
+         {
+            "end" : 92,
+            "id" : "WeatheringVelocity",
+            "offset" : 91,
+            "value" : 0.0
+         },
+         {
+            "end" : 94,
+            "id" : "SubweatheringVelocity",
+            "offset" : 93,
+            "value" : 0.0
+         },
+         {
+            "end" : 96,
+            "id" : "UpholeTimeSource",
+            "offset" : 95,
+            "value" : 0.0
+         },
+         {
+            "end" : 98,
+            "id" : "UpholeTimeReceiverGroup",
+            "offset" : 97,
+            "value" : 0.0
+         },
+         {
+            "end" : 100,
+            "id" : "StaticCorrectionSource",
+            "offset" : 99,
+            "value" : 0.0
+         },
+         {
+            "end" : 102,
+            "id" : "StaticCorrectionReceiverGroup",
+            "offset" : 101,
+            "value" : 0.0
+         },
+         {
+            "end" : 104,
+            "id" : "TotalStaticApplied",
+            "offset" : 103,
+            "value" : 0.0
+         },
+         {
+            "end" : 106,
+            "id" : "HeaderToTimeBreakLagTime",
+            "offset" : 105,
+            "value" : 2250.0
+         },
+         {
+            "end" : 108,
+            "id" : "TimeBreakToShotLagTime",
+            "offset" : 107,
+            "value" : 0.0
+         },
+         {
+            "end" : 110,
+            "id" : "ShotToRecordingLagTime",
+            "offset" : 109,
+            "value" : 2250.0
+         },
+         {
+            "end" : 112,
+            "id" : "MuteTimeStart",
+            "offset" : 111,
+            "value" : 0.0
+         },
+         {
+            "end" : 114,
+            "id" : "MuteTimeEnd",
+            "offset" : 113,
+            "value" : 0.0
+         },
+         {
+            "end" : 116,
+            "id" : "SamplesPerTrace",
+            "offset" : 115,
+            "value" : 126.0
+         },
+         {
+            "end" : 118,
+            "id" : "SampleInterval",
+            "offset" : 117,
+            "value" : 9000.0
+         },
+         {
+            "end" : 120,
+            "id" : "GainTypeInstrument",
+            "offset" : 119,
+            "value" : 0.0
+         },
+         {
+            "end" : 122,
+            "id" : "GainConstantInstrument",
+            "offset" : 121,
+            "value" : 0.0
+         },
+         {
+            "end" : 124,
+            "id" : "GainInstrumentInitial",
+            "offset" : 123,
+            "value" : 0.0
+         },
+         {
+            "end" : 126,
+            "id" : "Correlated",
+            "offset" : 125,
+            "value" : 1.0
+         },
+         {
+            "end" : 128,
+            "id" : "SweepFrequencyStart",
+            "offset" : 127,
+            "value" : 0.0
+         },
+         {
+            "end" : 130,
+            "id" : "SweepFrequencyEnd",
+            "offset" : 129,
+            "value" : 0.0
+         },
+         {
+            "end" : 132,
+            "id" : "SweepLength",
+            "offset" : 131,
+            "value" : 0.0
+         },
+         {
+            "end" : 134,
+            "id" : "SweepType",
+            "offset" : 133,
+            "value" : 1.0
+         },
+         {
+            "end" : 136,
+            "id" : "SweepTraceTaperLengthStart",
+            "offset" : 135,
+            "value" : 0.0
+         },
+         {
+            "end" : 138,
+            "id" : "SweepTraceTaperLengthEnd",
+            "offset" : 137,
+            "value" : 0.0
+         },
+         {
+            "end" : 140,
+            "id" : "TaperType",
+            "offset" : 139,
+            "value" : 1.0
+         },
+         {
+            "end" : 142,
+            "id" : "AliasFilterFrequency",
+            "offset" : 141,
+            "value" : 0.0
+         },
+         {
+            "end" : 144,
+            "id" : "AliasFilterSlope",
+            "offset" : 143,
+            "value" : 0.0
+         },
+         {
+            "end" : 146,
+            "id" : "NotchFilterFrequency",
+            "offset" : 145,
+            "value" : 0.0
+         },
+         {
+            "end" : 148,
+            "id" : "NotchFilterSlope",
+            "offset" : 147,
+            "value" : 0.0
+         },
+         {
+            "end" : 150,
+            "id" : "LowCutFrequency",
+            "offset" : 149,
+            "value" : 0.0
+         },
+         {
+            "end" : 152,
+            "id" : "HighCutFrequency",
+            "offset" : 151,
+            "value" : 0.0
+         },
+         {
+            "end" : 154,
+            "id" : "LowCutSlope",
+            "offset" : 153,
+            "value" : 0.0
+         },
+         {
+            "end" : 156,
+            "id" : "HighCutSlope",
+            "offset" : 155,
+            "value" : 0.0
+         },
+         {
+            "end" : 158,
+            "id" : "Year",
+            "offset" : 157,
+            "value" : 0.0
+         },
+         {
+            "end" : 160,
+            "id" : "DayOfYear",
+            "offset" : 159,
+            "value" : 0.0
+         },
+         {
+            "end" : 162,
+            "id" : "Hour",
+            "offset" : 161,
+            "value" : 0.0
+         },
+         {
+            "end" : 164,
+            "id" : "Minute",
+            "offset" : 163,
+            "value" : 0.0
+         },
+         {
+            "end" : 166,
+            "id" : "Second",
+            "offset" : 165,
+            "value" : 0.0
+         },
+         {
+            "end" : 168,
+            "id" : "TimeBasisCode",
+            "offset" : 167,
+            "value" : 1.0
+         },
+         {
+            "end" : 170,
+            "id" : "TraceWeightingFactor",
+            "offset" : 169,
+            "value" : 0.0
+         },
+         {
+            "end" : 172,
+            "id" : "GeophoneGroupNumberOfRollSwitchP1",
+            "offset" : 171,
+            "value" : 0.0
+         },
+         {
+            "end" : 174,
+            "id" : "GeophoneGroupNumberOfFirstTrace",
+            "offset" : 173,
+            "value" : 0.0
+         },
+         {
+            "end" : 176,
+            "id" : "GeophoneGroupNumberOfLastTrace",
+            "offset" : 175,
+            "value" : 0.0
+         },
+         {
+            "end" : 178,
+            "id" : "GapSize",
+            "offset" : 177,
+            "value" : 0.0
+         },
+         {
+            "end" : 180,
+            "id" : "Overtravel",
+            "offset" : 179,
+            "value" : 0.0
+         },
+         {
+            "end" : 192,
+            "id" : "InlineNumber",
+            "offset" : 189,
+            "value" : 10159.0
+         },
+         {
+            "end" : 196,
+            "id" : "CrosslineNumber",
+            "offset" : 193,
+            "value" : 2340.0
+         }
+      ],
+      [
+         {
+            "end" : 4,
+            "id" : "TraceSequenceLine",
+            "offset" : 1,
+            "value" : 17.0
+         },
+         {
+            "end" : 8,
+            "id" : "TraceSequenceFile",
+            "offset" : 5,
+            "value" : 10159.0
+         },
+         {
+            "end" : 12,
+            "id" : "FieldRecordNumber",
+            "offset" : 9,
+            "value" : 10159.0
+         },
+         {
+            "end" : 16,
+            "id" : "TraceNumberField",
+            "offset" : 13,
+            "value" : 17.0
+         },
+         {
+            "end" : 20,
+            "id" : "EnergySourcePointNumber",
+            "offset" : 17,
+            "value" : 0.0
+         },
+         {
+            "end" : 24,
+            "id" : "EnsembleNumber",
+            "offset" : 21,
+            "value" : 2341.0
+         },
+         {
+            "end" : 28,
+            "id" : "TraceNumberEnsemble",
+            "offset" : 25,
+            "value" : 1.0
+         },
+         {
+            "end" : 30,
+            "id" : "TraceIdentificationCode",
+            "offset" : 29,
+            "value" : 1.0
+         },
+         {
+            "end" : 32,
+            "id" : "NumberVerticallySummedTraces",
+            "offset" : 31,
+            "value" : 0.0
+         },
+         {
+            "end" : 34,
+            "id" : "NumberHorizontallyStackedTraces",
+            "offset" : 33,
+            "value" : 0.0
+         },
+         {
+            "end" : 36,
+            "id" : "DataUse",
+            "offset" : 35,
+            "value" : 1.0
+         },
+         {
+            "end" : 40,
+            "id" : "Offset",
+            "offset" : 37,
+            "value" : 0.0
+         },
+         {
+            "end" : 44,
+            "id" : "ReceiverGroupElevation",
+            "offset" : 41,
+            "value" : 0.0
+         },
+         {
+            "end" : 48,
+            "id" : "SurfaceElevationAtSource",
+            "offset" : 45,
+            "value" : 0.0
+         },
+         {
+            "end" : 52,
+            "id" : "SourceDepthBelowSurface",
+            "offset" : 49,
+            "value" : 0.0
+         },
+         {
+            "end" : 56,
+            "id" : "DatumElevationAtReceiverGroup",
+            "offset" : 53,
+            "value" : 0.0
+         },
+         {
+            "end" : 60,
+            "id" : "DatumElevationAtSource",
+            "offset" : 57,
+            "value" : 0.0
+         },
+         {
+            "end" : 64,
+            "id" : "WaterDepthAtSource",
+            "offset" : 61,
+            "value" : 0.0
+         },
+         {
+            "end" : 68,
+            "id" : "WaterDepthArtReceiverGroup",
+            "offset" : 65,
+            "value" : 0.0
+         },
+         {
+            "end" : 70,
+            "id" : "ScalarForElevations",
+            "offset" : 69,
+            "value" : 1.0
+         },
+         {
+            "end" : 72,
+            "id" : "ScalarForCoordinates",
+            "offset" : 71,
+            "value" : -100.0
+         },
+         {
+            "end" : 76,
+            "id" : "SourceCoordinateX",
+            "offset" : 73,
+            "value" : 43429320.0
+         },
+         {
+            "end" : 80,
+            "id" : "SourceCoordinateY",
+            "offset" : 77,
+            "value" : 647886057.0
+         },
+         {
+            "end" : 84,
+            "id" : "ReceiverCoordinateX",
+            "offset" : 81,
+            "value" : 0.0
+         },
+         {
+            "end" : 88,
+            "id" : "ReceiverCoordinateY",
+            "offset" : 85,
+            "value" : 0.0
+         },
+         {
+            "end" : 90,
+            "id" : "CoordinateUnits",
+            "offset" : 89,
+            "value" : 1.0
+         },
+         {
+            "end" : 92,
+            "id" : "WeatheringVelocity",
+            "offset" : 91,
+            "value" : 0.0
+         },
+         {
+            "end" : 94,
+            "id" : "SubweatheringVelocity",
+            "offset" : 93,
+            "value" : 0.0
+         },
+         {
+            "end" : 96,
+            "id" : "UpholeTimeSource",
+            "offset" : 95,
+            "value" : 0.0
+         },
+         {
+            "end" : 98,
+            "id" : "UpholeTimeReceiverGroup",
+            "offset" : 97,
+            "value" : 0.0
+         },
+         {
+            "end" : 100,
+            "id" : "StaticCorrectionSource",
+            "offset" : 99,
+            "value" : 0.0
+         },
+         {
+            "end" : 102,
+            "id" : "StaticCorrectionReceiverGroup",
+            "offset" : 101,
+            "value" : 0.0
+         },
+         {
+            "end" : 104,
+            "id" : "TotalStaticApplied",
+            "offset" : 103,
+            "value" : 0.0
+         },
+         {
+            "end" : 106,
+            "id" : "HeaderToTimeBreakLagTime",
+            "offset" : 105,
+            "value" : 2250.0
+         },
+         {
+            "end" : 108,
+            "id" : "TimeBreakToShotLagTime",
+            "offset" : 107,
+            "value" : 0.0
+         },
+         {
+            "end" : 110,
+            "id" : "ShotToRecordingLagTime",
+            "offset" : 109,
+            "value" : 2250.0
+         },
+         {
+            "end" : 112,
+            "id" : "MuteTimeStart",
+            "offset" : 111,
+            "value" : 0.0
+         },
+         {
+            "end" : 114,
+            "id" : "MuteTimeEnd",
+            "offset" : 113,
+            "value" : 0.0
+         },
+         {
+            "end" : 116,
+            "id" : "SamplesPerTrace",
+            "offset" : 115,
+            "value" : 126.0
+         },
+         {
+            "end" : 118,
+            "id" : "SampleInterval",
+            "offset" : 117,
+            "value" : 9000.0
+         },
+         {
+            "end" : 120,
+            "id" : "GainTypeInstrument",
+            "offset" : 119,
+            "value" : 0.0
+         },
+         {
+            "end" : 122,
+            "id" : "GainConstantInstrument",
+            "offset" : 121,
+            "value" : 0.0
+         },
+         {
+            "end" : 124,
+            "id" : "GainInstrumentInitial",
+            "offset" : 123,
+            "value" : 0.0
+         },
+         {
+            "end" : 126,
+            "id" : "Correlated",
+            "offset" : 125,
+            "value" : 1.0
+         },
+         {
+            "end" : 128,
+            "id" : "SweepFrequencyStart",
+            "offset" : 127,
+            "value" : 0.0
+         },
+         {
+            "end" : 130,
+            "id" : "SweepFrequencyEnd",
+            "offset" : 129,
+            "value" : 0.0
+         },
+         {
+            "end" : 132,
+            "id" : "SweepLength",
+            "offset" : 131,
+            "value" : 0.0
+         },
+         {
+            "end" : 134,
+            "id" : "SweepType",
+            "offset" : 133,
+            "value" : 1.0
+         },
+         {
+            "end" : 136,
+            "id" : "SweepTraceTaperLengthStart",
+            "offset" : 135,
+            "value" : 0.0
+         },
+         {
+            "end" : 138,
+            "id" : "SweepTraceTaperLengthEnd",
+            "offset" : 137,
+            "value" : 0.0
+         },
+         {
+            "end" : 140,
+            "id" : "TaperType",
+            "offset" : 139,
+            "value" : 1.0
+         },
+         {
+            "end" : 142,
+            "id" : "AliasFilterFrequency",
+            "offset" : 141,
+            "value" : 0.0
+         },
+         {
+            "end" : 144,
+            "id" : "AliasFilterSlope",
+            "offset" : 143,
+            "value" : 0.0
+         },
+         {
+            "end" : 146,
+            "id" : "NotchFilterFrequency",
+            "offset" : 145,
+            "value" : 0.0
+         },
+         {
+            "end" : 148,
+            "id" : "NotchFilterSlope",
+            "offset" : 147,
+            "value" : 0.0
+         },
+         {
+            "end" : 150,
+            "id" : "LowCutFrequency",
+            "offset" : 149,
+            "value" : 0.0
+         },
+         {
+            "end" : 152,
+            "id" : "HighCutFrequency",
+            "offset" : 151,
+            "value" : 0.0
+         },
+         {
+            "end" : 154,
+            "id" : "LowCutSlope",
+            "offset" : 153,
+            "value" : 0.0
+         },
+         {
+            "end" : 156,
+            "id" : "HighCutSlope",
+            "offset" : 155,
+            "value" : 0.0
+         },
+         {
+            "end" : 158,
+            "id" : "Year",
+            "offset" : 157,
+            "value" : 0.0
+         },
+         {
+            "end" : 160,
+            "id" : "DayOfYear",
+            "offset" : 159,
+            "value" : 0.0
+         },
+         {
+            "end" : 162,
+            "id" : "Hour",
+            "offset" : 161,
+            "value" : 0.0
+         },
+         {
+            "end" : 164,
+            "id" : "Minute",
+            "offset" : 163,
+            "value" : 0.0
+         },
+         {
+            "end" : 166,
+            "id" : "Second",
+            "offset" : 165,
+            "value" : 0.0
+         },
+         {
+            "end" : 168,
+            "id" : "TimeBasisCode",
+            "offset" : 167,
+            "value" : 1.0
+         },
+         {
+            "end" : 170,
+            "id" : "TraceWeightingFactor",
+            "offset" : 169,
+            "value" : 0.0
+         },
+         {
+            "end" : 172,
+            "id" : "GeophoneGroupNumberOfRollSwitchP1",
+            "offset" : 171,
+            "value" : 0.0
+         },
+         {
+            "end" : 174,
+            "id" : "GeophoneGroupNumberOfFirstTrace",
+            "offset" : 173,
+            "value" : 0.0
+         },
+         {
+            "end" : 176,
+            "id" : "GeophoneGroupNumberOfLastTrace",
+            "offset" : 175,
+            "value" : 0.0
+         },
+         {
+            "end" : 178,
+            "id" : "GapSize",
+            "offset" : 177,
+            "value" : 0.0
+         },
+         {
+            "end" : 180,
+            "id" : "Overtravel",
+            "offset" : 179,
+            "value" : 0.0
+         },
+         {
+            "end" : 192,
+            "id" : "InlineNumber",
+            "offset" : 189,
+            "value" : 10159.0
+         },
+         {
+            "end" : 196,
+            "id" : "CrosslineNumber",
+            "offset" : 193,
+            "value" : 2341.0
+         }
+      ],
+      [
+         {
+            "end" : 4,
+            "id" : "TraceSequenceLine",
+            "offset" : 1,
+            "value" : 18.0
+         },
+         {
+            "end" : 8,
+            "id" : "TraceSequenceFile",
+            "offset" : 5,
+            "value" : 10159.0
+         },
+         {
+            "end" : 12,
+            "id" : "FieldRecordNumber",
+            "offset" : 9,
+            "value" : 10159.0
+         },
+         {
+            "end" : 16,
+            "id" : "TraceNumberField",
+            "offset" : 13,
+            "value" : 18.0
+         },
+         {
+            "end" : 20,
+            "id" : "EnergySourcePointNumber",
+            "offset" : 17,
+            "value" : 0.0
+         },
+         {
+            "end" : 24,
+            "id" : "EnsembleNumber",
+            "offset" : 21,
+            "value" : 2342.0
+         },
+         {
+            "end" : 28,
+            "id" : "TraceNumberEnsemble",
+            "offset" : 25,
+            "value" : 1.0
+         },
+         {
+            "end" : 30,
+            "id" : "TraceIdentificationCode",
+            "offset" : 29,
+            "value" : 1.0
+         },
+         {
+            "end" : 32,
+            "id" : "NumberVerticallySummedTraces",
+            "offset" : 31,
+            "value" : 0.0
+         },
+         {
+            "end" : 34,
+            "id" : "NumberHorizontallyStackedTraces",
+            "offset" : 33,
+            "value" : 0.0
+         },
+         {
+            "end" : 36,
+            "id" : "DataUse",
+            "offset" : 35,
+            "value" : 1.0
+         },
+         {
+            "end" : 40,
+            "id" : "Offset",
+            "offset" : 37,
+            "value" : 0.0
+         },
+         {
+            "end" : 44,
+            "id" : "ReceiverGroupElevation",
+            "offset" : 41,
+            "value" : 0.0
+         },
+         {
+            "end" : 48,
+            "id" : "SurfaceElevationAtSource",
+            "offset" : 45,
+            "value" : 0.0
+         },
+         {
+            "end" : 52,
+            "id" : "SourceDepthBelowSurface",
+            "offset" : 49,
+            "value" : 0.0
+         },
+         {
+            "end" : 56,
+            "id" : "DatumElevationAtReceiverGroup",
+            "offset" : 53,
+            "value" : 0.0
+         },
+         {
+            "end" : 60,
+            "id" : "DatumElevationAtSource",
+            "offset" : 57,
+            "value" : 0.0
+         },
+         {
+            "end" : 64,
+            "id" : "WaterDepthAtSource",
+            "offset" : 61,
+            "value" : 0.0
+         },
+         {
+            "end" : 68,
+            "id" : "WaterDepthArtReceiverGroup",
+            "offset" : 65,
+            "value" : 0.0
+         },
+         {
+            "end" : 70,
+            "id" : "ScalarForElevations",
+            "offset" : 69,
+            "value" : 1.0
+         },
+         {
+            "end" : 72,
+            "id" : "ScalarForCoordinates",
+            "offset" : 71,
+            "value" : -100.0
+         },
+         {
+            "end" : 76,
+            "id" : "SourceCoordinateX",
+            "offset" : 73,
+            "value" : 43428107.0
+         },
+         {
+            "end" : 80,
+            "id" : "SourceCoordinateY",
+            "offset" : 77,
+            "value" : 647886360.0
+         },
+         {
+            "end" : 84,
+            "id" : "ReceiverCoordinateX",
+            "offset" : 81,
+            "value" : 0.0
+         },
+         {
+            "end" : 88,
+            "id" : "ReceiverCoordinateY",
+            "offset" : 85,
+            "value" : 0.0
+         },
+         {
+            "end" : 90,
+            "id" : "CoordinateUnits",
+            "offset" : 89,
+            "value" : 1.0
+         },
+         {
+            "end" : 92,
+            "id" : "WeatheringVelocity",
+            "offset" : 91,
+            "value" : 0.0
+         },
+         {
+            "end" : 94,
+            "id" : "SubweatheringVelocity",
+            "offset" : 93,
+            "value" : 0.0
+         },
+         {
+            "end" : 96,
+            "id" : "UpholeTimeSource",
+            "offset" : 95,
+            "value" : 0.0
+         },
+         {
+            "end" : 98,
+            "id" : "UpholeTimeReceiverGroup",
+            "offset" : 97,
+            "value" : 0.0
+         },
+         {
+            "end" : 100,
+            "id" : "StaticCorrectionSource",
+            "offset" : 99,
+            "value" : 0.0
+         },
+         {
+            "end" : 102,
+            "id" : "StaticCorrectionReceiverGroup",
+            "offset" : 101,
+            "value" : 0.0
+         },
+         {
+            "end" : 104,
+            "id" : "TotalStaticApplied",
+            "offset" : 103,
+            "value" : 0.0
+         },
+         {
+            "end" : 106,
+            "id" : "HeaderToTimeBreakLagTime",
+            "offset" : 105,
+            "value" : 2250.0
+         },
+         {
+            "end" : 108,
+            "id" : "TimeBreakToShotLagTime",
+            "offset" : 107,
+            "value" : 0.0
+         },
+         {
+            "end" : 110,
+            "id" : "ShotToRecordingLagTime",
+            "offset" : 109,
+            "value" : 2250.0
+         },
+         {
+            "end" : 112,
+            "id" : "MuteTimeStart",
+            "offset" : 111,
+            "value" : 0.0
+         },
+         {
+            "end" : 114,
+            "id" : "MuteTimeEnd",
+            "offset" : 113,
+            "value" : 0.0
+         },
+         {
+            "end" : 116,
+            "id" : "SamplesPerTrace",
+            "offset" : 115,
+            "value" : 126.0
+         },
+         {
+            "end" : 118,
+            "id" : "SampleInterval",
+            "offset" : 117,
+            "value" : 9000.0
+         },
+         {
+            "end" : 120,
+            "id" : "GainTypeInstrument",
+            "offset" : 119,
+            "value" : 0.0
+         },
+         {
+            "end" : 122,
+            "id" : "GainConstantInstrument",
+            "offset" : 121,
+            "value" : 0.0
+         },
+         {
+            "end" : 124,
+            "id" : "GainInstrumentInitial",
+            "offset" : 123,
+            "value" : 0.0
+         },
+         {
+            "end" : 126,
+            "id" : "Correlated",
+            "offset" : 125,
+            "value" : 1.0
+         },
+         {
+            "end" : 128,
+            "id" : "SweepFrequencyStart",
+            "offset" : 127,
+            "value" : 0.0
+         },
+         {
+            "end" : 130,
+            "id" : "SweepFrequencyEnd",
+            "offset" : 129,
+            "value" : 0.0
+         },
+         {
+            "end" : 132,
+            "id" : "SweepLength",
+            "offset" : 131,
+            "value" : 0.0
+         },
+         {
+            "end" : 134,
+            "id" : "SweepType",
+            "offset" : 133,
+            "value" : 1.0
+         },
+         {
+            "end" : 136,
+            "id" : "SweepTraceTaperLengthStart",
+            "offset" : 135,
+            "value" : 0.0
+         },
+         {
+            "end" : 138,
+            "id" : "SweepTraceTaperLengthEnd",
+            "offset" : 137,
+            "value" : 0.0
+         },
+         {
+            "end" : 140,
+            "id" : "TaperType",
+            "offset" : 139,
+            "value" : 1.0
+         },
+         {
+            "end" : 142,
+            "id" : "AliasFilterFrequency",
+            "offset" : 141,
+            "value" : 0.0
+         },
+         {
+            "end" : 144,
+            "id" : "AliasFilterSlope",
+            "offset" : 143,
+            "value" : 0.0
+         },
+         {
+            "end" : 146,
+            "id" : "NotchFilterFrequency",
+            "offset" : 145,
+            "value" : 0.0
+         },
+         {
+            "end" : 148,
+            "id" : "NotchFilterSlope",
+            "offset" : 147,
+            "value" : 0.0
+         },
+         {
+            "end" : 150,
+            "id" : "LowCutFrequency",
+            "offset" : 149,
+            "value" : 0.0
+         },
+         {
+            "end" : 152,
+            "id" : "HighCutFrequency",
+            "offset" : 151,
+            "value" : 0.0
+         },
+         {
+            "end" : 154,
+            "id" : "LowCutSlope",
+            "offset" : 153,
+            "value" : 0.0
+         },
+         {
+            "end" : 156,
+            "id" : "HighCutSlope",
+            "offset" : 155,
+            "value" : 0.0
+         },
+         {
+            "end" : 158,
+            "id" : "Year",
+            "offset" : 157,
+            "value" : 0.0
+         },
+         {
+            "end" : 160,
+            "id" : "DayOfYear",
+            "offset" : 159,
+            "value" : 0.0
+         },
+         {
+            "end" : 162,
+            "id" : "Hour",
+            "offset" : 161,
+            "value" : 0.0
+         },
+         {
+            "end" : 164,
+            "id" : "Minute",
+            "offset" : 163,
+            "value" : 0.0
+         },
+         {
+            "end" : 166,
+            "id" : "Second",
+            "offset" : 165,
+            "value" : 0.0
+         },
+         {
+            "end" : 168,
+            "id" : "TimeBasisCode",
+            "offset" : 167,
+            "value" : 1.0
+         },
+         {
+            "end" : 170,
+            "id" : "TraceWeightingFactor",
+            "offset" : 169,
+            "value" : 0.0
+         },
+         {
+            "end" : 172,
+            "id" : "GeophoneGroupNumberOfRollSwitchP1",
+            "offset" : 171,
+            "value" : 0.0
+         },
+         {
+            "end" : 174,
+            "id" : "GeophoneGroupNumberOfFirstTrace",
+            "offset" : 173,
+            "value" : 0.0
+         },
+         {
+            "end" : 176,
+            "id" : "GeophoneGroupNumberOfLastTrace",
+            "offset" : 175,
+            "value" : 0.0
+         },
+         {
+            "end" : 178,
+            "id" : "GapSize",
+            "offset" : 177,
+            "value" : 0.0
+         },
+         {
+            "end" : 180,
+            "id" : "Overtravel",
+            "offset" : 179,
+            "value" : 0.0
+         },
+         {
+            "end" : 192,
+            "id" : "InlineNumber",
+            "offset" : 189,
+            "value" : 10159.0
+         },
+         {
+            "end" : 196,
+            "id" : "CrosslineNumber",
+            "offset" : 193,
+            "value" : 2342.0
+         }
+      ],
+      [
+         {
+            "end" : 4,
+            "id" : "TraceSequenceLine",
+            "offset" : 1,
+            "value" : 19.0
+         },
+         {
+            "end" : 8,
+            "id" : "TraceSequenceFile",
+            "offset" : 5,
+            "value" : 10159.0
+         },
+         {
+            "end" : 12,
+            "id" : "FieldRecordNumber",
+            "offset" : 9,
+            "value" : 10159.0
+         },
+         {
+            "end" : 16,
+            "id" : "TraceNumberField",
+            "offset" : 13,
+            "value" : 19.0
+         },
+         {
+            "end" : 20,
+            "id" : "EnergySourcePointNumber",
+            "offset" : 17,
+            "value" : 0.0
+         },
+         {
+            "end" : 24,
+            "id" : "EnsembleNumber",
+            "offset" : 21,
+            "value" : 2343.0
+         },
+         {
+            "end" : 28,
+            "id" : "TraceNumberEnsemble",
+            "offset" : 25,
+            "value" : 1.0
+         },
+         {
+            "end" : 30,
+            "id" : "TraceIdentificationCode",
+            "offset" : 29,
+            "value" : 1.0
+         },
+         {
+            "end" : 32,
+            "id" : "NumberVerticallySummedTraces",
+            "offset" : 31,
+            "value" : 0.0
+         },
+         {
+            "end" : 34,
+            "id" : "NumberHorizontallyStackedTraces",
+            "offset" : 33,
+            "value" : 0.0
+         },
+         {
+            "end" : 36,
+            "id" : "DataUse",
+            "offset" : 35,
+            "value" : 1.0
+         },
+         {
+            "end" : 40,
+            "id" : "Offset",
+            "offset" : 37,
+            "value" : 0.0
+         },
+         {
+            "end" : 44,
+            "id" : "ReceiverGroupElevation",
+            "offset" : 41,
+            "value" : 0.0
+         },
+         {
+            "end" : 48,
+            "id" : "SurfaceElevationAtSource",
+            "offset" : 45,
+            "value" : 0.0
+         },
+         {
+            "end" : 52,
+            "id" : "SourceDepthBelowSurface",
+            "offset" : 49,
+            "value" : 0.0
+         },
+         {
+            "end" : 56,
+            "id" : "DatumElevationAtReceiverGroup",
+            "offset" : 53,
+            "value" : 0.0
+         },
+         {
+            "end" : 60,
+            "id" : "DatumElevationAtSource",
+            "offset" : 57,
+            "value" : 0.0
+         },
+         {
+            "end" : 64,
+            "id" : "WaterDepthAtSource",
+            "offset" : 61,
+            "value" : 0.0
+         },
+         {
+            "end" : 68,
+            "id" : "WaterDepthArtReceiverGroup",
+            "offset" : 65,
+            "value" : 0.0
+         },
+         {
+            "end" : 70,
+            "id" : "ScalarForElevations",
+            "offset" : 69,
+            "value" : 1.0
+         },
+         {
+            "end" : 72,
+            "id" : "ScalarForCoordinates",
+            "offset" : 71,
+            "value" : -100.0
+         },
+         {
+            "end" : 76,
+            "id" : "SourceCoordinateX",
+            "offset" : 73,
+            "value" : 43426894.0
+         },
+         {
+            "end" : 80,
+            "id" : "SourceCoordinateY",
+            "offset" : 77,
+            "value" : 647886662.0
+         },
+         {
+            "end" : 84,
+            "id" : "ReceiverCoordinateX",
+            "offset" : 81,
+            "value" : 0.0
+         },
+         {
+            "end" : 88,
+            "id" : "ReceiverCoordinateY",
+            "offset" : 85,
+            "value" : 0.0
+         },
+         {
+            "end" : 90,
+            "id" : "CoordinateUnits",
+            "offset" : 89,
+            "value" : 1.0
+         },
+         {
+            "end" : 92,
+            "id" : "WeatheringVelocity",
+            "offset" : 91,
+            "value" : 0.0
+         },
+         {
+            "end" : 94,
+            "id" : "SubweatheringVelocity",
+            "offset" : 93,
+            "value" : 0.0
+         },
+         {
+            "end" : 96,
+            "id" : "UpholeTimeSource",
+            "offset" : 95,
+            "value" : 0.0
+         },
+         {
+            "end" : 98,
+            "id" : "UpholeTimeReceiverGroup",
+            "offset" : 97,
+            "value" : 0.0
+         },
+         {
+            "end" : 100,
+            "id" : "StaticCorrectionSource",
+            "offset" : 99,
+            "value" : 0.0
+         },
+         {
+            "end" : 102,
+            "id" : "StaticCorrectionReceiverGroup",
+            "offset" : 101,
+            "value" : 0.0
+         },
+         {
+            "end" : 104,
+            "id" : "TotalStaticApplied",
+            "offset" : 103,
+            "value" : 0.0
+         },
+         {
+            "end" : 106,
+            "id" : "HeaderToTimeBreakLagTime",
+            "offset" : 105,
+            "value" : 2250.0
+         },
+         {
+            "end" : 108,
+            "id" : "TimeBreakToShotLagTime",
+            "offset" : 107,
+            "value" : 0.0
+         },
+         {
+            "end" : 110,
+            "id" : "ShotToRecordingLagTime",
+            "offset" : 109,
+            "value" : 2250.0
+         },
+         {
+            "end" : 112,
+            "id" : "MuteTimeStart",
+            "offset" : 111,
+            "value" : 0.0
+         },
+         {
+            "end" : 114,
+            "id" : "MuteTimeEnd",
+            "offset" : 113,
+            "value" : 0.0
+         },
+         {
+            "end" : 116,
+            "id" : "SamplesPerTrace",
+            "offset" : 115,
+            "value" : 126.0
+         },
+         {
+            "end" : 118,
+            "id" : "SampleInterval",
+            "offset" : 117,
+            "value" : 9000.0
+         },
+         {
+            "end" : 120,
+            "id" : "GainTypeInstrument",
+            "offset" : 119,
+            "value" : 0.0
+         },
+         {
+            "end" : 122,
+            "id" : "GainConstantInstrument",
+            "offset" : 121,
+            "value" : 0.0
+         },
+         {
+            "end" : 124,
+            "id" : "GainInstrumentInitial",
+            "offset" : 123,
+            "value" : 0.0
+         },
+         {
+            "end" : 126,
+            "id" : "Correlated",
+            "offset" : 125,
+            "value" : 1.0
+         },
+         {
+            "end" : 128,
+            "id" : "SweepFrequencyStart",
+            "offset" : 127,
+            "value" : 0.0
+         },
+         {
+            "end" : 130,
+            "id" : "SweepFrequencyEnd",
+            "offset" : 129,
+            "value" : 0.0
+         },
+         {
+            "end" : 132,
+            "id" : "SweepLength",
+            "offset" : 131,
+            "value" : 0.0
+         },
+         {
+            "end" : 134,
+            "id" : "SweepType",
+            "offset" : 133,
+            "value" : 1.0
+         },
+         {
+            "end" : 136,
+            "id" : "SweepTraceTaperLengthStart",
+            "offset" : 135,
+            "value" : 0.0
+         },
+         {
+            "end" : 138,
+            "id" : "SweepTraceTaperLengthEnd",
+            "offset" : 137,
+            "value" : 0.0
+         },
+         {
+            "end" : 140,
+            "id" : "TaperType",
+            "offset" : 139,
+            "value" : 1.0
+         },
+         {
+            "end" : 142,
+            "id" : "AliasFilterFrequency",
+            "offset" : 141,
+            "value" : 0.0
+         },
+         {
+            "end" : 144,
+            "id" : "AliasFilterSlope",
+            "offset" : 143,
+            "value" : 0.0
+         },
+         {
+            "end" : 146,
+            "id" : "NotchFilterFrequency",
+            "offset" : 145,
+            "value" : 0.0
+         },
+         {
+            "end" : 148,
+            "id" : "NotchFilterSlope",
+            "offset" : 147,
+            "value" : 0.0
+         },
+         {
+            "end" : 150,
+            "id" : "LowCutFrequency",
+            "offset" : 149,
+            "value" : 0.0
+         },
+         {
+            "end" : 152,
+            "id" : "HighCutFrequency",
+            "offset" : 151,
+            "value" : 0.0
+         },
+         {
+            "end" : 154,
+            "id" : "LowCutSlope",
+            "offset" : 153,
+            "value" : 0.0
+         },
+         {
+            "end" : 156,
+            "id" : "HighCutSlope",
+            "offset" : 155,
+            "value" : 0.0
+         },
+         {
+            "end" : 158,
+            "id" : "Year",
+            "offset" : 157,
+            "value" : 0.0
+         },
+         {
+            "end" : 160,
+            "id" : "DayOfYear",
+            "offset" : 159,
+            "value" : 0.0
+         },
+         {
+            "end" : 162,
+            "id" : "Hour",
+            "offset" : 161,
+            "value" : 0.0
+         },
+         {
+            "end" : 164,
+            "id" : "Minute",
+            "offset" : 163,
+            "value" : 0.0
+         },
+         {
+            "end" : 166,
+            "id" : "Second",
+            "offset" : 165,
+            "value" : 0.0
+         },
+         {
+            "end" : 168,
+            "id" : "TimeBasisCode",
+            "offset" : 167,
+            "value" : 1.0
+         },
+         {
+            "end" : 170,
+            "id" : "TraceWeightingFactor",
+            "offset" : 169,
+            "value" : 0.0
+         },
+         {
+            "end" : 172,
+            "id" : "GeophoneGroupNumberOfRollSwitchP1",
+            "offset" : 171,
+            "value" : 0.0
+         },
+         {
+            "end" : 174,
+            "id" : "GeophoneGroupNumberOfFirstTrace",
+            "offset" : 173,
+            "value" : 0.0
+         },
+         {
+            "end" : 176,
+            "id" : "GeophoneGroupNumberOfLastTrace",
+            "offset" : 175,
+            "value" : 0.0
+         },
+         {
+            "end" : 178,
+            "id" : "GapSize",
+            "offset" : 177,
+            "value" : 0.0
+         },
+         {
+            "end" : 180,
+            "id" : "Overtravel",
+            "offset" : 179,
+            "value" : 0.0
+         },
+         {
+            "end" : 192,
+            "id" : "InlineNumber",
+            "offset" : 189,
+            "value" : 10159.0
+         },
+         {
+            "end" : 196,
+            "id" : "CrosslineNumber",
+            "offset" : 193,
+            "value" : 2343.0
+         }
+      ],
+      [
+         {
+            "end" : 4,
+            "id" : "TraceSequenceLine",
+            "offset" : 1,
+            "value" : 20.0
+         },
+         {
+            "end" : 8,
+            "id" : "TraceSequenceFile",
+            "offset" : 5,
+            "value" : 10159.0
+         },
+         {
+            "end" : 12,
+            "id" : "FieldRecordNumber",
+            "offset" : 9,
+            "value" : 10159.0
+         },
+         {
+            "end" : 16,
+            "id" : "TraceNumberField",
+            "offset" : 13,
+            "value" : 20.0
+         },
+         {
+            "end" : 20,
+            "id" : "EnergySourcePointNumber",
+            "offset" : 17,
+            "value" : 0.0
+         },
+         {
+            "end" : 24,
+            "id" : "EnsembleNumber",
+            "offset" : 21,
+            "value" : 2344.0
+         },
+         {
+            "end" : 28,
+            "id" : "TraceNumberEnsemble",
+            "offset" : 25,
+            "value" : 1.0
+         },
+         {
+            "end" : 30,
+            "id" : "TraceIdentificationCode",
+            "offset" : 29,
+            "value" : 1.0
+         },
+         {
+            "end" : 32,
+            "id" : "NumberVerticallySummedTraces",
+            "offset" : 31,
+            "value" : 0.0
+         },
+         {
+            "end" : 34,
+            "id" : "NumberHorizontallyStackedTraces",
+            "offset" : 33,
+            "value" : 0.0
+         },
+         {
+            "end" : 36,
+            "id" : "DataUse",
+            "offset" : 35,
+            "value" : 1.0
+         },
+         {
+            "end" : 40,
+            "id" : "Offset",
+            "offset" : 37,
+            "value" : 0.0
+         },
+         {
+            "end" : 44,
+            "id" : "ReceiverGroupElevation",
+            "offset" : 41,
+            "value" : 0.0
+         },
+         {
+            "end" : 48,
+            "id" : "SurfaceElevationAtSource",
+            "offset" : 45,
+            "value" : 0.0
+         },
+         {
+            "end" : 52,
+            "id" : "SourceDepthBelowSurface",
+            "offset" : 49,
+            "value" : 0.0
+         },
+         {
+            "end" : 56,
+            "id" : "DatumElevationAtReceiverGroup",
+            "offset" : 53,
+            "value" : 0.0
+         },
+         {
+            "end" : 60,
+            "id" : "DatumElevationAtSource",
+            "offset" : 57,
+            "value" : 0.0
+         },
+         {
+            "end" : 64,
+            "id" : "WaterDepthAtSource",
+            "offset" : 61,
+            "value" : 0.0
+         },
+         {
+            "end" : 68,
+            "id" : "WaterDepthArtReceiverGroup",
+            "offset" : 65,
+            "value" : 0.0
+         },
+         {
+            "end" : 70,
+            "id" : "ScalarForElevations",
+            "offset" : 69,
+            "value" : 1.0
+         },
+         {
+            "end" : 72,
+            "id" : "ScalarForCoordinates",
+            "offset" : 71,
+            "value" : -100.0
+         },
+         {
+            "end" : 76,
+            "id" : "SourceCoordinateX",
+            "offset" : 73,
+            "value" : 43425681.0
+         },
+         {
+            "end" : 80,
+            "id" : "SourceCoordinateY",
+            "offset" : 77,
+            "value" : 647886965.0
+         },
+         {
+            "end" : 84,
+            "id" : "ReceiverCoordinateX",
+            "offset" : 81,
+            "value" : 0.0
+         },
+         {
+            "end" : 88,
+            "id" : "ReceiverCoordinateY",
+            "offset" : 85,
+            "value" : 0.0
+         },
+         {
+            "end" : 90,
+            "id" : "CoordinateUnits",
+            "offset" : 89,
+            "value" : 1.0
+         },
+         {
+            "end" : 92,
+            "id" : "WeatheringVelocity",
+            "offset" : 91,
+            "value" : 0.0
+         },
+         {
+            "end" : 94,
+            "id" : "SubweatheringVelocity",
+            "offset" : 93,
+            "value" : 0.0
+         },
+         {
+            "end" : 96,
+            "id" : "UpholeTimeSource",
+            "offset" : 95,
+            "value" : 0.0
+         },
+         {
+            "end" : 98,
+            "id" : "UpholeTimeReceiverGroup",
+            "offset" : 97,
+            "value" : 0.0
+         },
+         {
+            "end" : 100,
+            "id" : "StaticCorrectionSource",
+            "offset" : 99,
+            "value" : 0.0
+         },
+         {
+            "end" : 102,
+            "id" : "StaticCorrectionReceiverGroup",
+            "offset" : 101,
+            "value" : 0.0
+         },
+         {
+            "end" : 104,
+            "id" : "TotalStaticApplied",
+            "offset" : 103,
+            "value" : 0.0
+         },
+         {
+            "end" : 106,
+            "id" : "HeaderToTimeBreakLagTime",
+            "offset" : 105,
+            "value" : 2250.0
+         },
+         {
+            "end" : 108,
+            "id" : "TimeBreakToShotLagTime",
+            "offset" : 107,
+            "value" : 0.0
+         },
+         {
+            "end" : 110,
+            "id" : "ShotToRecordingLagTime",
+            "offset" : 109,
+            "value" : 2250.0
+         },
+         {
+            "end" : 112,
+            "id" : "MuteTimeStart",
+            "offset" : 111,
+            "value" : 0.0
+         },
+         {
+            "end" : 114,
+            "id" : "MuteTimeEnd",
+            "offset" : 113,
+            "value" : 0.0
+         },
+         {
+            "end" : 116,
+            "id" : "SamplesPerTrace",
+            "offset" : 115,
+            "value" : 126.0
+         },
+         {
+            "end" : 118,
+            "id" : "SampleInterval",
+            "offset" : 117,
+            "value" : 9000.0
+         },
+         {
+            "end" : 120,
+            "id" : "GainTypeInstrument",
+            "offset" : 119,
+            "value" : 0.0
+         },
+         {
+            "end" : 122,
+            "id" : "GainConstantInstrument",
+            "offset" : 121,
+            "value" : 0.0
+         },
+         {
+            "end" : 124,
+            "id" : "GainInstrumentInitial",
+            "offset" : 123,
+            "value" : 0.0
+         },
+         {
+            "end" : 126,
+            "id" : "Correlated",
+            "offset" : 125,
+            "value" : 1.0
+         },
+         {
+            "end" : 128,
+            "id" : "SweepFrequencyStart",
+            "offset" : 127,
+            "value" : 0.0
+         },
+         {
+            "end" : 130,
+            "id" : "SweepFrequencyEnd",
+            "offset" : 129,
+            "value" : 0.0
+         },
+         {
+            "end" : 132,
+            "id" : "SweepLength",
+            "offset" : 131,
+            "value" : 0.0
+         },
+         {
+            "end" : 134,
+            "id" : "SweepType",
+            "offset" : 133,
+            "value" : 1.0
+         },
+         {
+            "end" : 136,
+            "id" : "SweepTraceTaperLengthStart",
+            "offset" : 135,
+            "value" : 0.0
+         },
+         {
+            "end" : 138,
+            "id" : "SweepTraceTaperLengthEnd",
+            "offset" : 137,
+            "value" : 0.0
+         },
+         {
+            "end" : 140,
+            "id" : "TaperType",
+            "offset" : 139,
+            "value" : 1.0
+         },
+         {
+            "end" : 142,
+            "id" : "AliasFilterFrequency",
+            "offset" : 141,
+            "value" : 0.0
+         },
+         {
+            "end" : 144,
+            "id" : "AliasFilterSlope",
+            "offset" : 143,
+            "value" : 0.0
+         },
+         {
+            "end" : 146,
+            "id" : "NotchFilterFrequency",
+            "offset" : 145,
+            "value" : 0.0
+         },
+         {
+            "end" : 148,
+            "id" : "NotchFilterSlope",
+            "offset" : 147,
+            "value" : 0.0
+         },
+         {
+            "end" : 150,
+            "id" : "LowCutFrequency",
+            "offset" : 149,
+            "value" : 0.0
+         },
+         {
+            "end" : 152,
+            "id" : "HighCutFrequency",
+            "offset" : 151,
+            "value" : 0.0
+         },
+         {
+            "end" : 154,
+            "id" : "LowCutSlope",
+            "offset" : 153,
+            "value" : 0.0
+         },
+         {
+            "end" : 156,
+            "id" : "HighCutSlope",
+            "offset" : 155,
+            "value" : 0.0
+         },
+         {
+            "end" : 158,
+            "id" : "Year",
+            "offset" : 157,
+            "value" : 0.0
+         },
+         {
+            "end" : 160,
+            "id" : "DayOfYear",
+            "offset" : 159,
+            "value" : 0.0
+         },
+         {
+            "end" : 162,
+            "id" : "Hour",
+            "offset" : 161,
+            "value" : 0.0
+         },
+         {
+            "end" : 164,
+            "id" : "Minute",
+            "offset" : 163,
+            "value" : 0.0
+         },
+         {
+            "end" : 166,
+            "id" : "Second",
+            "offset" : 165,
+            "value" : 0.0
+         },
+         {
+            "end" : 168,
+            "id" : "TimeBasisCode",
+            "offset" : 167,
+            "value" : 1.0
+         },
+         {
+            "end" : 170,
+            "id" : "TraceWeightingFactor",
+            "offset" : 169,
+            "value" : 0.0
+         },
+         {
+            "end" : 172,
+            "id" : "GeophoneGroupNumberOfRollSwitchP1",
+            "offset" : 171,
+            "value" : 0.0
+         },
+         {
+            "end" : 174,
+            "id" : "GeophoneGroupNumberOfFirstTrace",
+            "offset" : 173,
+            "value" : 0.0
+         },
+         {
+            "end" : 176,
+            "id" : "GeophoneGroupNumberOfLastTrace",
+            "offset" : 175,
+            "value" : 0.0
+         },
+         {
+            "end" : 178,
+            "id" : "GapSize",
+            "offset" : 177,
+            "value" : 0.0
+         },
+         {
+            "end" : 180,
+            "id" : "Overtravel",
+            "offset" : 179,
+            "value" : 0.0
+         },
+         {
+            "end" : 192,
+            "id" : "InlineNumber",
+            "offset" : 189,
+            "value" : 10159.0
+         },
+         {
+            "end" : 196,
+            "id" : "CrosslineNumber",
+            "offset" : 193,
+            "value" : 2344.0
+         }
+      ],
+      [
+         {
+            "end" : 4,
+            "id" : "TraceSequenceLine",
+            "offset" : 1,
+            "value" : 21.0
+         },
+         {
+            "end" : 8,
+            "id" : "TraceSequenceFile",
+            "offset" : 5,
+            "value" : 10159.0
+         },
+         {
+            "end" : 12,
+            "id" : "FieldRecordNumber",
+            "offset" : 9,
+            "value" : 10159.0
+         },
+         {
+            "end" : 16,
+            "id" : "TraceNumberField",
+            "offset" : 13,
+            "value" : 21.0
+         },
+         {
+            "end" : 20,
+            "id" : "EnergySourcePointNumber",
+            "offset" : 17,
+            "value" : 0.0
+         },
+         {
+            "end" : 24,
+            "id" : "EnsembleNumber",
+            "offset" : 21,
+            "value" : 2345.0
+         },
+         {
+            "end" : 28,
+            "id" : "TraceNumberEnsemble",
+            "offset" : 25,
+            "value" : 1.0
+         },
+         {
+            "end" : 30,
+            "id" : "TraceIdentificationCode",
+            "offset" : 29,
+            "value" : 1.0
+         },
+         {
+            "end" : 32,
+            "id" : "NumberVerticallySummedTraces",
+            "offset" : 31,
+            "value" : 0.0
+         },
+         {
+            "end" : 34,
+            "id" : "NumberHorizontallyStackedTraces",
+            "offset" : 33,
+            "value" : 0.0
+         },
+         {
+            "end" : 36,
+            "id" : "DataUse",
+            "offset" : 35,
+            "value" : 1.0
+         },
+         {
+            "end" : 40,
+            "id" : "Offset",
+            "offset" : 37,
+            "value" : 0.0
+         },
+         {
+            "end" : 44,
+            "id" : "ReceiverGroupElevation",
+            "offset" : 41,
+            "value" : 0.0
+         },
+         {
+            "end" : 48,
+            "id" : "SurfaceElevationAtSource",
+            "offset" : 45,
+            "value" : 0.0
+         },
+         {
+            "end" : 52,
+            "id" : "SourceDepthBelowSurface",
+            "offset" : 49,
+            "value" : 0.0
+         },
+         {
+            "end" : 56,
+            "id" : "DatumElevationAtReceiverGroup",
+            "offset" : 53,
+            "value" : 0.0
+         },
+         {
+            "end" : 60,
+            "id" : "DatumElevationAtSource",
+            "offset" : 57,
+            "value" : 0.0
+         },
+         {
+            "end" : 64,
+            "id" : "WaterDepthAtSource",
+            "offset" : 61,
+            "value" : 0.0
+         },
+         {
+            "end" : 68,
+            "id" : "WaterDepthArtReceiverGroup",
+            "offset" : 65,
+            "value" : 0.0
+         },
+         {
+            "end" : 70,
+            "id" : "ScalarForElevations",
+            "offset" : 69,
+            "value" : 1.0
+         },
+         {
+            "end" : 72,
+            "id" : "ScalarForCoordinates",
+            "offset" : 71,
+            "value" : -100.0
+         },
+         {
+            "end" : 76,
+            "id" : "SourceCoordinateX",
+            "offset" : 73,
+            "value" : 43424468.0
+         },
+         {
+            "end" : 80,
+            "id" : "SourceCoordinateY",
+            "offset" : 77,
+            "value" : 647887267.0
+         },
+         {
+            "end" : 84,
+            "id" : "ReceiverCoordinateX",
+            "offset" : 81,
+            "value" : 0.0
+         },
+         {
+            "end" : 88,
+            "id" : "ReceiverCoordinateY",
+            "offset" : 85,
+            "value" : 0.0
+         },
+         {
+            "end" : 90,
+            "id" : "CoordinateUnits",
+            "offset" : 89,
+            "value" : 1.0
+         },
+         {
+            "end" : 92,
+            "id" : "WeatheringVelocity",
+            "offset" : 91,
+            "value" : 0.0
+         },
+         {
+            "end" : 94,
+            "id" : "SubweatheringVelocity",
+            "offset" : 93,
+            "value" : 0.0
+         },
+         {
+            "end" : 96,
+            "id" : "UpholeTimeSource",
+            "offset" : 95,
+            "value" : 0.0
+         },
+         {
+            "end" : 98,
+            "id" : "UpholeTimeReceiverGroup",
+            "offset" : 97,
+            "value" : 0.0
+         },
+         {
+            "end" : 100,
+            "id" : "StaticCorrectionSource",
+            "offset" : 99,
+            "value" : 0.0
+         },
+         {
+            "end" : 102,
+            "id" : "StaticCorrectionReceiverGroup",
+            "offset" : 101,
+            "value" : 0.0
+         },
+         {
+            "end" : 104,
+            "id" : "TotalStaticApplied",
+            "offset" : 103,
+            "value" : 0.0
+         },
+         {
+            "end" : 106,
+            "id" : "HeaderToTimeBreakLagTime",
+            "offset" : 105,
+            "value" : 2250.0
+         },
+         {
+            "end" : 108,
+            "id" : "TimeBreakToShotLagTime",
+            "offset" : 107,
+            "value" : 0.0
+         },
+         {
+            "end" : 110,
+            "id" : "ShotToRecordingLagTime",
+            "offset" : 109,
+            "value" : 2250.0
+         },
+         {
+            "end" : 112,
+            "id" : "MuteTimeStart",
+            "offset" : 111,
+            "value" : 0.0
+         },
+         {
+            "end" : 114,
+            "id" : "MuteTimeEnd",
+            "offset" : 113,
+            "value" : 0.0
+         },
+         {
+            "end" : 116,
+            "id" : "SamplesPerTrace",
+            "offset" : 115,
+            "value" : 126.0
+         },
+         {
+            "end" : 118,
+            "id" : "SampleInterval",
+            "offset" : 117,
+            "value" : 9000.0
+         },
+         {
+            "end" : 120,
+            "id" : "GainTypeInstrument",
+            "offset" : 119,
+            "value" : 0.0
+         },
+         {
+            "end" : 122,
+            "id" : "GainConstantInstrument",
+            "offset" : 121,
+            "value" : 0.0
+         },
+         {
+            "end" : 124,
+            "id" : "GainInstrumentInitial",
+            "offset" : 123,
+            "value" : 0.0
+         },
+         {
+            "end" : 126,
+            "id" : "Correlated",
+            "offset" : 125,
+            "value" : 1.0
+         },
+         {
+            "end" : 128,
+            "id" : "SweepFrequencyStart",
+            "offset" : 127,
+            "value" : 0.0
+         },
+         {
+            "end" : 130,
+            "id" : "SweepFrequencyEnd",
+            "offset" : 129,
+            "value" : 0.0
+         },
+         {
+            "end" : 132,
+            "id" : "SweepLength",
+            "offset" : 131,
+            "value" : 0.0
+         },
+         {
+            "end" : 134,
+            "id" : "SweepType",
+            "offset" : 133,
+            "value" : 1.0
+         },
+         {
+            "end" : 136,
+            "id" : "SweepTraceTaperLengthStart",
+            "offset" : 135,
+            "value" : 0.0
+         },
+         {
+            "end" : 138,
+            "id" : "SweepTraceTaperLengthEnd",
+            "offset" : 137,
+            "value" : 0.0
+         },
+         {
+            "end" : 140,
+            "id" : "TaperType",
+            "offset" : 139,
+            "value" : 1.0
+         },
+         {
+            "end" : 142,
+            "id" : "AliasFilterFrequency",
+            "offset" : 141,
+            "value" : 0.0
+         },
+         {
+            "end" : 144,
+            "id" : "AliasFilterSlope",
+            "offset" : 143,
+            "value" : 0.0
+         },
+         {
+            "end" : 146,
+            "id" : "NotchFilterFrequency",
+            "offset" : 145,
+            "value" : 0.0
+         },
+         {
+            "end" : 148,
+            "id" : "NotchFilterSlope",
+            "offset" : 147,
+            "value" : 0.0
+         },
+         {
+            "end" : 150,
+            "id" : "LowCutFrequency",
+            "offset" : 149,
+            "value" : 0.0
+         },
+         {
+            "end" : 152,
+            "id" : "HighCutFrequency",
+            "offset" : 151,
+            "value" : 0.0
+         },
+         {
+            "end" : 154,
+            "id" : "LowCutSlope",
+            "offset" : 153,
+            "value" : 0.0
+         },
+         {
+            "end" : 156,
+            "id" : "HighCutSlope",
+            "offset" : 155,
+            "value" : 0.0
+         },
+         {
+            "end" : 158,
+            "id" : "Year",
+            "offset" : 157,
+            "value" : 0.0
+         },
+         {
+            "end" : 160,
+            "id" : "DayOfYear",
+            "offset" : 159,
+            "value" : 0.0
+         },
+         {
+            "end" : 162,
+            "id" : "Hour",
+            "offset" : 161,
+            "value" : 0.0
+         },
+         {
+            "end" : 164,
+            "id" : "Minute",
+            "offset" : 163,
+            "value" : 0.0
+         },
+         {
+            "end" : 166,
+            "id" : "Second",
+            "offset" : 165,
+            "value" : 0.0
+         },
+         {
+            "end" : 168,
+            "id" : "TimeBasisCode",
+            "offset" : 167,
+            "value" : 1.0
+         },
+         {
+            "end" : 170,
+            "id" : "TraceWeightingFactor",
+            "offset" : 169,
+            "value" : 0.0
+         },
+         {
+            "end" : 172,
+            "id" : "GeophoneGroupNumberOfRollSwitchP1",
+            "offset" : 171,
+            "value" : 0.0
+         },
+         {
+            "end" : 174,
+            "id" : "GeophoneGroupNumberOfFirstTrace",
+            "offset" : 173,
+            "value" : 0.0
+         },
+         {
+            "end" : 176,
+            "id" : "GeophoneGroupNumberOfLastTrace",
+            "offset" : 175,
+            "value" : 0.0
+         },
+         {
+            "end" : 178,
+            "id" : "GapSize",
+            "offset" : 177,
+            "value" : 0.0
+         },
+         {
+            "end" : 180,
+            "id" : "Overtravel",
+            "offset" : 179,
+            "value" : 0.0
+         },
+         {
+            "end" : 192,
+            "id" : "InlineNumber",
+            "offset" : 189,
+            "value" : 10159.0
+         },
+         {
+            "end" : 196,
+            "id" : "CrosslineNumber",
+            "offset" : 193,
+            "value" : 2345.0
+         }
+      ]
+   ]
+}

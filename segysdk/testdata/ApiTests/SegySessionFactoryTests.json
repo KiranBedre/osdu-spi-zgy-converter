@@ -1,0 +1,68 @@
+{
+  "tests": [
+    {
+      "name": "SegySessionFactoryCtor",
+      "data": [
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_8bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "object"
+        }
+      ]
+    },
+    {
+      "name": "SegySessionFactoryCtorOsdu",
+      "data": [
+        {
+          "parameters": {
+            "dataset": "FileCollection.SEGY-Tiny.json"
+          },
+          "result": "object"
+        }
+      ]
+    },
+    {
+      "name": "SegySessionFactoryGetFileName",
+      "data": [
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_8bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": "volve_8bit_gaps_time_1000_1500_4ms.sgy"
+        },
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_16bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "value",
+          "value": "volve_16bit_gaps_time_1000_1500_4ms.sgy"
+        }
+      ]
+    },
+    {
+      "name": "SegySessionFactoryCreateSegySession",
+      "data": [
+        {
+          "parameters": {
+            "dataset": "ApiTests/datasets/volve_8bit_gaps_time_1000_1500_4ms.sgy",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "object"
+        },
+        {
+          "parameters": {
+            "dataset": "empty_file",
+            "jsonParameters": "empty_config.json"
+          },
+          "result": "throws",
+          "exception": "Failed to read 2 bytes at offset 3500. Read 0"
+        }
+      ]
+    }
+  ]
+}

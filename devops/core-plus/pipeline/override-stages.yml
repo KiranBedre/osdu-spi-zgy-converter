@@ -1,0 +1,24 @@
+cimpl-containerize-gitlab:
+  needs:
+    - build-segy-ubuntu-focal
+    - job: "compile-and-unit-test"
+      optional: true
+    - job: "download_plugins"
+      optional: true
+    - job: "download_otel_agent"
+      optional: true
+  tags: 
+    - "osdu-large"
+  variables:
+    CIMPL_BUILD_PATH: "./Dockerfile"
+    CIMPL_IMAGE_NAME: cimpl-segy-to-sgy
+    CIMPL_BUILD_ARGS: ""
+    CIMPL_SUPPORTED_PLATFORM: "linux/amd64"
+  rules:
+    - if: "$CIMPL == '1'"
+      when: on_success
+
+cimpl-containerize-bootstrap-gitlab:
+  needs:
+    - job: "compile-and-unit-test"
+      optional: true

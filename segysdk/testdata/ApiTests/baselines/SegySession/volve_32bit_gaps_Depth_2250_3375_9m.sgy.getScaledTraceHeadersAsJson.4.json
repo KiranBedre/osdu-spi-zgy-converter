@@ -1,0 +1,69 @@
+{
+   "Metadata" : {
+      "ColumnHeaders" : [
+         {
+            "End" : 72,
+            "Id" : "ScalarForCoordinates",
+            "Start" : 71
+         },
+         {
+            "End" : 76,
+            "Id" : "SourceCoordinateX",
+            "Start" : 73
+         },
+         {
+            "End" : 80,
+            "Id" : "SourceCoordinateY",
+            "Start" : 77
+         },
+         {
+            "End" : 110,
+            "Id" : "ShotToRecordingLagTime",
+            "Start" : 109
+         },
+         {
+            "End" : 116,
+            "Id" : "SamplesPerTrace",
+            "Start" : 115
+         },
+         {
+            "End" : 118,
+            "Id" : "SampleInterval",
+            "Start" : 117
+         },
+         {
+            "End" : 192,
+            "Id" : "InlineNumber",
+            "Start" : 189
+         },
+         {
+            "End" : 196,
+            "Id" : "CrosslineNumber",
+            "Start" : 193
+         }
+      ],
+      "StartTrace" : 501,
+      "TraceCount" : 1
+   },
+   "TraceData" : [
+      {
+         "TraceNo" : 501,
+         "Traces" : [
+            -100.0,
+            434432.60000000003,
+            6478954.6400000006,
+            2250.0,
+            126.0,
+            9000.0,
+            10169.0,
+            2332.0
+         ]
+      }
+   ],
+   "metadata" : {
+      "Filenames" : [
+         "${PARENTDIR}volve_32bit_gaps_Depth_2250_3375_9m.sgy"
+      ],
+      "SegyRevision" : 0
+   }
+}
