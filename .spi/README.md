@@ -30,8 +30,10 @@ SPI with:
 - the `spi-pool: osdu` placement contract;
 - in-cluster Storage and Seismic V3 endpoints;
 - empty bearer-token variables so the conversion pod uses Workload Identity;
+- `AIRFLOW_VAR_ZGY_CONVERTER_IMAGE` as the immutable converter image input;
   and
-- `AIRFLOW_VAR_ZGY_CONVERTER_IMAGE` as the immutable converter image input.
+- `AIRFLOW_VAR_ZGY_CONVERTER_AUTH_SCOPE` as the deployment's
+  `${AAD_CLIENT_ID}/.default` OSDU application scope.
 
 The companion image contains only the rendered file under `/dags`. The SPI
 Stack assembles that layer with other source-owned DAG layers into its one

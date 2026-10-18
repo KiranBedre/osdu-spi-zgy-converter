@@ -37,7 +37,8 @@ POD_OPTIONS = """{
 }"""
 
 EXTRA_ENV = """{
-    "AUTHENTICATION_PLUGIN_FILE": "/usr/local/bin/segy/libsegysdk.auth_plugin.Azure.so"
+    "AUTHENTICATION_PLUGIN_FILE": "/usr/local/bin/segy/libsegysdk.auth_plugin.Azure.so",
+    "AZURE_AUTH_SCOPE": "{{ var.value.zgy_converter_auth_scope }}"
 }"""
 
 REPLACEMENTS = {

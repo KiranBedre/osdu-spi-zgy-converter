@@ -32,6 +32,7 @@ def test_render_upstream_dag(tmp_path: Path) -> None:
         '"AUTHENTICATION_PLUGIN_FILE": '
         '"/usr/local/bin/segy/libsegysdk.auth_plugin.Azure.so"'
     ) in rendered
+    assert '"AZURE_AUTH_SCOPE": "{{ var.value.zgy_converter_auth_scope }}"' in rendered
     assert "AZURE_CLIENT_SECRET" not in rendered
     assert "{|" not in rendered
 
