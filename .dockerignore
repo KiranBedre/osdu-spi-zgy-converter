@@ -1,0 +1,14 @@
+.git
+.github
+.spi/results
+.spi/tests
+.coverage
+.pytest_cache
+.ruff_cache
+devops
+deployments
+doc
+segysdk/doc
+segysdk/node-wrapper
+segysdk/python-wrapper
+segysdk/scripts
