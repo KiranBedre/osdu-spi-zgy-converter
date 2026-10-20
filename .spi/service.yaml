@@ -10,7 +10,7 @@ service:
   companion:
     name: dag
     kind: airflow-dag
-    packageSuffix: -dag
+    packageSuffix: -dag-image
     sourcePath: .spi/runtime
     pythonVersion: "3.12"
     airflowVersion: "3.2.2"
