@@ -1,0 +1,92 @@
+# Per-service upstream filter config (ADR-038), planted at fork initialization
+# with segy-to-zgy-conversion substituted from the upstream repository name.
+# Every upstream top-level entry, testing/ entry, root pom profile, and
+# .fossa.yml module must appear here: the engine halts rather than guess.
+# Entries absent from a given upstream tree are inert, so this file carries the
+# superset of the conventional OSDU service shape. A service that deviates
+# maintains its own copy of this file on the fork's main branch.
+service: segy-to-zgy-conversion
+
+top_level:
+  .config: keep
+  .dockerignore: keep
+  .editorconfig: keep
+  .envrc.template: keep
+  .fossa.yml: keep
+  .gitattributes: keep
+  .gitignore: keep
+  .gitlab: strip
+  .gitlab-ci.yml: strip
+  .mvn: keep
+  .sonarlint: keep
+  .trufflehog-exclude: strip
+  LICENSE: keep
+  NOTICE: keep
+  README.md: strip
+  docs: keep
+  pom.xml: keep
+  publish.yml: strip
+  segy-to-zgy-conversion-acceptance-test: keep
+  segy-to-zgy-conversion-core: keep
+  segy-to-zgy-conversion-core-plus: strip
+
+testing:
+  INTEGRATION-TESTS.md: keep
+  README.md: keep
+  maven: keep
+  pom.xml: keep
+  segy-to-zgy-conversion-test-core: keep
+  segy-to-zgy-conversion-test-azure: fork
+  segy-to-zgy-conversion-test-aws: strip
+  segy-to-zgy-conversion-test-baremetal: strip
+  segy-to-zgy-conversion-test-core-plus: strip
+  segy-to-zgy-conversion-test-gc: strip
+  segy-to-zgy-conversion-test-gcp: strip
+  segy-to-zgy-conversion-test-ibm: strip
+  segy-to-zgy-conversion-test-jdbc: strip
+
+profiles:
+  Default: keep
+  core: keep
+  azure: inject
+  aws: strip
+  gc: strip
+  gcp: strip
+  ibm: strip
+
+fossa_modules:
+  segy-to-zgy-conversion: keep
+  segy-to-zgy-conversion-service: keep
+  segy-to-zgy-conversion-core: keep
+  segy-to-zgy-conversion-core-plus: strip
+  segy-to-zgy-conversion-azure: strip
+  segy-to-zgy-conversion-aws: strip
+  segy-to-zgy-conversion-gc: strip
+  segy-to-zgy-conversion-gcp: strip
+  segy-to-zgy-conversion-ibm: strip
+  segy-to-zgy-conversion-jdbc: strip
+
+expected_kept:
+  - pom.xml
+  - segy-to-zgy-conversion-core
+  - testing/segy-to-zgy-conversion-test-core
+
+expected_absent:
+  - provider
+  - devops
+  - segy-to-zgy-conversion-core-plus
+  - .gitlab-ci.yml
+  - testing/segy-to-zgy-conversion-test-azure
+  - testing/segy-to-zgy-conversion-test-aws
+  - testing/segy-to-zgy-conversion-test-core-plus
+
+inject_root_pom_azure_profile: |
+      <profile>
+        <id>azure</id>
+        <modules>
+          <module>provider/segy-to-zgy-conversion-azure</module>
+        </modules>
+      </profile>
+
+inject_testing_pom_azure_module: |
+      <module>segy-to-zgy-conversion-test-azure</module>
