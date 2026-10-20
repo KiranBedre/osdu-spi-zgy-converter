@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.4.0](https://github.com/KiranBedre/osdu-spi-zgy-converter/compare/v1.3.0...v1.4.0) (2026-10-20)
+
+
+### ✨ Features
+
+* Publish ZGY DAG artifact ([#9](https://github.com/KiranBedre/osdu-spi-zgy-converter/issues/9)) ([71337df](https://github.com/KiranBedre/osdu-spi-zgy-converter/commit/71337df7873ad93089fd2d64ecc5b9978e5cea91))
+
+
+### 🔧 Miscellaneous
+
+* Align template sync source ([#7](https://github.com/KiranBedre/osdu-spi-zgy-converter/issues/7)) ([b23612d](https://github.com/KiranBedre/osdu-spi-zgy-converter/commit/b23612d9c40f141c796a4dd52315bbb83b3ff84d))
+* Sync template updates ([#8](https://github.com/KiranBedre/osdu-spi-zgy-converter/issues/8)) ([c678bde](https://github.com/KiranBedre/osdu-spi-zgy-converter/commit/c678bde449932607e9186284a62663eea8bb14c7))
+
 ## [1.3.0](https://github.com/KiranBedre/osdu-spi-zgy-converter/compare/v1.2.0...v1.3.0) (2026-10-18)
 
 
