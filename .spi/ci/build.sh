@@ -11,6 +11,10 @@ python -m spi_zgy.render_dag \
   --source airflow/workflow-svc-v2/segy_to_zgy_ingestion_dag.py \
   --output .spi/generated/segy_to_zgy_ingestion_dag.py
 
+python -m spi_zgy.build_artifact \
+  --dag .spi/generated/segy_to_zgy_ingestion_dag.py \
+  --output .spi/artifacts
+
 python -m ruff check --line-length 100 .spi/ci/spi_zgy .spi/native .spi/tests
 node --test .spi/tests/*.test.mjs
 python -m pytest .spi/tests \

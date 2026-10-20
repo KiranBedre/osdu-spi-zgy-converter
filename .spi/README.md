@@ -5,13 +5,15 @@ OSDU SEG-Y to ZGY converter source.
 
 ## Artifacts
 
-One source commit publishes three immutable images:
+One source commit publishes three immutable images and one OCI artifact:
 
 - `osdu-spi-zgy-converter`, the native `SegyToZgy` executable and its Azure
   authentication plugin;
-- `osdu-spi-zgy-converter-dag`, a DAG-only layer consumed by the Stack-owned
-  Airflow image; and
+- `osdu-spi-zgy-converter-dag-image`, a legacy DAG-only image retained as a
+  separately named compatibility artifact;
 - `osdu-spi-zgy-converter-acceptance`, the Workflow registration check.
+- `osdu-spi-zgy-converter-dag`, the independently released `dag.zip`,
+  checksum, and Workflow registration body consumed by the Stack.
 
 The native build enables `DefaultAzureCredential`, runs the converter unit
 tests and bounded argument fuzzing, exports `/ctest.xml` through the
@@ -35,9 +37,10 @@ SPI with:
 - `AIRFLOW_VAR_ZGY_CONVERTER_AUTH_SCOPE` as the deployment's
   `${AAD_CLIENT_ID}/.default` OSDU application scope.
 
-The companion image contains only the rendered file under `/dags`. The SPI
-Stack assembles that layer with other source-owned DAG layers into its one
-Airflow control-plane image.
+The Stack pulls the digest-pinned OCI artifact, verifies its checksum, writes
+the DAG ZIP to the shared Airflow Blob volume, and registers the artifact-owned
+Workflow body. The generic Airflow runtime and native converter image remain
+independently releasable.
 
 ## Validation
 
