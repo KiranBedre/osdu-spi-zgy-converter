@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.1](https://github.com/KiranBedre/osdu-spi-zgy-converter/compare/v1.4.0...v1.4.1) (2026-10-23)
+
+
+### 🔧 Miscellaneous
+
+* **template-sync:** Sync reconciled template ([500bb08](https://github.com/KiranBedre/osdu-spi-zgy-converter/commit/500bb0846d2d4eb13bb64288e5c86db0eca8a04c))
+
 ## [1.4.0](https://github.com/KiranBedre/osdu-spi-zgy-converter/compare/v1.3.0...v1.4.0) (2026-10-20)
 
 
